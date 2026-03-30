@@ -2356,7 +2356,7 @@
     "id": 182,
     "pokedexId": "182",
     "nom": "Motisma",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
+    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/motisma.png",
     "habitats": [
       "Coin lecture et musique"
     ],
@@ -2486,7 +2486,7 @@
     "id": 192,
     "pokedexId": "192",
     "nom": "Rongrigou",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
+    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/rongragout.png",
     "habitats": [
       "Cuisine professionnelle"
     ],
@@ -3500,7 +3500,7 @@
     "id": 270,
     "pokedexId": "270",
     "nom": "Forgelina",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
+    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/cheffelina.png",
     "habitats": [
       "Dépôt d'ordures encombrantes"
     ],
