@@ -523,7 +523,7 @@
     "id": 41,
     "pokedexId": "41",
     "nom": "Bouldeneu",
-    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/professeur-bouldeneu.png",
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/465.png",
     "habitats": [
       "Coin trésors du Professeur"
     ],
@@ -2356,7 +2356,7 @@
     "id": 182,
     "pokedexId": "182",
     "nom": "Motisma",
-    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/motisma.png",
+    "image": "https://s3.pokeos.com/pokeos-uploads/assets/pokemon/home/render/479-dj.png",
     "habitats": [
       "Coin lecture et musique"
     ],
@@ -2486,7 +2486,7 @@
     "id": 192,
     "pokedexId": "192",
     "nom": "Rongrigou",
-    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/rongragout.png",
+    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/10285.png?v=pokopia-1.0",
     "habitats": [
       "Cuisine professionnelle"
     ],
@@ -3500,7 +3500,7 @@
     "id": 270,
     "pokedexId": "270",
     "nom": "Forgelina",
-    "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/pokemon/cheffelina.png",
+    "image": "https://www.pokepedia.fr/images/d/d9/Sprite_0959_HOME.png",
     "habitats": [
       "Dépôt d'ordures encombrantes"
     ],
