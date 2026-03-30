@@ -353,7 +353,7 @@
 
 <!-- Firebase SDK -->
 <script type="module">
-  import { initializeApp } from "firebase/app";;
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
   import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
 
   // ─────────────────────────────────────────
@@ -369,7 +369,7 @@
   };
   // ─────────────────────────────────────────
 
-  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== "AIzaSyAdAEH70nYgctJ5XG1ZupblZvZiHKucQes";
+  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== true;
 
   let db = null;
   if (FIREBASE_CONFIGURED) {
