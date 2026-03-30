@@ -7,476 +7,267 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
-
   <style>
     :root {
-      --bg:        #0f1923;
-      --surface:   #162030;
-      --card:      #1c2d40;
-      --card-hover:#223448;
-      --border:    #2a3f58;
-      --accent:    #ffcb3b;
-      --accent2:   #ff6b6b;
-      --green:     #4ade80;
-      --green-dim: #14532d;
-      --text:      #e8f0f8;
-      --muted:     #6b8cad;
-      --pill-bg:   #1e3350;
+      --bg:#0f1923;--surface:#162030;--card:#1c2d40;--card-hover:#223448;
+      --border:#2a3f58;--accent:#ffcb3b;--accent2:#ff6b6b;--green:#4ade80;
+      --text:#e8f0f8;--muted:#6b8cad;--pill-bg:#1e3350;
     }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;
+      background-image:radial-gradient(ellipse 80% 40% at 50% -10%,rgba(255,203,59,.08) 0%,transparent 70%),
+      radial-gradient(ellipse 60% 30% at 80% 100%,rgba(74,222,128,.05) 0%,transparent 60%)}
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    /* LOGIN */
+    #login-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;
+      min-height:100vh;gap:1.5rem;padding:2rem}
+    #login-screen h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
+      background:linear-gradient(135deg,#ffcb3b 30%,#ff9f43 70%);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    #login-screen p{color:var(--muted);font-size:1rem}
+    .btn-google{display:flex;align-items:center;gap:.75rem;padding:.8rem 1.8rem;
+      background:#fff;color:#333;border:none;border-radius:12px;
+      font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;
+      transition:transform .15s,box-shadow .15s;box-shadow:0 4px 15px rgba(0,0,0,.3)}
+    .btn-google:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.4)}
+    .btn-google svg{width:22px;height:22px;flex-shrink:0}
 
-    body {
-      font-family: 'Nunito', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      background-image:
-        radial-gradient(ellipse 80% 40% at 50% -10%, rgba(255,203,59,0.08) 0%, transparent 70%),
-        radial-gradient(ellipse 60% 30% at 80% 100%, rgba(74,222,128,0.05) 0%, transparent 60%);
-    }
+    /* APP */
+    #app{display:none}
+    header{text-align:center;padding:2.5rem 1rem 1.5rem}
+    header h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
+      background:linear-gradient(135deg,#ffcb3b 30%,#ff9f43 70%);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}
+    header p{color:var(--muted);margin-top:.4rem;font-size:.95rem}
 
-    /* ── HEADER ── */
-    header {
-      text-align: center;
-      padding: 2.5rem 1rem 1.5rem;
-      position: relative;
-    }
-    header h1 {
-      font-family: 'Fredoka One', cursive;
-      font-size: clamp(2rem, 6vw, 3.5rem);
-      letter-spacing: 1px;
-      background: linear-gradient(135deg, #ffcb3b 30%, #ff9f43 70%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1.1;
-    }
-    header p {
-      color: var(--muted);
-      margin-top: .4rem;
-      font-size: .95rem;
-    }
+    .user-bar{display:flex;align-items:center;justify-content:center;gap:.6rem;
+      margin-top:.6rem;font-size:.85rem;color:var(--muted)}
+    .user-bar img{width:24px;height:24px;border-radius:50%;border:2px solid var(--border)}
+    .btn-logout{background:none;border:1px solid var(--border);border-radius:8px;
+      color:var(--muted);font-family:inherit;font-size:.75rem;padding:.2rem .6rem;
+      cursor:pointer;transition:all .2s}
+    .btn-logout:hover{border-color:var(--accent2);color:var(--accent2)}
 
-    /* ── PROGRESS BAR ── */
-    .progress-wrap {
-      max-width: 900px;
-      margin: .5rem auto 0;
-      padding: 0 1.5rem;
-    }
-    .progress-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: .85rem;
-      color: var(--muted);
-      margin-bottom: .4rem;
-    }
-    .progress-meta strong {
-      color: var(--accent);
-      font-size: 1rem;
-    }
-    .progress-bar {
-      height: 10px;
-      background: var(--border);
-      border-radius: 99px;
-      overflow: hidden;
-    }
-    .progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, #ffcb3b, #4ade80);
-      border-radius: 99px;
-      transition: width .5s ease;
-    }
+    .progress-wrap{max-width:900px;margin:.5rem auto 0;padding:0 1.5rem}
+    .progress-meta{display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted);margin-bottom:.4rem}
+    .progress-meta strong{color:var(--accent);font-size:1rem}
+    .progress-bar{height:10px;background:var(--border);border-radius:99px;overflow:hidden}
+    .progress-fill{height:100%;background:linear-gradient(90deg,#ffcb3b,#4ade80);border-radius:99px;transition:width .5s ease}
 
-    /* ── CONTROLS ── */
-    .controls {
-      max-width: 900px;
-      margin: 1.5rem auto;
-      padding: 0 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: .75rem;
-      align-items: center;
-    }
+    .controls{max-width:900px;margin:1.5rem auto;padding:0 1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+    .search-wrap{flex:1;min-width:200px;position:relative}
+    .search-wrap svg{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+    input[type="search"]{width:100%;padding:.6rem 1rem .6rem 2.4rem;background:var(--surface);
+      border:1px solid var(--border);border-radius:10px;color:var(--text);
+      font-family:inherit;font-size:.9rem;outline:none;transition:border-color .2s}
+    input[type="search"]:focus{border-color:var(--accent)}
+    input[type="search"]::placeholder{color:var(--muted)}
+    select{padding:.6rem .9rem;background:var(--surface);border:1px solid var(--border);
+      border-radius:10px;color:var(--text);font-family:inherit;font-size:.9rem;outline:none;cursor:pointer}
+    .btn-group{display:flex;gap:.4rem}
+    .btn-filter{padding:.55rem 1rem;border-radius:10px;border:1px solid var(--border);
+      background:var(--surface);color:var(--muted);font-family:inherit;font-size:.85rem;
+      font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
+    .btn-filter.active,.btn-filter:hover{border-color:var(--accent);color:var(--accent);background:rgba(255,203,59,.08)}
 
-    .search-wrap {
-      flex: 1;
-      min-width: 200px;
-      position: relative;
-    }
-    .search-wrap svg {
-      position: absolute;
-      left: .9rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--muted);
-      pointer-events: none;
-    }
-    input[type="search"] {
-      width: 100%;
-      padding: .6rem 1rem .6rem 2.4rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      color: var(--text);
-      font-family: inherit;
-      font-size: .9rem;
-      outline: none;
-      transition: border-color .2s;
-    }
-    input[type="search"]:focus { border-color: var(--accent); }
-    input[type="search"]::placeholder { color: var(--muted); }
-
-    select {
-      padding: .6rem .9rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      color: var(--text);
-      font-family: inherit;
-      font-size: .9rem;
-      outline: none;
-      cursor: pointer;
-      transition: border-color .2s;
-    }
-    select:focus { border-color: var(--accent); }
-
-    .btn-group {
-      display: flex;
-      gap: .4rem;
-    }
-    .btn-filter {
-      padding: .55rem 1rem;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      color: var(--muted);
-      font-family: inherit;
-      font-size: .85rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all .2s;
-      white-space: nowrap;
-    }
-    .btn-filter.active,
-    .btn-filter:hover { border-color: var(--accent); color: var(--accent); background: rgba(255,203,59,.08); }
-
-    /* ── GRID ── */
-    .grid {
-      max-width: 900px;
-      margin: 0 auto 3rem;
-      padding: 0 1.5rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 1rem;
-    }
-
-    /* ── CARD ── */
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1rem .9rem .85rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .5rem;
-      cursor: pointer;
-      position: relative;
-      transition: transform .18s ease, border-color .18s, background .18s;
-      user-select: none;
-      animation: fadeIn .3s ease both;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .card:hover {
-      background: var(--card-hover);
-      border-color: #3a5570;
-      transform: translateY(-2px);
-    }
-    .card.found {
-      border-color: var(--green);
-      background: linear-gradient(145deg, #1c2d40 60%, #162a1e);
-    }
-    .card.found::after {
-      content: '✓';
-      position: absolute;
-      top: .5rem; right: .6rem;
-      width: 22px; height: 22px;
-      background: var(--green);
-      color: #0a2010;
-      border-radius: 50%;
-      font-size: .75rem;
-      font-weight: 900;
-      display: flex; align-items: center; justify-content: center;
-      line-height: 22px;
-      text-align: center;
-    }
-
-    .card-img {
-      width: 72px; height: 72px;
-      image-rendering: pixelated;
-      transition: transform .2s;
-      filter: drop-shadow(0 2px 6px rgba(0,0,0,.4));
-    }
-    .card:hover .card-img { transform: scale(1.1); }
-    .card.found .card-img { filter: drop-shadow(0 2px 8px rgba(74,222,128,.3)); }
-
-    .card-id {
-      font-size: .7rem;
-      color: var(--muted);
-      font-weight: 600;
-      position: absolute;
-      top: .6rem; left: .7rem;
-    }
-
-    .card-name {
-      font-size: .9rem;
-      font-weight: 800;
-      text-align: center;
-      line-height: 1.2;
-    }
-    .card.found .card-name { color: var(--green); }
-
-    .card-habitats {
-      display: flex;
-      flex-direction: column;
-      gap: .25rem;
-      width: 100%;
-    }
-    .pill {
-      font-size: .65rem;
-      font-weight: 700;
-      padding: .15rem .4rem;
-      border-radius: 6px;
-      background: var(--pill-bg);
-      color: #8aafd4;
-      text-align: center;
-      line-height: 1.3;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .pill.mat {
-      background: rgba(255,203,59,.1);
-      color: #c8982c;
-    }
-
-    /* ── EMPTY STATE ── */
-    .empty {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 3rem;
-      color: var(--muted);
-    }
-    .empty span { font-size: 3rem; display: block; margin-bottom: .5rem; }
-
-    /* ── FIREBASE STATUS ── */
-    .firebase-status {
-      position: fixed;
-      bottom: 1rem; right: 1rem;
-      font-size: .75rem;
-      padding: .4rem .8rem;
-      border-radius: 8px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      transition: all .3s;
-      z-index: 100;
-    }
-    .firebase-status.saving { color: var(--accent); border-color: var(--accent); }
-    .firebase-status.saved  { color: var(--green);  border-color: var(--green); }
-
-    /* ── TOAST ── */
-    .toast {
-      position: fixed;
-      bottom: 1rem; left: 50%;
-      transform: translateX(-50%) translateY(80px);
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: .6rem 1.2rem;
-      font-size: .9rem;
-      font-weight: 700;
-      z-index: 200;
-      transition: transform .3s ease;
-      pointer-events: none;
-    }
-    .toast.show { transform: translateX(-50%) translateY(0); }
-    .toast.found-toast  { border-color: var(--green);  color: var(--green); }
-    .toast.unfound-toast{ border-color: var(--accent2); color: var(--accent2); }
-
-    @media (max-width: 480px) {
-      .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: .7rem; }
-    }
+    .grid{max-width:900px;margin:0 auto 3rem;padding:0 1.5rem;
+      display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;
+      padding:1rem .9rem .85rem;display:flex;flex-direction:column;align-items:center;gap:.5rem;
+      cursor:pointer;position:relative;transition:transform .18s,border-color .18s,background .18s;
+      user-select:none;animation:fadeIn .3s ease both}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    .card:hover{background:var(--card-hover);border-color:#3a5570;transform:translateY(-2px)}
+    .card.found{border-color:var(--green);background:linear-gradient(145deg,#1c2d40 60%,#162a1e)}
+    .card.found::after{content:'✓';position:absolute;top:.5rem;right:.6rem;
+      width:22px;height:22px;background:var(--green);color:#0a2010;border-radius:50%;
+      font-size:.75rem;font-weight:900;line-height:22px;text-align:center}
+    .card-img{width:72px;height:72px;image-rendering:pixelated;transition:transform .2s;
+      filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}
+    .card:hover .card-img{transform:scale(1.1)}
+    .card.found .card-img{filter:drop-shadow(0 2px 8px rgba(74,222,128,.3))}
+    .card-id{font-size:.7rem;color:var(--muted);font-weight:600;position:absolute;top:.6rem;left:.7rem}
+    .card-name{font-size:.9rem;font-weight:800;text-align:center;line-height:1.2}
+    .card.found .card-name{color:var(--green)}
+    .card-habitats{display:flex;flex-direction:column;gap:.25rem;width:100%}
+    .pill{font-size:.65rem;font-weight:700;padding:.15rem .4rem;border-radius:6px;
+      background:var(--pill-bg);color:#8aafd4;text-align:center;line-height:1.3;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .pill.mat{background:rgba(255,203,59,.1);color:#c8982c}
+    .empty{grid-column:1/-1;text-align:center;padding:3rem;color:var(--muted)}
+    .empty span{font-size:3rem;display:block;margin-bottom:.5rem}
+    .firebase-status{position:fixed;bottom:1rem;right:1rem;font-size:.75rem;padding:.4rem .8rem;
+      border-radius:8px;background:var(--surface);border:1px solid var(--border);
+      color:var(--muted);transition:all .3s;z-index:100}
+    .firebase-status.saving{color:var(--accent);border-color:var(--accent)}
+    .firebase-status.saved{color:var(--green);border-color:var(--green)}
+    .toast{position:fixed;bottom:1rem;left:50%;transform:translateX(-50%) translateY(80px);
+      background:var(--card);border:1px solid var(--border);border-radius:12px;
+      padding:.6rem 1.2rem;font-size:.9rem;font-weight:700;z-index:200;
+      transition:transform .3s ease;pointer-events:none}
+    .toast.show{transform:translateX(-50%) translateY(0)}
+    .toast.found-toast{border-color:var(--green);color:var(--green)}
+    .toast.unfound-toast{border-color:var(--accent2);color:var(--accent2)}
+    @media(max-width:480px){.grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.7rem}}
   </style>
 </head>
 <body>
 
-<header>
+<div id="login-screen">
   <h1>🌿 Pokopia Tracker</h1>
-  <p>Suis ta progression dans ton île Pokémon</p>
-  <div class="progress-wrap">
-    <div class="progress-meta">
-      <span>Trouvés : <strong id="count">0</strong> / <span id="total">0</span></span>
-      <span id="pct">0%</span>
-    </div>
-    <div class="progress-bar"><div class="progress-fill" id="fill" style="width:0%"></div></div>
-  </div>
-</header>
-
-<div class="controls">
-  <div class="search-wrap">
-    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+  <p>Connecte-toi pour suivre ta progression</p>
+  <button class="btn-google" id="btn-login">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+      <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+      <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+      <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
     </svg>
-    <input type="search" id="search" placeholder="Chercher un Pokémon…" />
-  </div>
-
-  <select id="filter-mat">
-    <option value="">Tous les matériaux</option>
-  </select>
-
-  <div class="btn-group">
-    <button class="btn-filter active" data-status="all">Tous</button>
-    <button class="btn-filter" data-status="found">✓ Trouvés</button>
-    <button class="btn-filter" data-status="missing">✗ Manquants</button>
-  </div>
+    Se connecter avec Google
+  </button>
 </div>
 
-<div class="grid" id="grid"></div>
+<div id="app">
+  <header>
+    <h1>🌿 Pokopia Tracker</h1>
+    <div class="user-bar">
+      <img id="user-avatar" src="" alt="" />
+      <span id="user-name"></span>
+      <button class="btn-logout" id="btn-logout">Déconnexion</button>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-meta">
+        <span>Trouvés : <strong id="count">0</strong> / <span id="total">0</span></span>
+        <span id="pct">0%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="fill" style="width:0%"></div></div>
+    </div>
+  </header>
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="search" id="search" placeholder="Chercher un Pokémon…" />
+    </div>
+    <select id="filter-mat"><option value="">Tous les matériaux</option></select>
+    <div class="btn-group">
+      <button class="btn-filter active" data-status="all">Tous</button>
+      <button class="btn-filter" data-status="found">✓ Trouvés</button>
+      <button class="btn-filter" data-status="missing">✗ Manquants</button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
 
-<div class="firebase-status" id="fb-status">💾 Local</div>
+<div class="firebase-status" id="fb-status">⏳ Chargement…</div>
 <div class="toast" id="toast"></div>
 
-<!-- Firebase SDK -->
 <script type="module">
   import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
   import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+  import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
+    from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
 
-  // ─────────────────────────────────────────
-  // 🔧 REMPLACE PAR TA CONFIG FIREBASE ICI
-  // ─────────────────────────────────────────
   const firebaseConfig = {
-    apiKey          : "AIzaSyAdAEH70nYgctJ5XG1ZupblZvZiHKucQes",
-    authDomain      : "pokopia-6d442.firebaseapp.com",
-    projectId       : "pokopia-6d442",
-    storageBucket   : "pokopia-6d442.firebasestorage.app",
-    messagingSenderId   : "605118786868",
-    appId           : "1:605118786868:web:a40b08683b23ba729a4961"
+    apiKey:            "AIzaSyAdAEH70nYgctJ5XG1ZupblZvZiHKucQes",
+    authDomain:        "pokopia-6d442.firebaseapp.com",
+    projectId:         "pokopia-6d442",
+    storageBucket:     "pokopia-6d442.firebasestorage.app",
+    messagingSenderId: "605118786868",
+    appId:             "1:605118786868:web:a40b08683b23ba729a4961"
   };
-  // ─────────────────────────────────────────
 
-  const FIREBASE_CONFIGURED = firebaseConfig.apiKey !== true;
+  const app      = initializeApp(firebaseConfig);
+  const db       = getFirestore(app);
+  const auth     = getAuth(app);
+  const provider = new GoogleAuthProvider();
 
-  let db = null;
-  if (FIREBASE_CONFIGURED) {
-    const app = initializeApp(firebaseConfig);
-    db = getFirestore(app);
-  }
+  let pokemons = [], progress = {}, currentUser = null;
+  let filterStatus = 'all', filterMat = '', searchQuery = '', saveTimer = null;
 
-  // ── DATA ──
-  let pokemons = [];
-  let progress = {};  // { "1": true, "25": true, ... }
+  document.getElementById('btn-login').addEventListener('click', () =>
+    signInWithPopup(auth, provider).catch(console.error));
 
-  // ── STATE ──
-  let filterStatus = 'all';
-  let filterMat    = '';
-  let searchQuery  = '';
-  let saveTimer    = null;
+  document.getElementById('btn-logout').addEventListener('click', () => signOut(auth));
 
-  // ── LOAD JSON ──
+  onAuthStateChanged(auth, async user => {
+    if (user) {
+      currentUser = user;
+      document.getElementById('login-screen').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      document.getElementById('user-name').textContent = user.displayName;
+      document.getElementById('user-avatar').src = user.photoURL || '';
+      await loadData();
+    } else {
+      currentUser = null;
+      document.getElementById('login-screen').style.display = 'flex';
+      document.getElementById('app').style.display = 'none';
+      progress = {};
+    }
+  });
+
   async function loadData() {
-    const res = await fetch('./pokemon.json');
-    pokemons = await res.json();
-
-    // Populate matériaux select
-    const allMats = [...new Set(pokemons.flatMap(p => p.materiaux))].sort();
-    const sel = document.getElementById('filter-mat');
-    allMats.forEach(m => {
-      const opt = document.createElement('option');
-      opt.value = m; opt.textContent = m;
-      sel.appendChild(opt);
-    });
-
-    document.getElementById('total').textContent = pokemons.length;
+    if (!pokemons.length) {
+      const res = await fetch('./pokemon.json');
+      pokemons = await res.json();
+      const allMats = [...new Set(pokemons.flatMap(p => p.materiaux))].sort();
+      const sel = document.getElementById('filter-mat');
+      while (sel.options.length > 1) sel.remove(1);
+      allMats.forEach(m => { const o = document.createElement('option'); o.value = m; o.textContent = m; sel.appendChild(o); });
+      document.getElementById('total').textContent = pokemons.length;
+    }
     await loadProgress();
     render();
   }
 
-  // ── LOAD PROGRESS ──
   async function loadProgress() {
-    if (FIREBASE_CONFIGURED && db) {
-      try {
-        const ref = doc(db, 'pokopia', 'progress');
-        const snap = await getDoc(ref);
-        if (snap.exists()) progress = snap.data().found || {};
-        setStatus('saved');
-      } catch (e) {
-        console.warn('Firebase load error:', e);
-        loadFromLocal();
-      }
-    } else {
-      loadFromLocal();
-    }
+    if (!currentUser) return;
+    setStatus('saving');
+    try {
+      const snap = await getDoc(doc(db, 'progress', currentUser.uid));
+      progress = snap.exists() ? (snap.data().found || {}) : {};
+      setStatus('saved');
+    } catch(e) { console.warn(e); setStatus(''); }
   }
 
-  function loadFromLocal() {
-    try { progress = JSON.parse(localStorage.getItem('pokopia_progress') || '{}'); } catch {}
-  }
-
-  // ── SAVE PROGRESS ──
   function saveProgress() {
-    localStorage.setItem('pokopia_progress', JSON.stringify(progress));
-
-    if (!FIREBASE_CONFIGURED || !db) return;
+    if (!currentUser) return;
     clearTimeout(saveTimer);
     setStatus('saving');
     saveTimer = setTimeout(async () => {
       try {
-        await setDoc(doc(db, 'pokopia', 'progress'), { found: progress });
+        await setDoc(doc(db, 'progress', currentUser.uid), { found: progress });
         setStatus('saved');
-      } catch (e) {
-        console.warn('Firebase save error:', e);
-        setStatus('');
-      }
+      } catch(e) { console.warn(e); setStatus(''); }
     }, 800);
   }
 
   function setStatus(s) {
     const el = document.getElementById('fb-status');
     el.className = 'firebase-status ' + s;
-    if (s === 'saving') el.textContent = '⏳ Sauvegarde…';
-    else if (s === 'saved') el.textContent = '☁️ Sauvegardé';
-    else el.textContent = FIREBASE_CONFIGURED ? '☁️ Firebase' : '💾 Local';
+    el.textContent = s === 'saving' ? '⏳ Sauvegarde…' : s === 'saved' ? '☁️ Sauvegardé' : '⚠️ Erreur réseau';
   }
 
-  // ── TOGGLE FOUND ──
   function toggleFound(id) {
     const key = String(id);
     progress[key] = !progress[key];
     if (!progress[key]) delete progress[key];
     saveProgress();
     updateProgress();
-    // re-render only that card
     const card = document.querySelector(`[data-id="${id}"]`);
     if (card) {
       const found = !!progress[key];
       card.classList.toggle('found', found);
       showToast(card.querySelector('.card-name').textContent, found);
-      // hide if filter doesn't match
-      if (filterStatus === 'found' && !found) card.style.display = 'none';
-      if (filterStatus === 'missing' && found) card.style.display = 'none';
+      if (filterStatus === 'found'   && !found) card.style.display = 'none';
+      if (filterStatus === 'missing' &&  found) card.style.display = 'none';
     }
   }
 
-  // ── RENDER ──
   function render() {
     const grid = document.getElementById('grid');
     const q = searchQuery.toLowerCase();
-
     const filtered = pokemons.filter(p => {
       if (q && !p.nom.toLowerCase().includes(q)) return false;
       if (filterMat && !p.materiaux.includes(filterMat)) return false;
@@ -485,50 +276,36 @@
       if (filterStatus === 'missing' &&  found) return false;
       return true;
     });
-
-    if (filtered.length === 0) {
+    if (!filtered.length) {
       grid.innerHTML = `<div class="empty"><span>🔍</span>Aucun Pokémon trouvé…</div>`;
-      updateProgress();
-      return;
+      updateProgress(); return;
     }
-
     grid.innerHTML = filtered.map((p, i) => {
       const found = !!progress[String(p.id)];
-      const habDisplay = p.habitats.slice(0, 2).map(h =>
-        `<span class="pill" title="${h}">${h}</span>`
-      ).join('');
-      const matDisplay = p.materiaux.slice(0, 2).map(m =>
-        `<span class="pill mat" title="${m}">${m}</span>`
-      ).join('');
-
-      return `
-        <div class="card ${found ? 'found' : ''}" data-id="${p.id}"
-             style="animation-delay:${Math.min(i * 20, 400)}ms"
-             onclick="window._toggle(${p.id})">
-          <span class="card-id">#${p.id}</span>
-          <img class="card-img"
-               src="${p.image}"
-               alt="${p.nom}"
-               onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'" />
-          <div class="card-name">${p.nom}</div>
-          <div class="card-habitats">${habDisplay}${matDisplay}</div>
-        </div>`;
+      const hab = p.habitats.slice(0,2).map(h=>`<span class="pill" title="${h}">${h}</span>`).join('');
+      const mat = p.materiaux.slice(0,2).map(m=>`<span class="pill mat" title="${m}">${m}</span>`).join('');
+      return `<div class="card ${found?'found':''}" data-id="${p.id}"
+        style="animation-delay:${Math.min(i*20,400)}ms" onclick="window._toggle(${p.id})">
+        <span class="card-id">#${p.id}</span>
+        <img class="card-img" src="${p.image}" alt="${p.nom}"
+          onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
+        <div class="card-name">${p.nom}</div>
+        <div class="card-habitats">${hab}${mat}</div>
+      </div>`;
     }).join('');
-
     updateProgress();
   }
 
   function updateProgress() {
     const total = pokemons.length;
     const found = Object.values(progress).filter(Boolean).length;
-    const pct = total ? Math.round(found / total * 100) : 0;
+    const pct = total ? Math.round(found/total*100) : 0;
     document.getElementById('count').textContent = found;
     document.getElementById('total').textContent = total;
-    document.getElementById('pct').textContent = pct + '%';
-    document.getElementById('fill').style.width = pct + '%';
+    document.getElementById('pct').textContent   = pct + '%';
+    document.getElementById('fill').style.width  = pct + '%';
   }
 
-  // ── TOAST ──
   let toastTimer;
   function showToast(nom, found) {
     const el = document.getElementById('toast');
@@ -538,31 +315,16 @@
     toastTimer = setTimeout(() => el.classList.remove('show'), 2000);
   }
 
-  // ── EVENTS ──
-  document.getElementById('search').addEventListener('input', e => {
-    searchQuery = e.target.value;
+  document.getElementById('search').addEventListener('input', e => { searchQuery = e.target.value; render(); });
+  document.getElementById('filter-mat').addEventListener('change', e => { filterMat = e.target.value; render(); });
+  document.querySelectorAll('.btn-filter').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filterStatus = btn.dataset.status;
     render();
-  });
+  }));
 
-  document.getElementById('filter-mat').addEventListener('change', e => {
-    filterMat = e.target.value;
-    render();
-  });
-
-  document.querySelectorAll('.btn-filter').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterStatus = btn.dataset.status;
-      render();
-    });
-  });
-
-  // Expose toggle globally (called from onclick in dynamic HTML)
   window._toggle = toggleFound;
-
-  // ── INIT ──
-  loadData();
 </script>
 </body>
 </html>
