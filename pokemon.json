@@ -3,10 +3,14 @@
     "id": 1,
     "pokedexId": "1",
     "nom": "Bulbizarre",
+    "slug": "bulbizarre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/1.png",
     "habitats": [
       "Hautes herbes vertesBanc près des buissons"
     ],
+    "habitatImages": {
+      "Hautes herbes vertesBanc près des buissons": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -16,10 +20,14 @@
     "id": 2,
     "pokedexId": "2",
     "nom": "Herbizarre",
+    "slug": "herbizarre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/2.png",
     "habitats": [
       "Banc près des buissonsChamp de fleurs"
     ],
+    "habitatImages": {
+      "Banc près des buissonsChamp de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/11.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -29,10 +37,14 @@
     "id": 3,
     "pokedexId": "3",
     "nom": "Florizarre",
+    "slug": "florizarre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/3.png",
     "habitats": [
       "Terrasse fleurieChamp de fleurs"
     ],
+    "habitatImages": {
+      "Terrasse fleurieChamp de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/11.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -42,10 +54,14 @@
     "id": 4,
     "pokedexId": "4",
     "nom": "Salamèche",
+    "slug": "salameche",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/4.png",
     "habitats": [
       "Hautes herbes vertes"
     ],
+    "habitatImages": {
+      "Hautes herbes vertes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -55,10 +71,14 @@
     "id": 5,
     "pokedexId": "5",
     "nom": "Reptincel",
+    "slug": "reptincel",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/5.png",
     "habitats": [
       "Aire de camping"
     ],
+    "habitatImages": {
+      "Aire de camping": "https://www.pokebip.com/pokedex-images/pokopia/habitats/17.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -68,10 +88,14 @@
     "id": 6,
     "pokedexId": "6",
     "nom": "Dracaufeu",
+    "slug": "dracaufeu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/6.png",
     "habitats": [
       "Hautes herbes vertesCamp rempli de délicieuses Baies"
     ],
+    "habitatImages": {
+      "Hautes herbes vertesCamp rempli de délicieuses Baies": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionVol"
     ],
@@ -81,10 +105,14 @@
     "id": 7,
     "pokedexId": "7",
     "nom": "Carapuce",
+    "slug": "carapuce",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/7.png",
     "habitats": [
       "Hautes herbes vertesHautes herbes riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes vertesHautes herbes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -94,10 +122,14 @@
     "id": 8,
     "pokedexId": "8",
     "nom": "Carabaffe",
+    "slug": "carabaffe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/8.png",
     "habitats": [
       "Hautes herbes riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/4.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -107,10 +139,14 @@
     "id": 9,
     "pokedexId": "9",
     "nom": "Tortank",
+    "slug": "tortank",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/9.png",
     "habitats": [
       "Espace jeux aquatiques à l'ombreHautes herbes riveraines"
     ],
+    "habitatImages": {
+      "Espace jeux aquatiques à l'ombreHautes herbes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/4.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -120,10 +156,14 @@
     "id": 10,
     "pokedexId": "16",
     "nom": "Roucool",
+    "slug": "roucool",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/16.png",
     "habitats": [
       "Joli parterre de fleursHautes herbes en altitude"
     ],
+    "habitatImages": {
+      "Joli parterre de fleursHautes herbes en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/6.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "VolRecherche"
     ],
@@ -133,10 +173,14 @@
     "id": 11,
     "pokedexId": "17",
     "nom": "Roucoups",
+    "slug": "roucoups",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/17.png",
     "habitats": [
       "Joli parterre de fleursHautes herbes en altitude"
     ],
+    "habitatImages": {
+      "Joli parterre de fleursHautes herbes en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/6.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "VolRecherche"
     ],
@@ -146,10 +190,14 @@
     "id": 12,
     "pokedexId": "18",
     "nom": "Roucarnage",
+    "slug": "roucarnage",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/18.png",
     "habitats": [
       "Coin festin pour pioupiou"
     ],
+    "habitatImages": {
+      "Coin festin pour pioupiou": "https://www.pokebip.com/pokedex-images/pokopia/habitats/39.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "VolCoupe de bois"
     ],
@@ -159,10 +207,14 @@
     "id": 13,
     "pokedexId": "43",
     "nom": "Mystherbe",
+    "slug": "mystherbe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/43.png",
     "habitats": [
       "Hautes herbes vertes"
     ],
+    "habitatImages": {
+      "Hautes herbes vertes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -172,10 +224,14 @@
     "id": 14,
     "pokedexId": "44",
     "nom": "Ortide",
+    "slug": "ortide",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/44.png",
     "habitats": [
       "Espace tropical"
     ],
+    "habitatImages": {
+      "Espace tropical": "https://www.pokebip.com/pokedex-images/pokopia/habitats/57.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -185,10 +241,14 @@
     "id": 15,
     "pokedexId": "45",
     "nom": "Rafflesia",
+    "slug": "rafflesia",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/45.png",
     "habitats": [
       "Coin détente Leveinard"
     ],
+    "habitatImages": {
+      "Coin détente Leveinard": "https://www.pokebip.com/pokedex-images/pokopia/habitats/34.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -198,10 +258,14 @@
     "id": 16,
     "pokedexId": "182",
     "nom": "Joliflor",
+    "slug": "joliflor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/182.png",
     "habitats": [
       "Coin détente Leveinard"
     ],
+    "habitatImages": {
+      "Coin détente Leveinard": "https://www.pokebip.com/pokedex-images/pokopia/habitats/34.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationAnimation"
     ],
@@ -211,10 +275,14 @@
     "id": 17,
     "pokedexId": "46",
     "nom": "Paras",
+    "slug": "paras",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/46.png",
     "habitats": [
       "Parterre de fleurs en altitudeJardin fleuri"
     ],
+    "habitatImages": {
+      "Parterre de fleurs en altitudeJardin fleuri": "https://www.pokebip.com/pokedex-images/pokopia/habitats/12.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -224,10 +292,14 @@
     "id": 18,
     "pokedexId": "47",
     "nom": "Parasect",
+    "slug": "parasect",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/47.png",
     "habitats": [
       "Parterre de fleurs en altitudeJardin fleuri"
     ],
+    "habitatImages": {
+      "Parterre de fleurs en altitudeJardin fleuri": "https://www.pokebip.com/pokedex-images/pokopia/habitats/12.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -237,10 +309,14 @@
     "id": 19,
     "pokedexId": "48",
     "nom": "Mimitoss",
+    "slug": "mimitoss",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/48.png",
     "habitats": [
       "Banc éclairéHautes herbes éclairées"
     ],
+    "habitatImages": {
+      "Banc éclairéHautes herbes éclairées": "https://www.pokebip.com/pokedex-images/pokopia/habitats/7.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -250,10 +326,14 @@
     "id": 20,
     "pokedexId": "49",
     "nom": "Aéromite",
+    "slug": "aeromite",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/49.png",
     "habitats": [
       "Banc éclairéHautes herbes éclairées"
     ],
+    "habitatImages": {
+      "Banc éclairéHautes herbes éclairées": "https://www.pokebip.com/pokedex-images/pokopia/habitats/7.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -263,10 +343,14 @@
     "id": 21,
     "pokedexId": "69",
     "nom": "Chétiflor",
+    "slug": "chetiflor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/69.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -276,10 +360,14 @@
     "id": 22,
     "pokedexId": "70",
     "nom": "Boustiflor",
+    "slug": "boustiflor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/70.png",
     "habitats": [
       "Table fleurie"
     ],
+    "habitatImages": {
+      "Table fleurie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/21.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -289,10 +377,14 @@
     "id": 23,
     "pokedexId": "71",
     "nom": "Empiflor",
+    "slug": "empiflor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/71.png",
     "habitats": [
       "Table fleurie"
     ],
+    "habitatImages": {
+      "Table fleurie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/21.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationCoupe de bois"
     ],
@@ -302,10 +394,14 @@
     "id": 24,
     "pokedexId": "79",
     "nom": "Ramoloss",
+    "slug": "ramoloss",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/79.png",
     "habitats": [
       "Hautes herbes en bord de mer"
     ],
+    "habitatImages": {
+      "Hautes herbes en bord de mer": "https://www.pokebip.com/pokedex-images/pokopia/habitats/5.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageBâillement"
     ],
@@ -315,10 +411,14 @@
     "id": 25,
     "pokedexId": "80",
     "nom": "Flagadoss",
+    "slug": "flagadoss",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/80.png",
     "habitats": [
       "Coin de pêcheLit avec pelucheHautes herbes en bord de mer"
     ],
+    "habitatImages": {
+      "Coin de pêcheLit avec pelucheHautes herbes en bord de mer": "https://www.pokebip.com/pokedex-images/pokopia/habitats/5.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -328,10 +428,14 @@
     "id": 26,
     "pokedexId": "199",
     "nom": "Roigada",
+    "slug": "roigada",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/199.png",
     "habitats": [
       "Coin de pêcheLit avec pelucheHautes herbes en bord de mer"
     ],
+    "habitatImages": {
+      "Coin de pêcheLit avec pelucheHautes herbes en bord de mer": "https://www.pokebip.com/pokedex-images/pokopia/habitats/5.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTéléportation"
     ],
@@ -341,10 +445,14 @@
     "id": 27,
     "pokedexId": "81",
     "nom": "Magnéti",
+    "slug": "magneti",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/81.png",
     "habitats": [
       "Réserve industrielle"
     ],
+    "habitatImages": {
+      "Réserve industrielle": "https://www.pokebip.com/pokedex-images/pokopia/habitats/38.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -354,10 +462,14 @@
     "id": 28,
     "pokedexId": "82",
     "nom": "Magnéton",
+    "slug": "magneton",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/82.png",
     "habitats": [
       "Coin poubelles"
     ],
+    "habitatImages": {
+      "Coin poubelles": "https://www.pokebip.com/pokedex-images/pokopia/habitats/64.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -367,10 +479,14 @@
     "id": 29,
     "pokedexId": "462",
     "nom": "Magnézone",
+    "slug": "magnezone",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/462.png",
     "habitats": [
       "Petite salle d'arcadeCoin poubelles"
     ],
+    "habitatImages": {
+      "Petite salle d'arcadeCoin poubelles": "https://www.pokebip.com/pokedex-images/pokopia/habitats/64.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationRecyclage"
     ],
@@ -380,10 +496,14 @@
     "id": 30,
     "pokedexId": "95",
     "nom": "Onix",
+    "slug": "onix",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/95.png",
     "habitats": [
       "Hautes herbes sèches"
     ],
+    "habitatImages": {
+      "Hautes herbes sèches": "https://www.pokebip.com/pokedex-images/pokopia/habitats/37.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageAplanissement"
     ],
@@ -393,10 +513,14 @@
     "id": 31,
     "pokedexId": "208",
     "nom": "Steelix",
+    "slug": "steelix",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/208.png",
     "habitats": [
       "Charpente métallique en travaux"
     ],
+    "habitatImages": {
+      "Charpente métallique en travaux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/117.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageAplanissement"
     ],
@@ -406,10 +530,14 @@
     "id": 32,
     "pokedexId": "104",
     "nom": "Osselait",
+    "slug": "osselait",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/104.png",
     "habitats": [
       "Pierre tombale bordée de fleurs"
     ],
+    "habitatImages": {
+      "Pierre tombale bordée de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/13.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -419,10 +547,14 @@
     "id": 33,
     "pokedexId": "105",
     "nom": "Ossatueur",
+    "slug": "ossatueur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/105.png",
     "habitats": [
       "Pierre tombale bordée de fleurs"
     ],
+    "habitatImages": {
+      "Pierre tombale bordée de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/13.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -432,10 +564,14 @@
     "id": 34,
     "pokedexId": "236",
     "nom": "Debugant",
+    "slug": "debugant",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/236.png",
     "habitats": [
       "Cascade propice à l'entraînement"
     ],
+    "habitatImages": {
+      "Cascade propice à l'entraînement": "https://www.pokebip.com/pokedex-images/pokopia/habitats/18.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -445,10 +581,14 @@
     "id": 35,
     "pokedexId": "106",
     "nom": "Kicklee",
+    "slug": "kicklee",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/106.png",
     "habitats": [
       "Infirmerie"
     ],
+    "habitatImages": {
+      "Infirmerie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/25.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -458,10 +598,14 @@
     "id": 36,
     "pokedexId": "107",
     "nom": "Tygnon",
+    "slug": "tygnon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/107.png",
     "habitats": [
       "Coin post-entraînement"
     ],
+    "habitatImages": {
+      "Coin post-entraînement": "https://www.pokebip.com/pokedex-images/pokopia/habitats/24.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -471,10 +615,14 @@
     "id": 37,
     "pokedexId": "237",
     "nom": "Kapoera",
+    "slug": "kapoera",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/237.png",
     "habitats": [
       "Infirmerie de salle de sport"
     ],
+    "habitatImages": {
+      "Infirmerie de salle de sport": "https://www.pokebip.com/pokedex-images/pokopia/habitats/26.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -484,10 +632,14 @@
     "id": 38,
     "pokedexId": "109",
     "nom": "Smogo",
+    "slug": "smogo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/109.png",
     "habitats": [
       "Décharge"
     ],
+    "habitatImages": {
+      "Décharge": "https://www.pokebip.com/pokedex-images/pokopia/habitats/63.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -497,10 +649,14 @@
     "id": 39,
     "pokedexId": "110",
     "nom": "Smogogo",
+    "slug": "smogogo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/110.png",
     "habitats": [
       "Salon antiqueDécharge"
     ],
+    "habitatImages": {
+      "Salon antiqueDécharge": "https://www.pokebip.com/pokedex-images/pokopia/habitats/48.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -510,10 +666,14 @@
     "id": 40,
     "pokedexId": "114",
     "nom": "Saquedeneu",
+    "slug": "saquedeneu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/114.png",
     "habitats": [
       "Amas de Poké Balls"
     ],
+    "habitatImages": {
+      "Amas de Poké Balls": "https://www.pokebip.com/pokedex-images/pokopia/habitats/49.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -523,10 +683,14 @@
     "id": 41,
     "pokedexId": "41",
     "nom": "Bouldeneu",
-    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/465.png",
+    "slug": "bouldeneu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
     "habitats": [
       "Coin trésors du Professeur"
     ],
+    "habitatImages": {
+      "Coin trésors du Professeur": "https://www.pokebip.com/pokedex-images/pokopia/habitats/22.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Expertise"
     ],
@@ -536,10 +700,14 @@
     "id": 42,
     "pokedexId": "123",
     "nom": "Insécateur",
+    "slug": "insecateur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/123.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -549,10 +717,14 @@
     "id": 43,
     "pokedexId": "212",
     "nom": "Cizayox",
+    "slug": "cizayox",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/212.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -562,10 +734,14 @@
     "id": 44,
     "pokedexId": "127",
     "nom": "Scarabrute",
+    "slug": "scarabrute",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/127.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de boisConstruction"
     ],
@@ -575,10 +751,14 @@
     "id": 45,
     "pokedexId": "129",
     "nom": "Magicarpe",
+    "slug": "magicarpe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/129.png",
     "habitats": [
       "Coin de pêche marin"
     ],
+    "habitatImages": {
+      "Coin de pêche marin": "https://www.pokebip.com/pokedex-images/pokopia/habitats/185.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "-"
     ],
@@ -588,10 +768,14 @@
     "id": 46,
     "pokedexId": "130",
     "nom": "Léviator",
+    "slug": "leviator",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/130.png",
     "habitats": [
       "Cascade éclairée"
     ],
+    "habitatImages": {
+      "Cascade éclairée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/146.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -601,10 +785,12 @@
     "id": 47,
     "pokedexId": "132",
     "nom": "Métamorph",
+    "slug": "metamorph",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/132.png",
     "habitats": [
       "Personnage joueur"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Transformation"
     ],
@@ -614,10 +800,14 @@
     "id": 48,
     "pokedexId": "163",
     "nom": "Hoothoot",
+    "slug": "hoothoot",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/163.png",
     "habitats": [
       "Joli parterre de fleursHautes herbes en altitudeLit éclairé d'une lumière douce"
     ],
+    "habitatImages": {
+      "Joli parterre de fleursHautes herbes en altitudeLit éclairé d'une lumière douce": "https://www.pokebip.com/pokedex-images/pokopia/habitats/6.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocVol"
     ],
@@ -627,10 +817,14 @@
     "id": 49,
     "pokedexId": "164",
     "nom": "Noarfang",
+    "slug": "noarfang",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/164.png",
     "habitats": [
       "Hautes herbes en altitudeLit éclairé d'une lumière douce"
     ],
+    "habitatImages": {
+      "Hautes herbes en altitudeLit éclairé d'une lumière douce": "https://www.pokebip.com/pokedex-images/pokopia/habitats/6.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocVol"
     ],
@@ -640,10 +834,14 @@
     "id": 50,
     "pokedexId": "214",
     "nom": "Scarhino",
+    "slug": "scarhino",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/214.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de boisConstruction"
     ],
@@ -653,10 +851,14 @@
     "id": 51,
     "pokedexId": "313",
     "nom": "Muciole",
+    "slug": "muciole",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/313.png",
     "habitats": [
       "Parterre de fleurs riveraines"
     ],
+    "habitatImages": {
+      "Parterre de fleurs riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -666,10 +868,14 @@
     "id": 52,
     "pokedexId": "314",
     "nom": "Lumivole",
+    "slug": "lumivole",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/314.png",
     "habitats": [
       "Parterre de fleurs riveraines"
     ],
+    "habitatImages": {
+      "Parterre de fleurs riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -679,10 +885,14 @@
     "id": 53,
     "pokedexId": "316",
     "nom": "Gloupti",
+    "slug": "gloupti",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/316.png",
     "habitats": [
       "Coin collation"
     ],
+    "habitatImages": {
+      "Coin collation": "https://www.pokebip.com/pokedex-images/pokopia/habitats/19.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Stockage"
     ],
@@ -692,10 +902,14 @@
     "id": 54,
     "pokedexId": "317",
     "nom": "Avaltout",
+    "slug": "avaltout",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/317.png",
     "habitats": [
       "Table surprise culinaire"
     ],
+    "habitatImages": {
+      "Table surprise culinaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/120.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Stockage"
     ],
@@ -705,10 +919,14 @@
     "id": 55,
     "pokedexId": "331",
     "nom": "Cacnea",
+    "slug": "cacnea",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/331.png",
     "habitats": [
       "Lieu de rituel Zénith"
     ],
+    "habitatImages": {
+      "Lieu de rituel Zénith": "https://www.pokebip.com/pokedex-images/pokopia/habitats/42.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -718,10 +936,14 @@
     "id": 56,
     "pokedexId": "332",
     "nom": "Cacturne",
+    "slug": "cacturne",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/332.png",
     "habitats": [
       "Parterre de fleurs sous un arbre"
     ],
+    "habitatImages": {
+      "Parterre de fleurs sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/9.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -731,10 +953,14 @@
     "id": 57,
     "pokedexId": "415",
     "nom": "Apitrini",
+    "slug": "apitrini",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/415.png",
     "habitats": [
       "Joli parterre de fleurs"
     ],
+    "habitatImages": {
+      "Joli parterre de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/8.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -744,10 +970,14 @@
     "id": 58,
     "pokedexId": "416",
     "nom": "Apireine",
+    "slug": "apireine",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/416.png",
     "habitats": [
       "Champ de fleurs"
     ],
+    "habitatImages": {
+      "Champ de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/11.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Récolte de mielRecherche"
     ],
@@ -757,10 +987,12 @@
     "id": 59,
     "pokedexId": "422",
     "nom": "Sancoki Mer Occident",
+    "slug": "sancoki-mer-occident",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/422.png",
     "habitats": [
       "Panneau directionnel"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Arrosage"
     ],
@@ -770,10 +1002,12 @@
     "id": 60,
     "pokedexId": "423",
     "nom": "Tritosor Mer Occident",
+    "slug": "tritosor-mer-occident",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/423.png",
     "habitats": [
       "Coin de pêche marin"
     ],
+    "habitatImages": {},
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -783,10 +1017,14 @@
     "id": 61,
     "pokedexId": "425",
     "nom": "Baudrive",
+    "slug": "baudrive",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/425.png",
     "habitats": [
       "Zone de courants d'air chaudLit avec pelucheCollection de peluches"
     ],
+    "habitatImages": {
+      "Zone de courants d'air chaudLit avec pelucheCollection de peluches": "https://www.pokebip.com/pokedex-images/pokopia/habitats/16.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Île Rêve"
     ],
@@ -796,10 +1034,14 @@
     "id": 62,
     "pokedexId": "426",
     "nom": "Grodrive",
+    "slug": "grodrive",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/426.png",
     "habitats": [
       "Collection de peluches"
     ],
+    "habitatImages": {
+      "Collection de peluches": "https://www.pokebip.com/pokedex-images/pokopia/habitats/181.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "VolRangement"
     ],
@@ -809,10 +1051,14 @@
     "id": 63,
     "pokedexId": "529",
     "nom": "Rototaupe",
+    "slug": "rototaupe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/529.png",
     "habitats": [
       "Potager de légumes frais"
     ],
+    "habitatImages": {
+      "Potager de légumes frais": "https://www.pokebip.com/pokedex-images/pokopia/habitats/15.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -822,10 +1068,14 @@
     "id": 64,
     "pokedexId": "530",
     "nom": "Minotaupe",
+    "slug": "minotaupe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/530.png",
     "habitats": [
       "Potager de légumes frais"
     ],
+    "habitatImages": {
+      "Potager de légumes frais": "https://www.pokebip.com/pokedex-images/pokopia/habitats/15.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheCoupe de bois"
     ],
@@ -835,10 +1085,14 @@
     "id": 65,
     "pokedexId": "532",
     "nom": "Charpenti",
+    "slug": "charpenti",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/532.png",
     "habitats": [
       "Hautes herbes sous un rocher"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un rocher": "https://www.pokebip.com/pokedex-images/pokopia/habitats/3.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -848,10 +1102,14 @@
     "id": 66,
     "pokedexId": "533",
     "nom": "Ouvrifier",
+    "slug": "ouvrifier",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/533.png",
     "habitats": [
       "Porte-bagages imposantHautes herbes près d'un rocher"
     ],
+    "habitatImages": {
+      "Porte-bagages imposantHautes herbes près d'un rocher": "https://www.pokebip.com/pokedex-images/pokopia/habitats/3.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -861,10 +1119,14 @@
     "id": 67,
     "pokedexId": "534",
     "nom": "Bétochef",
+    "slug": "betochef",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/534.png",
     "habitats": [
       "Générateur de chantier"
     ],
+    "habitatImages": {
+      "Générateur de chantier": "https://www.pokebip.com/pokedex-images/pokopia/habitats/177.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionBroyage"
     ],
@@ -874,10 +1136,14 @@
     "id": 68,
     "pokedexId": "607",
     "nom": "Funécire",
+    "slug": "funecire",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/607.png",
     "habitats": [
       "Pierre tombale sinistre avec offrandePierre tombale avec offrande"
     ],
+    "habitatImages": {
+      "Pierre tombale sinistre avec offrandePierre tombale avec offrande": "https://www.pokebip.com/pokedex-images/pokopia/habitats/32.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -887,10 +1153,14 @@
     "id": 69,
     "pokedexId": "608",
     "nom": "Mélancolux",
+    "slug": "melancolux",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/608.png",
     "habitats": [
       "Pierre tombale sinistre avec offrandePierre tombale avec offrande"
     ],
+    "habitatImages": {
+      "Pierre tombale sinistre avec offrandePierre tombale avec offrande": "https://www.pokebip.com/pokedex-images/pokopia/habitats/32.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -900,10 +1170,14 @@
     "id": 70,
     "pokedexId": "609",
     "nom": "Lugulabre",
+    "slug": "lugulabre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/609.png",
     "habitats": [
       "Pierre tombale sinistre avec offrande"
     ],
+    "habitatImages": {
+      "Pierre tombale sinistre avec offrande": "https://www.pokebip.com/pokedex-images/pokopia/habitats/33.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -913,10 +1187,14 @@
     "id": 71,
     "pokedexId": "610",
     "nom": "Coupenotte",
+    "slug": "coupenotte",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/610.png",
     "habitats": [
       "Coin chaleureux en rondinsScierie"
     ],
+    "habitatImages": {
+      "Coin chaleureux en rondinsScierie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/29.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -926,10 +1204,14 @@
     "id": 72,
     "pokedexId": "611",
     "nom": "Incisache",
+    "slug": "incisache",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/611.png",
     "habitats": [
       "Coin chaleureux en rondinsScierie"
     ],
+    "habitatImages": {
+      "Coin chaleureux en rondinsScierie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/29.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -939,10 +1221,14 @@
     "id": 73,
     "pokedexId": "612",
     "nom": "Tranchodon",
+    "slug": "tranchodon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/612.png",
     "habitats": [
       "Coin chaleureux en rondinsScierie"
     ],
+    "habitatImages": {
+      "Coin chaleureux en rondinsScierie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/29.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de boisDésordre"
     ],
@@ -952,10 +1238,14 @@
     "id": 74,
     "pokedexId": "704",
     "nom": "Mucuscule",
+    "slug": "mucuscule",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/704.png",
     "habitats": [
       "Lieu de rituel Danse PluieParterre de fleurs sous un arbre"
     ],
+    "habitatImages": {
+      "Lieu de rituel Danse PluieParterre de fleurs sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/9.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -965,10 +1255,14 @@
     "id": 75,
     "pokedexId": "705",
     "nom": "Colimucus",
+    "slug": "colimucus",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/705.png",
     "habitats": [
       "Hautes herbes riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/4.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -978,10 +1272,14 @@
     "id": 76,
     "pokedexId": "706",
     "nom": "Muplodocus",
+    "slug": "muplodocus",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/706.png",
     "habitats": [
       "Assortiment de meubles Baie"
     ],
+    "habitatImages": {
+      "Assortiment de meubles Baie": "https://www.pokebip.com/pokedex-images/pokopia/habitats/45.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -991,10 +1289,14 @@
     "id": 77,
     "pokedexId": "845",
     "nom": "Nigosier",
+    "slug": "nigosier",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/845.png",
     "habitats": [
       "Hautes herbes riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/4.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "VolArrosage"
     ],
@@ -1004,10 +1306,14 @@
     "id": 78,
     "pokedexId": "172",
     "nom": "Pichu",
+    "slug": "pichu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/172.png",
     "habitats": [
       "Coin pique-nique"
     ],
+    "habitatImages": {
+      "Coin pique-nique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/20.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -1017,10 +1323,14 @@
     "id": 79,
     "pokedexId": "25",
     "nom": "Pikachu",
+    "slug": "pikachu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/25.png",
     "habitats": [
       "Coin pique-nique"
     ],
+    "habitatImages": {
+      "Coin pique-nique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/20.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -1030,10 +1340,14 @@
     "id": 80,
     "pokedexId": "26",
     "nom": "Raichu",
+    "slug": "raichu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/26.png",
     "habitats": [
       "Marché en pleine nature"
     ],
+    "habitatImages": {
+      "Marché en pleine nature": "https://www.pokebip.com/pokedex-images/pokopia/habitats/176.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationAnimation"
     ],
@@ -1043,10 +1357,14 @@
     "id": 81,
     "pokedexId": "41",
     "nom": "Nosferapti",
+    "slug": "nosferapti",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/41.png",
     "habitats": [
       "Hautes herbes jaunes sous un arbreBanc de parc"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes sous un arbreBanc de parc": "https://www.pokebip.com/pokedex-images/pokopia/habitats/51.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1056,10 +1374,14 @@
     "id": 82,
     "pokedexId": "42",
     "nom": "Nosferalto",
+    "slug": "nosferalto",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/42.png",
     "habitats": [
       "Hautes herbes jaunes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/51.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1069,10 +1391,14 @@
     "id": 83,
     "pokedexId": "169",
     "nom": "Nostenfer",
+    "slug": "nostenfer",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/169.png",
     "habitats": [
       "Hautes herbes jaunes en altitudeDépotoir"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes en altitudeDépotoir": "https://www.pokebip.com/pokedex-images/pokopia/habitats/52.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheCoupe de bois"
     ],
@@ -1082,10 +1408,14 @@
     "id": 84,
     "pokedexId": "52",
     "nom": "Miaouss",
+    "slug": "miaouss",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/52.png",
     "habitats": [
       "Caisse enregistreuseCoin sieste"
     ],
+    "habitatImages": {
+      "Caisse enregistreuseCoin sieste": "https://www.pokebip.com/pokedex-images/pokopia/habitats/61.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1095,10 +1425,14 @@
     "id": 85,
     "pokedexId": "53",
     "nom": "Persian",
+    "slug": "persian",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/53.png",
     "habitats": [
       "QG d'organisation maléfique"
     ],
+    "habitatImages": {
+      "QG d'organisation maléfique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/179.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1108,10 +1442,14 @@
     "id": 86,
     "pokedexId": "54",
     "nom": "Psykokwak",
+    "slug": "psykokwak",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/54.png",
     "habitats": [
       "Douche de bains thermaux"
     ],
+    "habitatImages": {
+      "Douche de bains thermaux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/78.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1121,10 +1459,14 @@
     "id": 87,
     "pokedexId": "55",
     "nom": "Akwakwak",
+    "slug": "akwakwak",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/55.png",
     "habitats": [
       "Douche de bains thermaux"
     ],
+    "habitatImages": {
+      "Douche de bains thermaux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/78.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1134,10 +1476,14 @@
     "id": 88,
     "pokedexId": "58",
     "nom": "Caninos",
+    "slug": "caninos",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/58.png",
     "habitats": [
       "Coin repas balnéaireZone en pagaille"
     ],
+    "habitatImages": {
+      "Coin repas balnéaireZone en pagaille": "https://www.pokebip.com/pokedex-images/pokopia/habitats/62.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionRecherche"
     ],
@@ -1147,10 +1493,14 @@
     "id": 89,
     "pokedexId": "59",
     "nom": "Arcanin",
+    "slug": "arcanin",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/59.png",
     "habitats": [
       "Coin de pêche magmatiqueMinimusée"
     ],
+    "habitatImages": {
+      "Coin de pêche magmatiqueMinimusée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/129.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionRecherche"
     ],
@@ -1160,10 +1510,14 @@
     "id": 90,
     "pokedexId": "83",
     "nom": "Canarticho",
+    "slug": "canarticho",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/83.png",
     "habitats": [
       "Chariot chargé d'affaires"
     ],
+    "habitatImages": {
+      "Chariot chargé d'affaires": "https://www.pokebip.com/pokedex-images/pokopia/habitats/80.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de boisConstruction"
     ],
@@ -1173,10 +1527,14 @@
     "id": 91,
     "pokedexId": "88",
     "nom": "Tadmorv",
+    "slug": "tadmorv",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/88.png",
     "habitats": [
       "Coin de pêche marécageux"
     ],
+    "habitatImages": {
+      "Coin de pêche marécageux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/186.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -1186,10 +1544,14 @@
     "id": 92,
     "pokedexId": "89",
     "nom": "Grotadmorv",
+    "slug": "grotadmorv",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/89.png",
     "habitats": [
       "Coin de pêche marécageux"
     ],
+    "habitatImages": {
+      "Coin de pêche marécageux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/186.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -1199,10 +1561,14 @@
     "id": 93,
     "pokedexId": "92",
     "nom": "Fantominus",
+    "slug": "fantominus",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/92.png",
     "habitats": [
       "Bibliothèque inquétante"
     ],
+    "habitatImages": {
+      "Bibliothèque inquétante": "https://www.pokebip.com/pokedex-images/pokopia/habitats/89.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementTroc"
     ],
@@ -1212,10 +1578,14 @@
     "id": 94,
     "pokedexId": "93",
     "nom": "Spectrum",
+    "slug": "spectrum",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/93.png",
     "habitats": [
       "Boîte piégéeBibliothèque inquiétante"
     ],
+    "habitatImages": {
+      "Boîte piégéeBibliothèque inquiétante": "https://www.pokebip.com/pokedex-images/pokopia/habitats/73.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementTroc"
     ],
@@ -1225,10 +1595,14 @@
     "id": 95,
     "pokedexId": "94",
     "nom": "Ectoplasma",
+    "slug": "ectoplasma",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/94.png",
     "habitats": [
       "Boîte piégée"
     ],
+    "habitatImages": {
+      "Boîte piégée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/73.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementTroc"
     ],
@@ -1238,10 +1612,14 @@
     "id": 96,
     "pokedexId": "100",
     "nom": "Voltorbe",
+    "slug": "voltorbe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/100.png",
     "habitats": [
       "Pont de navireBanc de parc"
     ],
+    "habitatImages": {
+      "Pont de navireBanc de parc": "https://www.pokebip.com/pokedex-images/pokopia/habitats/66.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationExplosion"
     ],
@@ -1251,10 +1629,14 @@
     "id": 97,
     "pokedexId": "101",
     "nom": "Électrode",
+    "slug": "electrode",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/101.png",
     "habitats": [
       "Pont de navireBanc de parc"
     ],
+    "habitatImages": {
+      "Pont de navireBanc de parc": "https://www.pokebip.com/pokedex-images/pokopia/habitats/66.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationExplosion"
     ],
@@ -1264,10 +1646,14 @@
     "id": 98,
     "pokedexId": "102",
     "nom": "Noeunoeuf",
+    "slug": "noeunoeuf",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/102.png",
     "habitats": [
       "Chaise de plage sous un arbreEspace tropical"
     ],
+    "habitatImages": {
+      "Chaise de plage sous un arbreEspace tropical": "https://www.pokebip.com/pokedex-images/pokopia/habitats/57.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationTéléportation"
     ],
@@ -1277,10 +1663,14 @@
     "id": 99,
     "pokedexId": "103",
     "nom": "Noadkoko",
+    "slug": "noadkoko",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/103.png",
     "habitats": [
       "Chaise de plage sous un arbreEspace tropical"
     ],
+    "habitatImages": {
+      "Chaise de plage sous un arbreEspace tropical": "https://www.pokebip.com/pokedex-images/pokopia/habitats/57.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationTéléportation"
     ],
@@ -1290,10 +1680,14 @@
     "id": 100,
     "pokedexId": "440",
     "nom": "Ptiravi",
+    "slug": "ptiravi",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/440.png",
     "habitats": [
       "Caisse enregistreuseLit avec réveil"
     ],
+    "habitatImages": {
+      "Caisse enregistreuseLit avec réveil": "https://www.pokebip.com/pokedex-images/pokopia/habitats/82.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1303,10 +1697,14 @@
     "id": 101,
     "pokedexId": "113",
     "nom": "Leveinard",
+    "slug": "leveinard",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/113.png",
     "habitats": [
       "Coin sommeil réparateur"
     ],
+    "habitatImages": {
+      "Coin sommeil réparateur": "https://www.pokebip.com/pokedex-images/pokopia/habitats/81.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1316,10 +1714,14 @@
     "id": 102,
     "pokedexId": "242",
     "nom": "Leuphorie",
+    "slug": "leuphorie",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/242.png",
     "habitats": [
       "Espace ravissant"
     ],
+    "habitatImages": {
+      "Espace ravissant": "https://www.pokebip.com/pokedex-images/pokopia/habitats/95.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocDésordre"
     ],
@@ -1329,10 +1731,14 @@
     "id": 103,
     "pokedexId": "239",
     "nom": "Élekid",
+    "slug": "elekid",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/239.png",
     "habitats": [
       "Distributeur avec poubelle"
     ],
+    "habitatImages": {
+      "Distributeur avec poubelle": "https://www.pokebip.com/pokedex-images/pokopia/habitats/84.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -1342,10 +1748,14 @@
     "id": 104,
     "pokedexId": "125",
     "nom": "Élektek",
+    "slug": "elektek",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/125.png",
     "habitats": [
       "Coin poubelleScène sous les projecteurs"
     ],
+    "habitatImages": {
+      "Coin poubelleScène sous les projecteurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/64.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -1355,10 +1765,14 @@
     "id": 105,
     "pokedexId": "466",
     "nom": "Élekable",
+    "slug": "elekable",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/466.png",
     "habitats": [
       "Distributeur avec poubelleScène sous les projecteurs"
     ],
+    "habitatImages": {
+      "Distributeur avec poubelleScène sous les projecteurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/72.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationBroyage"
     ],
@@ -1368,10 +1782,14 @@
     "id": 106,
     "pokedexId": "131",
     "nom": "Lokhlass",
+    "slug": "lokhlass",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/131.png",
     "habitats": [
       "Littoral tropical"
     ],
+    "habitatImages": {
+      "Littoral tropical": "https://www.pokebip.com/pokedex-images/pokopia/habitats/60.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -1381,10 +1799,14 @@
     "id": 107,
     "pokedexId": "446",
     "nom": "Goinfrex",
+    "slug": "goinfrex",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/446.png",
     "habitats": [
       "Lit avec pelucheRonflex endormi sous un arbre"
     ],
+    "habitatImages": {
+      "Lit avec pelucheRonflex endormi sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/30.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Aplanissement"
     ],
@@ -1394,10 +1816,14 @@
     "id": 108,
     "pokedexId": "143",
     "nom": "Ronflex",
+    "slug": "ronflex",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/143.png",
     "habitats": [
       "Salon antiqueRonflex endormi sous un arbre"
     ],
+    "habitatImages": {
+      "Salon antiqueRonflex endormi sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/47.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AplanissementTroc"
     ],
@@ -1407,10 +1833,14 @@
     "id": 109,
     "pokedexId": "167",
     "nom": "Mimigal",
+    "slug": "mimigal",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/167.png",
     "habitats": [
       "Hautes herbes jaunes"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/50.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -1420,10 +1850,14 @@
     "id": 110,
     "pokedexId": "168",
     "nom": "Migalos",
+    "slug": "migalos",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/168.png",
     "habitats": [
       "Hautes herbes jaunes"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/50.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -1433,10 +1867,14 @@
     "id": 111,
     "pokedexId": "179",
     "nom": "Wattouat",
+    "slug": "wattouat",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/179.png",
     "habitats": [
       "Espace pour le tricotDistributeur dans les hautes herbes"
     ],
+    "habitatImages": {
+      "Espace pour le tricotDistributeur dans les hautes herbes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/55.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationDésordre"
     ],
@@ -1446,10 +1884,14 @@
     "id": 112,
     "pokedexId": "180",
     "nom": "Lainergie",
+    "slug": "lainergie",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/180.png",
     "habitats": [
       "Espace de festivités nocturnesEspace pour le tricot"
     ],
+    "habitatImages": {
+      "Espace de festivités nocturnesEspace pour le tricot": "https://www.pokebip.com/pokedex-images/pokopia/habitats/74.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationDésordre"
     ],
@@ -1459,10 +1901,14 @@
     "id": 113,
     "pokedexId": "181",
     "nom": "Pharamp",
+    "slug": "pharamp",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/181.png",
     "habitats": [
       "Salon style naturel"
     ],
+    "habitatImages": {
+      "Salon style naturel": "https://www.pokebip.com/pokedex-images/pokopia/habitats/97.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationTroc"
     ],
@@ -1472,10 +1918,14 @@
     "id": 114,
     "pokedexId": "298",
     "nom": "Azurill",
+    "slug": "azurill",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/298.png",
     "habitats": [
       "Hautes herbes jaunes riverainesZone en pagaille"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes riverainesZone en pagaille": "https://www.pokebip.com/pokedex-images/pokopia/habitats/53.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageAnimation"
     ],
@@ -1485,10 +1935,14 @@
     "id": 115,
     "pokedexId": "183",
     "nom": "Marill",
+    "slug": "marill",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/183.png",
     "habitats": [
       "Hautes herbes jaunes riverainesJetée"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes riverainesJetée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/53.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageAnimation"
     ],
@@ -1498,10 +1952,14 @@
     "id": 116,
     "pokedexId": "184",
     "nom": "Azumarill",
+    "slug": "azumarill",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/184.png",
     "habitats": [
       "Jetée"
     ],
+    "habitatImages": {
+      "Jetée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/88.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageConstruction"
     ],
@@ -1511,10 +1969,12 @@
     "id": 117,
     "pokedexId": "194pa",
     "nom": "Axoloto de Paldea",
+    "slug": "axoloto-de-paldea",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/194pa.png",
     "habitats": [
       "Hautes herbes des marais"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Désordre"
     ],
@@ -1524,10 +1984,14 @@
     "id": 118,
     "pokedexId": "980",
     "nom": "Terraiste",
+    "slug": "terraiste",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/980.png",
     "habitats": [
       "Coin de pêche marécageuxHautes herbes des marais"
     ],
+    "habitatImages": {
+      "Coin de pêche marécageuxHautes herbes des marais": "https://www.pokebip.com/pokedex-images/pokopia/habitats/54.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "DésordreAplanissement"
     ],
@@ -1537,10 +2001,12 @@
     "id": 119,
     "pokedexId": "235",
     "nom": "Queulorior",
+    "slug": "queulorior",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/235.png",
     "habitats": [
       "Petit atelier"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Peinture"
     ],
@@ -1550,10 +2016,14 @@
     "id": 120,
     "pokedexId": "255",
     "nom": "Poussifeu",
+    "slug": "poussifeu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/255.png",
     "habitats": [
       "Coin collation pour pioupiouCoin repas balnéaire"
     ],
+    "habitatImages": {
+      "Coin collation pour pioupiouCoin repas balnéaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/69.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -1563,10 +2033,14 @@
     "id": 121,
     "pokedexId": "256",
     "nom": "Galifeu",
+    "slug": "galifeu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/256.png",
     "habitats": [
       "Coin pyrogénérateurCoin repas balnéaire"
     ],
+    "habitatImages": {
+      "Coin pyrogénérateurCoin repas balnéaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/79.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionConstruction"
     ],
@@ -1576,10 +2050,14 @@
     "id": 122,
     "pokedexId": "257",
     "nom": "Braségali",
+    "slug": "brasegali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/257.png",
     "habitats": [
       "Coin pyrogénérateurCoin collation pour pioupiou"
     ],
+    "habitatImages": {
+      "Coin pyrogénérateurCoin collation pour pioupiou": "https://www.pokebip.com/pokedex-images/pokopia/habitats/69.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionConstruction"
     ],
@@ -1589,10 +2067,14 @@
     "id": 123,
     "pokedexId": "278",
     "nom": "Goélise",
+    "slug": "goelise",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/278.png",
     "habitats": [
       "Hautes herbes jaunes en altitudeParterre de fleurs venteux"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes en altitudeParterre de fleurs venteux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/52.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageVol"
     ],
@@ -1602,10 +2084,14 @@
     "id": 124,
     "pokedexId": "279",
     "nom": "Bekipan",
+    "slug": "bekipan",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/279.png",
     "habitats": [
       "Hautes herbes jaunes en altitudeParterre de fleurs venteux"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes en altitudeParterre de fleurs venteux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/52.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageVol"
     ],
@@ -1615,10 +2101,14 @@
     "id": 125,
     "pokedexId": "296",
     "nom": "Makuhita",
+    "slug": "makuhita",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/296.png",
     "habitats": [
       "Hautes herbes jaunes sous un arbreChariot chargé d'affaires"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes sous un arbreChariot chargé d'affaires": "https://www.pokebip.com/pokedex-images/pokopia/habitats/51.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionAplanissement"
     ],
@@ -1628,10 +2118,14 @@
     "id": 126,
     "pokedexId": "297",
     "nom": "Hariyama",
+    "slug": "hariyama",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/297.png",
     "habitats": [
       "Hautes herbes jaunes sous un arbreChariot chargé d'affaires"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes sous un arbreChariot chargé d'affaires": "https://www.pokebip.com/pokedex-images/pokopia/habitats/51.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionAplanissement"
     ],
@@ -1641,10 +2135,14 @@
     "id": 127,
     "pokedexId": "359",
     "nom": "Absol",
+    "slug": "absol",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/359.png",
     "habitats": [
       "Salon balnéaire"
     ],
+    "habitatImages": {
+      "Salon balnéaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/96.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -1654,10 +2152,14 @@
     "id": 128,
     "pokedexId": "393",
     "nom": "Tiplouf",
+    "slug": "tiplouf",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/393.png",
     "habitats": [
       "Hautes herbes jaunes riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/53.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -1667,10 +2169,14 @@
     "id": 129,
     "pokedexId": "394",
     "nom": "Prinplouf",
+    "slug": "prinplouf",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/394.png",
     "habitats": [
       "Coin hydrogénérateurHautes herbes jaunes riveraines"
     ],
+    "habitatImages": {
+      "Coin hydrogénérateurHautes herbes jaunes riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/53.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -1680,10 +2186,14 @@
     "id": 130,
     "pokedexId": "395",
     "nom": "Pingoléon",
+    "slug": "pingoleon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/395.png",
     "habitats": [
       "Chariot de serviceCoin hydrogénérateur"
     ],
+    "habitatImages": {
+      "Chariot de serviceCoin hydrogénérateur": "https://www.pokebip.com/pokedex-images/pokopia/habitats/68.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageTroc"
     ],
@@ -1693,10 +2203,14 @@
     "id": 131,
     "pokedexId": "531",
     "nom": "Nanméouïe",
+    "slug": "nanmeouie",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/531.png",
     "habitats": [
       "Caisse enregistreuse"
     ],
+    "habitatImages": {
+      "Caisse enregistreuse": "https://www.pokebip.com/pokedex-images/pokopia/habitats/91.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1706,10 +2220,14 @@
     "id": 132,
     "pokedexId": "568",
     "nom": "Miamiasme",
+    "slug": "miamiasme",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/568.png",
     "habitats": [
       "Décharge"
     ],
+    "habitatImages": {
+      "Décharge": "https://www.pokebip.com/pokedex-images/pokopia/habitats/63.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -1719,10 +2237,14 @@
     "id": 133,
     "pokedexId": "569",
     "nom": "Miasmax",
+    "slug": "miasmax",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/569.png",
     "habitats": [
       "Décharge"
     ],
+    "habitatImages": {
+      "Décharge": "https://www.pokebip.com/pokedex-images/pokopia/habitats/63.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RecyclageDésordre"
     ],
@@ -1732,10 +2254,14 @@
     "id": 134,
     "pokedexId": "570",
     "nom": "Zorua",
+    "slug": "zorua",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/570.png",
     "habitats": [
       "Utiliser Éclate-Roc sur le revêtement suspect près du Centre PokémonParterre de fleurs rafraîchissantes"
     ],
+    "habitatImages": {
+      "Utiliser Éclate-Roc sur le revêtement suspect près du Centre PokémonParterre de fleurs rafraîchissantes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/56.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1745,10 +2271,14 @@
     "id": 135,
     "pokedexId": "571",
     "nom": "Zoroark",
+    "slug": "zoroark",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/571.png",
     "habitats": [
       "Parterre de fleurs rafraîchissantesBoîte piégée"
     ],
+    "habitatImages": {
+      "Parterre de fleurs rafraîchissantesBoîte piégée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/56.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocCoupe de bois"
     ],
@@ -1758,10 +2288,14 @@
     "id": 136,
     "pokedexId": "572",
     "nom": "Chinchidou",
+    "slug": "chinchidou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/572.png",
     "habitats": [
       "Espace d'essayageCoiffeuse à l'abri des regards"
     ],
+    "habitatImages": {
+      "Espace d'essayageCoiffeuse à l'abri des regards": "https://www.pokebip.com/pokedex-images/pokopia/habitats/75.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -1771,10 +2305,14 @@
     "id": 137,
     "pokedexId": "573",
     "nom": "Pashmilla",
+    "slug": "pashmilla",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/573.png",
     "habitats": [
       "Coiffeuse à l'abri des regards"
     ],
+    "habitatImages": {
+      "Coiffeuse à l'abri des regards": "https://www.pokebip.com/pokedex-images/pokopia/habitats/76.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementRecyclage"
     ],
@@ -1784,10 +2322,14 @@
     "id": 138,
     "pokedexId": "736",
     "nom": "Larvibule",
+    "slug": "larvibule",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/736.png",
     "habitats": [
       "Hautes herbes jaunesDistributeur avec banc"
     ],
+    "habitatImages": {
+      "Hautes herbes jaunesDistributeur avec banc": "https://www.pokebip.com/pokedex-images/pokopia/habitats/50.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -1797,10 +2339,14 @@
     "id": 139,
     "pokedexId": "737",
     "nom": "Chrysapile",
+    "slug": "chrysapile",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/737.png",
     "habitats": [
       "Distributeur avec banc"
     ],
+    "habitatImages": {
+      "Distributeur avec banc": "https://www.pokebip.com/pokedex-images/pokopia/habitats/83.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationCoupe de bois"
     ],
@@ -1810,10 +2356,14 @@
     "id": 140,
     "pokedexId": "738",
     "nom": "Lucanon",
+    "slug": "lucanon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/738.png",
     "habitats": [
       "Parterre de fleurs sous un arbre"
     ],
+    "habitatImages": {
+      "Parterre de fleurs sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/9.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationCoupe de bois"
     ],
@@ -1823,10 +2373,14 @@
     "id": 141,
     "pokedexId": "778",
     "nom": "Mimiqui",
+    "slug": "mimiqui",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/778.png",
     "habitats": [
       "Espace Pikachu"
     ],
+    "habitatImages": {
+      "Espace Pikachu": "https://www.pokebip.com/pokedex-images/pokopia/habitats/94.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -1836,10 +2390,14 @@
     "id": 142,
     "pokedexId": "921",
     "nom": "Pohm",
+    "slug": "pohm",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/921.png",
     "habitats": [
       "Parterre de fleurs rafraîchissantesCoin grosse faim"
     ],
+    "habitatImages": {
+      "Parterre de fleurs rafraîchissantesCoin grosse faim": "https://www.pokebip.com/pokedex-images/pokopia/habitats/56.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -1849,10 +2407,14 @@
     "id": 143,
     "pokedexId": "922",
     "nom": "Pohmotte",
+    "slug": "pohmotte",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/922.png",
     "habitats": [
       "Coin grosse faimMinicafé"
     ],
+    "habitatImages": {
+      "Coin grosse faimMinicafé": "https://www.pokebip.com/pokedex-images/pokopia/habitats/67.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationBroyage"
     ],
@@ -1862,10 +2424,14 @@
     "id": 144,
     "pokedexId": "923",
     "nom": "Pohmarmotte",
+    "slug": "pohmarmotte",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/923.png",
     "habitats": [
       "Minicafé"
     ],
+    "habitatImages": {
+      "Minicafé": "https://www.pokebip.com/pokedex-images/pokopia/habitats/70.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationBroyage"
     ],
@@ -1875,10 +2441,12 @@
     "id": 145,
     "pokedexId": "978",
     "nom": "Nigirigon Forme Courbée",
+    "slug": "nigirigon-forme-courbee",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/978.png",
     "habitats": [
       "Coin plage"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Troc"
     ],
@@ -1888,10 +2456,14 @@
     "id": 146,
     "pokedexId": "23",
     "nom": "Abo",
+    "slug": "abo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/23.png",
     "habitats": [
       "Fleurs splendides riveraines"
     ],
+    "habitatImages": {
+      "Fleurs splendides riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/106.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1901,10 +2473,14 @@
     "id": 147,
     "pokedexId": "24",
     "nom": "Arbok",
+    "slug": "arbok",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/24.png",
     "habitats": [
       "Fleurs splendides riveraines"
     ],
+    "habitatImages": {
+      "Fleurs splendides riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/106.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -1914,10 +2490,14 @@
     "id": 148,
     "pokedexId": "173",
     "nom": "Mélo",
+    "slug": "melo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/173.png",
     "habitats": [
       "Parterre de fleurs splendides"
     ],
+    "habitatImages": {
+      "Parterre de fleurs splendides": "https://www.pokebip.com/pokedex-images/pokopia/habitats/104.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -1927,10 +2507,14 @@
     "id": 149,
     "pokedexId": "35",
     "nom": "Mélofée",
+    "slug": "melofee",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/35.png",
     "habitats": [
       "Monument en bronzeParterre de fleurs splendides"
     ],
+    "habitatImages": {
+      "Monument en bronzeParterre de fleurs splendides": "https://www.pokebip.com/pokedex-images/pokopia/habitats/104.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -1940,10 +2524,14 @@
     "id": 150,
     "pokedexId": "36",
     "nom": "Mélodelfe",
+    "slug": "melodelfe",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/36.png",
     "habitats": [
       "Monument en bronzeParterre de fleurs splendides"
     ],
+    "habitatImages": {
+      "Monument en bronzeParterre de fleurs splendides": "https://www.pokebip.com/pokedex-images/pokopia/habitats/104.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AnimationTroc"
     ],
@@ -1953,10 +2541,14 @@
     "id": 151,
     "pokedexId": "174",
     "nom": "Toudoudou",
+    "slug": "toudoudou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/174.png",
     "habitats": [
       "Scène souche bordée de fleurs"
     ],
+    "habitatImages": {
+      "Scène souche bordée de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/107.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -1966,10 +2558,14 @@
     "id": 152,
     "pokedexId": "39",
     "nom": "Rondoudou",
+    "slug": "rondoudou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/39.png",
     "habitats": [
       "Scène souche bordée de fleursScène de récital"
     ],
+    "habitatImages": {
+      "Scène souche bordée de fleursScène de récital": "https://www.pokebip.com/pokedex-images/pokopia/habitats/107.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -1979,10 +2575,14 @@
     "id": 153,
     "pokedexId": "40",
     "nom": "Grodoudou",
+    "slug": "grodoudou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/40.png",
     "habitats": [
       "Scène de récital"
     ],
+    "habitatImages": {
+      "Scène de récital": "https://www.pokebip.com/pokedex-images/pokopia/habitats/126.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -1992,10 +2592,14 @@
     "id": 154,
     "pokedexId": "50",
     "nom": "Taupiqueur",
+    "slug": "taupiqueur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/50.png",
     "habitats": [
       "Coin casse-croûte dans la remiseHautes herbes rouges sous un arbre"
     ],
+    "habitatImages": {
+      "Coin casse-croûte dans la remiseHautes herbes rouges sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/99.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -2005,10 +2609,14 @@
     "id": 155,
     "pokedexId": "51",
     "nom": "Triopikeur",
+    "slug": "triopikeur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/51.png",
     "habitats": [
       "Table festiveHautes herbes rouges sous un arbre"
     ],
+    "habitatImages": {
+      "Table festiveHautes herbes rouges sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/99.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AnimationBroyage"
     ],
@@ -2018,10 +2626,14 @@
     "id": 156,
     "pokedexId": "66",
     "nom": "Machoc",
+    "slug": "machoc",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/66.png",
     "habitats": [
       "Hautes herbes sous un rocher"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un rocher": "https://www.pokebip.com/pokedex-images/pokopia/habitats/3.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionRangement"
     ],
@@ -2031,10 +2643,14 @@
     "id": 157,
     "pokedexId": "67",
     "nom": "Machopeur",
+    "slug": "machopeur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/67.png",
     "habitats": [
       "Coin entraînement en hautes herbesEspace d'entraînement en rythme"
     ],
+    "habitatImages": {
+      "Coin entraînement en hautes herbesEspace d'entraînement en rythme": "https://www.pokebip.com/pokedex-images/pokopia/habitats/103.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionRangement"
     ],
@@ -2044,10 +2660,14 @@
     "id": 158,
     "pokedexId": "68",
     "nom": "Mackogneur",
+    "slug": "mackogneur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/68.png",
     "habitats": [
       "Coin entraînement en hautes herbesCharpente métallique en travaux"
     ],
+    "habitatImages": {
+      "Coin entraînement en hautes herbesCharpente métallique en travaux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/103.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ConstructionRangement"
     ],
@@ -2057,10 +2677,14 @@
     "id": 159,
     "pokedexId": "74",
     "nom": "Racaillou",
+    "slug": "racaillou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/74.png",
     "habitats": [
       "Hautes herbes vertes"
     ],
+    "habitatImages": {
+      "Hautes herbes vertes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/1.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -2070,10 +2694,14 @@
     "id": 160,
     "pokedexId": "75",
     "nom": "Gravalanch",
+    "slug": "gravalanch",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/75.png",
     "habitats": [
       "Rocher couvert de mousse"
     ],
+    "habitatImages": {
+      "Rocher couvert de mousse": "https://www.pokebip.com/pokedex-images/pokopia/habitats/111.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -2083,10 +2711,14 @@
     "id": 161,
     "pokedexId": "76",
     "nom": "Grolem",
+    "slug": "grolem",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/76.png",
     "habitats": [
       "Rocher couvert de mousse"
     ],
+    "habitatImages": {
+      "Rocher couvert de mousse": "https://www.pokebip.com/pokedex-images/pokopia/habitats/111.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageTroc"
     ],
@@ -2096,10 +2728,14 @@
     "id": 162,
     "pokedexId": "240",
     "nom": "Magby",
+    "slug": "magby",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/240.png",
     "habitats": [
       "Joli parterre de fleurs"
     ],
+    "habitatImages": {
+      "Joli parterre de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/8.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2109,10 +2745,14 @@
     "id": 163,
     "pokedexId": "126",
     "nom": "Magmar",
+    "slug": "magmar",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/126.png",
     "habitats": [
       "Site d'extraction et de fusion"
     ],
+    "habitatImages": {
+      "Site d'extraction et de fusion": "https://www.pokebip.com/pokedex-images/pokopia/habitats/116.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2122,10 +2762,14 @@
     "id": 164,
     "pokedexId": "467",
     "nom": "Maganon",
+    "slug": "maganon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/467.png",
     "habitats": [
       "Cuisinette"
     ],
+    "habitatImages": {
+      "Cuisinette": "https://www.pokebip.com/pokedex-images/pokopia/habitats/122.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionBroyage"
     ],
@@ -2135,10 +2779,14 @@
     "id": 165,
     "pokedexId": "438",
     "nom": "Manzaï",
+    "slug": "manzai",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/438.png",
     "habitats": [
       "Hautes herbes rouges sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes rouges sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/99.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Aplanissement"
     ],
@@ -2148,10 +2796,14 @@
     "id": 166,
     "pokedexId": "185",
     "nom": "Simularbre",
+    "slug": "simularbre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/185.png",
     "habitats": [
       "Table festiveHautes herbes rouges sous un arbre"
     ],
+    "habitatImages": {
+      "Table festiveHautes herbes rouges sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/99.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -2161,10 +2813,14 @@
     "id": 167,
     "pokedexId": "198",
     "nom": "Cornèbre",
+    "slug": "cornebre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/198.png",
     "habitats": [
       "Fleurs splendides sous un arbreHautes herbes rouges en altitude"
     ],
+    "habitatImages": {
+      "Fleurs splendides sous un arbreHautes herbes rouges en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/102.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocVol"
     ],
@@ -2174,10 +2830,14 @@
     "id": 168,
     "pokedexId": "430",
     "nom": "Corboss",
+    "slug": "corboss",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/430.png",
     "habitats": [
       "Hautes herbes rouges en altitudeMicro de récital de gazouillis"
     ],
+    "habitatImages": {
+      "Hautes herbes rouges en altitudeMicro de récital de gazouillis": "https://www.pokebip.com/pokedex-images/pokopia/habitats/102.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocVol"
     ],
@@ -2187,10 +2847,14 @@
     "id": 169,
     "pokedexId": "246",
     "nom": "Embrylex",
+    "slug": "embrylex",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/246.png",
     "habitats": [
       "Coin moussu"
     ],
+    "habitatImages": {
+      "Coin moussu": "https://www.pokebip.com/pokedex-images/pokopia/habitats/110.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageAplanissement"
     ],
@@ -2200,10 +2864,14 @@
     "id": 170,
     "pokedexId": "247",
     "nom": "Ymphect",
+    "slug": "ymphect",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/247.png",
     "habitats": [
       "Hautes herbes roses sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes roses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/138.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageAplanissement"
     ],
@@ -2213,10 +2881,14 @@
     "id": 171,
     "pokedexId": "248",
     "nom": "Tyranocif",
+    "slug": "tyranocif",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/248.png",
     "habitats": [
       "Espace de travail agricoleCoin moussu"
     ],
+    "habitatImages": {
+      "Espace de travail agricoleCoin moussu": "https://www.pokebip.com/pokedex-images/pokopia/habitats/108.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageAplanissement"
     ],
@@ -2226,10 +2898,14 @@
     "id": 172,
     "pokedexId": "270",
     "nom": "Nénupiot",
+    "slug": "nenupiot",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/270.png",
     "habitats": [
       "Coin de pêche en eaux thermalesÉtang avec plantes flottantesHautes herbes rouges riveraines"
     ],
+    "habitatImages": {
+      "Coin de pêche en eaux thermalesÉtang avec plantes flottantesHautes herbes rouges riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/101.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2239,10 +2915,14 @@
     "id": 173,
     "pokedexId": "271",
     "nom": "Lombre",
+    "slug": "lombre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/271.png",
     "habitats": [
       "Coin de pêche en eaux thermalesHautes herbes rouges riveraines"
     ],
+    "habitatImages": {
+      "Coin de pêche en eaux thermalesHautes herbes rouges riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/101.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2252,10 +2932,14 @@
     "id": 174,
     "pokedexId": "272",
     "nom": "Ludicolo",
+    "slug": "ludicolo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/272.png",
     "habitats": [
       "Étang avec plantes flottantes"
     ],
+    "habitatImages": {
+      "Étang avec plantes flottantes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/109.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageAnimation"
     ],
@@ -2265,10 +2949,14 @@
     "id": 175,
     "pokedexId": "303",
     "nom": "Mysdibule",
+    "slug": "mysdibule",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/303.png",
     "habitats": [
       "Caisse enregistreuse"
     ],
+    "habitatImages": {
+      "Caisse enregistreuse": "https://www.pokebip.com/pokedex-images/pokopia/habitats/91.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TrocConstruction"
     ],
@@ -2278,10 +2966,14 @@
     "id": 176,
     "pokedexId": "324",
     "nom": "Chartor",
+    "slug": "chartor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/324.png",
     "habitats": [
       "Source chaude moussue"
     ],
+    "habitatImages": {
+      "Source chaude moussue": "https://www.pokebip.com/pokedex-images/pokopia/habitats/112.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2291,10 +2983,14 @@
     "id": 177,
     "pokedexId": "401",
     "nom": "Crikzik",
+    "slug": "crikzik",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/401.png",
     "habitats": [
       "Coin lecture et musiqueHautes herbes rouges"
     ],
+    "habitatImages": {
+      "Coin lecture et musiqueHautes herbes rouges": "https://www.pokebip.com/pokedex-images/pokopia/habitats/98.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -2304,10 +3000,14 @@
     "id": 178,
     "pokedexId": "402",
     "nom": "Mélokrik",
+    "slug": "melokrik",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/402.png",
     "habitats": [
       "Coin lecture et musiqueHautes herbes rouges"
     ],
+    "habitatImages": {
+      "Coin lecture et musiqueHautes herbes rouges": "https://www.pokebip.com/pokedex-images/pokopia/habitats/98.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -2317,10 +3017,14 @@
     "id": 179,
     "pokedexId": "441",
     "nom": "Pijako",
+    "slug": "pijako",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/441.png",
     "habitats": [
       "Hautes herbes rouges en altitudeMicro récital de gazouillis"
     ],
+    "habitatImages": {
+      "Hautes herbes rouges en altitudeMicro récital de gazouillis": "https://www.pokebip.com/pokedex-images/pokopia/habitats/102.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AnimationVol"
     ],
@@ -2330,10 +3034,14 @@
     "id": 180,
     "pokedexId": "447",
     "nom": "Riolu",
+    "slug": "riolu",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/447.png",
     "habitats": [
       "Espace d'entraînement en rythmeHautes herbes rouges"
     ],
+    "habitatImages": {
+      "Espace d'entraînement en rythmeHautes herbes rouges": "https://www.pokebip.com/pokedex-images/pokopia/habitats/98.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -2343,10 +3051,14 @@
     "id": 180,
     "pokedexId": "448",
     "nom": "Lucario",
+    "slug": "lucario",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/448.png",
     "habitats": [
       "Espace d'entraînement en rythme"
     ],
+    "habitatImages": {
+      "Espace d'entraînement en rythme": "https://www.pokebip.com/pokedex-images/pokopia/habitats/127.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -2356,10 +3068,12 @@
     "id": 182,
     "pokedexId": "182",
     "nom": "Motisma",
-    "image": "https://s3.pokeos.com/pokeos-uploads/assets/pokemon/home/render/479-dj.png",
+    "slug": "motisma",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
     "habitats": [
       "Coin lecture et musique"
     ],
+    "habitatImages": {},
     "materiaux": [
       "DJ"
     ],
@@ -2369,10 +3083,14 @@
     "id": 183,
     "pokedexId": "636",
     "nom": "Pyronille",
+    "slug": "pyronille",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/636.png",
     "habitats": [
       "Fleurs splendides sous un arbre"
     ],
+    "habitatImages": {
+      "Fleurs splendides sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/105.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionDésordre"
     ],
@@ -2382,10 +3100,14 @@
     "id": 184,
     "pokedexId": "637",
     "nom": "Pyrax",
+    "slug": "pyrax",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/637.png",
     "habitats": [
       "Fleurs splendides sous un arbreLave brûlante"
     ],
+    "habitatImages": {
+      "Fleurs splendides sous un arbreLave brûlante": "https://www.pokebip.com/pokedex-images/pokopia/habitats/105.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionDésordre"
     ],
@@ -2395,10 +3117,14 @@
     "id": 185,
     "pokedexId": "722",
     "nom": "Brindibou",
+    "slug": "brindibou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/722.png",
     "habitats": [
       "Potager de légumes frais"
     ],
+    "habitatImages": {
+      "Potager de légumes frais": "https://www.pokebip.com/pokedex-images/pokopia/habitats/15.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -2408,10 +3134,14 @@
     "id": 186,
     "pokedexId": "723",
     "nom": "Efflèche",
+    "slug": "effleche",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/723.png",
     "habitats": [
       "Hautes herbes avec rocher et sapin"
     ],
+    "habitatImages": {
+      "Hautes herbes avec rocher et sapin": "https://www.pokebip.com/pokedex-images/pokopia/habitats/100.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationCoupe de bois"
     ],
@@ -2421,10 +3151,14 @@
     "id": 187,
     "pokedexId": "724",
     "nom": "Archéduc",
+    "slug": "archeduc",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/724.png",
     "habitats": [
       "Zone de vie moderneHautes herbes avec rocher et sapin"
     ],
+    "habitatImages": {
+      "Zone de vie moderneHautes herbes avec rocher et sapin": "https://www.pokebip.com/pokedex-images/pokopia/habitats/100.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationCoupe de bois"
     ],
@@ -2434,10 +3168,14 @@
     "id": 188,
     "pokedexId": "813",
     "nom": "Flambino",
+    "slug": "flambino",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/813.png",
     "habitats": [
       "Hautes herbes rouges"
     ],
+    "habitatImages": {
+      "Hautes herbes rouges": "https://www.pokebip.com/pokedex-images/pokopia/habitats/98.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2447,10 +3185,14 @@
     "id": 189,
     "pokedexId": "814",
     "nom": "Lapyro",
+    "slug": "lapyro",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/814.png",
     "habitats": [
       "Bain thermal neturelVestiaire agréable"
     ],
+    "habitatImages": {
+      "Bain thermal neturelVestiaire agréable": "https://www.pokebip.com/pokedex-images/pokopia/habitats/113.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2460,10 +3202,14 @@
     "id": 190,
     "pokedexId": "815",
     "nom": "Pyrobut",
+    "slug": "pyrobut",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/815.png",
     "habitats": [
       "Vestaire agréableHautes herbes rouges"
     ],
+    "habitatImages": {
+      "Vestaire agréableHautes herbes rouges": "https://www.pokebip.com/pokedex-images/pokopia/habitats/98.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionAnimation"
     ],
@@ -2473,10 +3219,14 @@
     "id": 191,
     "pokedexId": "819",
     "nom": "Rongourmand",
+    "slug": "rongourmand",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/819.png",
     "habitats": [
       "Hautes herbes sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/2.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheAnimation"
     ],
@@ -2486,10 +3236,12 @@
     "id": 192,
     "pokedexId": "192",
     "nom": "Rongrigou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/10285.png?v=pokopia-1.0",
+    "slug": "rongrigou",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
     "habitats": [
       "Cuisine professionnelle"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Fête"
     ],
@@ -2499,10 +3251,14 @@
     "id": 193,
     "pokedexId": "837",
     "nom": "Charbi",
+    "slug": "charbi",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/837.png",
     "habitats": [
       "Passage à niveau"
     ],
+    "habitatImages": {
+      "Passage à niveau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/132.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionRangement"
     ],
@@ -2512,10 +3268,14 @@
     "id": 194,
     "pokedexId": "838",
     "nom": "Wagomine",
+    "slug": "wagomine",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/838.png",
     "habitats": [
       "Passage à niveau"
     ],
+    "habitatImages": {
+      "Passage à niveau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/132.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionRangement"
     ],
@@ -2525,10 +3285,14 @@
     "id": 195,
     "pokedexId": "839",
     "nom": "Monthracite",
+    "slug": "monthracite",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/839.png",
     "habitats": [
       "Chambre en ferPassage à niveau"
     ],
+    "habitatImages": {
+      "Chambre en ferPassage à niveau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/132.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionRangement"
     ],
@@ -2538,10 +3302,14 @@
     "id": 196,
     "pokedexId": "848",
     "nom": "Toxizap",
+    "slug": "toxizap",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/848.png",
     "habitats": [
       "Coin défilement de photos"
     ],
+    "habitatImages": {
+      "Coin défilement de photos": "https://www.pokebip.com/pokedex-images/pokopia/habitats/124.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -2551,10 +3319,12 @@
     "id": 197,
     "pokedexId": "849",
     "nom": "Salarsen (Forme Aigüe)",
+    "slug": "salarsen-forme-aigue",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/849.png",
     "habitats": [
       "Scène rock aigüe"
     ],
+    "habitatImages": {},
     "materiaux": [
       "ÉlectrificationAnimation"
     ],
@@ -2564,10 +3334,14 @@
     "id": 198,
     "pokedexId": "926",
     "nom": "Pâtachiot",
+    "slug": "patachiot",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/926.png",
     "habitats": [
       "Four à pain parfaitement pétriParterre de fleurs splendides"
     ],
+    "habitatImages": {
+      "Four à pain parfaitement pétriParterre de fleurs splendides": "https://www.pokebip.com/pokedex-images/pokopia/habitats/104.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -2577,10 +3351,14 @@
     "id": 199,
     "pokedexId": "927",
     "nom": "Briochien",
+    "slug": "briochien",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/927.png",
     "habitats": [
       "Four à pain parfaitement pétriParterre de fleurs splendides"
     ],
+    "habitatImages": {
+      "Four à pain parfaitement pétriParterre de fleurs splendides": "https://www.pokebip.com/pokedex-images/pokopia/habitats/104.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheTroc"
     ],
@@ -2590,10 +3368,14 @@
     "id": 200,
     "pokedexId": "935",
     "nom": "Charbambin",
+    "slug": "charbambin",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/935.png",
     "habitats": [
       "Lave brûlante"
     ],
+    "habitatImages": {
+      "Lave brûlante": "https://www.pokebip.com/pokedex-images/pokopia/habitats/115.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2603,10 +3385,14 @@
     "id": 201,
     "pokedexId": "936",
     "nom": "Carmadura",
+    "slug": "carmadura",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/936.png",
     "habitats": [
       "Autel de la loyauté guerrière"
     ],
+    "habitatImages": {
+      "Autel de la loyauté guerrière": "https://www.pokebip.com/pokedex-images/pokopia/habitats/192.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionTroc"
     ],
@@ -2616,10 +3402,14 @@
     "id": 202,
     "pokedexId": "937",
     "nom": "Malvalame",
+    "slug": "malvalame",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/937.png",
     "habitats": [
       "Autel de la rancœur guerrière"
     ],
+    "habitatImages": {
+      "Autel de la rancœur guerrière": "https://www.pokebip.com/pokedex-images/pokopia/habitats/191.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionTroc"
     ],
@@ -2629,10 +3419,14 @@
     "id": 203,
     "pokedexId": "969",
     "nom": "Germéclat",
+    "slug": "germeclat",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/969.png",
     "habitats": [
       "Rochers blancs inquiétantsCoin casse-croûte dans la remise"
     ],
+    "habitatImages": {
+      "Rochers blancs inquiétantsCoin casse-croûte dans la remise": "https://www.pokebip.com/pokedex-images/pokopia/habitats/118.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -2642,10 +3436,14 @@
     "id": 204,
     "pokedexId": "970",
     "nom": "Floréclat",
+    "slug": "floreclat",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/970.png",
     "habitats": [
       "Rochers blancs inquiétantsCoin casse-croûte dans la remise"
     ],
+    "habitatImages": {
+      "Rochers blancs inquiétantsCoin casse-croûte dans la remise": "https://www.pokebip.com/pokedex-images/pokopia/habitats/118.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -2655,10 +3453,14 @@
     "id": 205,
     "pokedexId": "999",
     "nom": "Mordudor",
+    "slug": "mordudor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/999.png",
     "habitats": [
       "Minimusée"
     ],
+    "habitatImages": {
+      "Minimusée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/129.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Collection"
     ],
@@ -2668,10 +3470,14 @@
     "id": 206,
     "pokedexId": "1000",
     "nom": "Gromago",
+    "slug": "gromago",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/1000.png",
     "habitats": [
       "Assortiment de meubles luxueux"
     ],
+    "habitatImages": {
+      "Assortiment de meubles luxueux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/134.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Collection"
     ],
@@ -2681,10 +3487,14 @@
     "id": 207,
     "pokedexId": "37",
     "nom": "Goupix",
+    "slug": "goupix",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/37.png",
     "habitats": [
       "Parterre de fleurs duveteuses"
     ],
+    "habitatImages": {
+      "Parterre de fleurs duveteuses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/142.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2694,10 +3504,14 @@
     "id": 208,
     "pokedexId": "38",
     "nom": "Feunard",
+    "slug": "feunard",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/38.png",
     "habitats": [
       "Neuf flammesParterre de fleurs duveteuses"
     ],
+    "habitatImages": {
+      "Neuf flammesParterre de fleurs duveteuses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/142.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2707,10 +3521,14 @@
     "id": 209,
     "pokedexId": "60",
     "nom": "Ptitard",
+    "slug": "ptitard",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/60.png",
     "habitats": [
       "Coin propreté"
     ],
+    "habitatImages": {
+      "Coin propreté": "https://www.pokebip.com/pokedex-images/pokopia/habitats/161.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2720,10 +3538,14 @@
     "id": 210,
     "pokedexId": "61",
     "nom": "Têtarte",
+    "slug": "tetarte",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/61.png",
     "habitats": [
       "Fleurs duveteuses riveraines"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/144.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2733,10 +3555,14 @@
     "id": 211,
     "pokedexId": "62",
     "nom": "Tartard",
+    "slug": "tartard",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/62.png",
     "habitats": [
       "Salle d'entraînement de dojoPlaque d'égout en travaux"
     ],
+    "habitatImages": {
+      "Salle d'entraînement de dojoPlaque d'égout en travaux": "https://www.pokebip.com/pokedex-images/pokopia/habitats/156.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageConstruction"
     ],
@@ -2746,10 +3572,14 @@
     "id": 212,
     "pokedexId": "186",
     "nom": "Tarpaud",
+    "slug": "tarpaud",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/186.png",
     "habitats": [
       "Bain thermal vivifiantScène souche bordée de fleursFleurs splendides riveraines"
     ],
+    "habitatImages": {
+      "Bain thermal vivifiantScène souche bordée de fleursFleurs splendides riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/106.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageAnimation"
     ],
@@ -2759,10 +3589,14 @@
     "id": 213,
     "pokedexId": "63",
     "nom": "Abra",
+    "slug": "abra",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/63.png",
     "habitats": [
       "Table de divinationCoin débordant de pouvoirs psychiques"
     ],
+    "habitatImages": {
+      "Table de divinationCoin débordant de pouvoirs psychiques": "https://www.pokebip.com/pokedex-images/pokopia/habitats/151.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Téléportation"
     ],
@@ -2772,10 +3606,14 @@
     "id": 214,
     "pokedexId": "64",
     "nom": "Kadabra",
+    "slug": "kadabra",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/64.png",
     "habitats": [
       "Table de divination"
     ],
+    "habitatImages": {
+      "Table de divination": "https://www.pokebip.com/pokedex-images/pokopia/habitats/152.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Téléportation"
     ],
@@ -2785,10 +3623,14 @@
     "id": 215,
     "pokedexId": "65",
     "nom": "Alakazam",
+    "slug": "alakazam",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/65.png",
     "habitats": [
       "Laboratoire improviséCoin débordant de pouvoirs psychiques"
     ],
+    "habitatImages": {
+      "Laboratoire improviséCoin débordant de pouvoirs psychiques": "https://www.pokebip.com/pokedex-images/pokopia/habitats/151.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TéléportationTroc"
     ],
@@ -2798,10 +3640,14 @@
     "id": 216,
     "pokedexId": "439",
     "nom": "Mime Jr.",
+    "slug": "mime-jr",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/439.png",
     "habitats": [
       "Salle de bains étincelanteCoin lecture en libre-service"
     ],
+    "habitatImages": {
+      "Salle de bains étincelanteCoin lecture en libre-service": "https://www.pokebip.com/pokedex-images/pokopia/habitats/157.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -2811,10 +3657,14 @@
     "id": 217,
     "pokedexId": "122",
     "nom": "M. Mime",
+    "slug": "m-mime",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/122.png",
     "habitats": [
       "Salle de bains étincelante"
     ],
+    "habitatImages": {
+      "Salle de bains étincelante": "https://www.pokebip.com/pokedex-images/pokopia/habitats/157.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementConstruction"
     ],
@@ -2824,10 +3674,14 @@
     "id": 218,
     "pokedexId": "137",
     "nom": "Porygon",
+    "slug": "porygon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/137.png",
     "habitats": [
       "Bureau de scientifique"
     ],
+    "habitatImages": {
+      "Bureau de scientifique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/170.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -2837,10 +3691,14 @@
     "id": 219,
     "pokedexId": "233",
     "nom": "Porygon2",
+    "slug": "porygon2",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/233.png",
     "habitats": [
       "Bureau de travail"
     ],
+    "habitatImages": {
+      "Bureau de travail": "https://www.pokebip.com/pokedex-images/pokopia/habitats/166.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -2850,10 +3708,14 @@
     "id": 220,
     "pokedexId": "474",
     "nom": "Porygon-Z",
+    "slug": "porygon-z",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/474.png",
     "habitats": [
       "Espace arcade"
     ],
+    "habitatImages": {
+      "Espace arcade": "https://www.pokebip.com/pokedex-images/pokopia/habitats/164.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Minerai rare"
     ],
@@ -2863,10 +3725,14 @@
     "id": 221,
     "pokedexId": "147",
     "nom": "Minidraco",
+    "slug": "minidraco",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/147.png",
     "habitats": [
       "Fleurs duveteuses riverainesSalle de bain ordinaire"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses riverainesSalle de bain ordinaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/144.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2876,10 +3742,14 @@
     "id": 222,
     "pokedexId": "148",
     "nom": "Draco",
+    "slug": "draco",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/148.png",
     "habitats": [
       "Fleurs duveteuses riverainesSalle de bain ordinaire"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses riverainesSalle de bain ordinaire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/144.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -2889,10 +3759,14 @@
     "id": 223,
     "pokedexId": "149",
     "nom": "Dracolosse",
+    "slug": "dracolosse",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/149.png",
     "habitats": [
       "Barque sur l'eau"
     ],
+    "habitatImages": {
+      "Barque sur l'eau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/145.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageVol"
     ],
@@ -2902,10 +3776,14 @@
     "id": 224,
     "pokedexId": "155",
     "nom": "Héricendre",
+    "slug": "hericendre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/155.png",
     "habitats": [
       "Cachette secrète avec tuyau"
     ],
+    "habitatImages": {
+      "Cachette secrète avec tuyau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/141.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2915,10 +3793,14 @@
     "id": 225,
     "pokedexId": "156",
     "nom": "Feurisson",
+    "slug": "feurisson",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/156.png",
     "habitats": [
       "Coin détente avec cheminéeCachette secrète avec tuyau"
     ],
+    "habitatImages": {
+      "Coin détente avec cheminéeCachette secrète avec tuyau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/141.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -2928,10 +3810,14 @@
     "id": 226,
     "pokedexId": "157",
     "nom": "Typhlosion",
+    "slug": "typhlosion",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/157.png",
     "habitats": [
       "Coin détente avec cheminéeSalon pop art"
     ],
+    "habitatImages": {
+      "Coin détente avec cheminéeSalon pop art": "https://www.pokebip.com/pokedex-images/pokopia/habitats/150.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "CombustionTroc"
     ],
@@ -2941,10 +3827,14 @@
     "id": 227,
     "pokedexId": "200",
     "nom": "Feuforêve",
+    "slug": "feuforeve",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/200.png",
     "habitats": [
       "Parterre de fleurs duveteusesRéserve de bureau"
     ],
+    "habitatImages": {
+      "Parterre de fleurs duveteusesRéserve de bureau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/142.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -2954,10 +3844,14 @@
     "id": 228,
     "pokedexId": "429",
     "nom": "Magirêve",
+    "slug": "magireve",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/429.png",
     "habitats": [
       "Home cinémaParterre de fleurs duveteusesRéserve de bureau"
     ],
+    "habitatImages": {
+      "Home cinémaParterre de fleurs duveteusesRéserve de bureau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/142.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementTroc"
     ],
@@ -2967,10 +3861,14 @@
     "id": 229,
     "pokedexId": "203",
     "nom": "Girafarig",
+    "slug": "girafarig",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/203.png",
     "habitats": [
       "Fleurs duveteuses sous un arbre"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/143.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -2980,10 +3878,14 @@
     "id": 230,
     "pokedexId": "981",
     "nom": "Farigiraf",
+    "slug": "farigiraf",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/981.png",
     "habitats": [
       "Fleurs duveteuses sous un arbre"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/143.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -2993,10 +3895,14 @@
     "id": 231,
     "pokedexId": "280",
     "nom": "Tarsal",
+    "slug": "tarsal",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/280.png",
     "habitats": [
       "Espace d'études"
     ],
+    "habitatImages": {
+      "Espace d'études": "https://www.pokebip.com/pokedex-images/pokopia/habitats/159.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Téléportation"
     ],
@@ -3006,10 +3912,14 @@
     "id": 232,
     "pokedexId": "281",
     "nom": "Kirlia",
+    "slug": "kirlia",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/281.png",
     "habitats": [
       "Coiffeuse avec humidificateurEspace d'études"
     ],
+    "habitatImages": {
+      "Coiffeuse avec humidificateurEspace d'études": "https://www.pokebip.com/pokedex-images/pokopia/habitats/159.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Téléportation"
     ],
@@ -3019,10 +3929,14 @@
     "id": 233,
     "pokedexId": "282",
     "nom": "Gardevoir",
+    "slug": "gardevoir",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/282.png",
     "habitats": [
       "Coiffeuse avec humidificateurPetite bibliothèque"
     ],
+    "habitatImages": {
+      "Coiffeuse avec humidificateurPetite bibliothèque": "https://www.pokebip.com/pokedex-images/pokopia/habitats/162.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TéléportationTroc"
     ],
@@ -3032,10 +3946,14 @@
     "id": 234,
     "pokedexId": "475",
     "nom": "Gallame",
+    "slug": "gallame",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/475.png",
     "habitats": [
       "Salle d'entraînement du dojo"
     ],
+    "habitatImages": {
+      "Salle d'entraînement du dojo": "https://www.pokebip.com/pokedex-images/pokopia/habitats/178.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "TéléportationConstruction"
     ],
@@ -3045,10 +3963,14 @@
     "id": 235,
     "pokedexId": "311",
     "nom": "Posipi",
+    "slug": "posipi",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/311.png",
     "habitats": [
       "Passe-tête avec beau paysage"
     ],
+    "habitatImages": {
+      "Passe-tête avec beau paysage": "https://www.pokebip.com/pokedex-images/pokopia/habitats/174.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -3058,10 +3980,14 @@
     "id": 236,
     "pokedexId": "312",
     "nom": "Négapi",
+    "slug": "negapi",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/312.png",
     "habitats": [
       "Passe-tête avec beau paysage"
     ],
+    "habitatImages": {
+      "Passe-tête avec beau paysage": "https://www.pokebip.com/pokedex-images/pokopia/habitats/174.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -3071,10 +3997,14 @@
     "id": 237,
     "pokedexId": "328",
     "nom": "Kraknoix",
+    "slug": "kraknoix",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/328.png",
     "habitats": [
       "Hautes herbes roses"
     ],
+    "habitatImages": {
+      "Hautes herbes roses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/137.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AplanissementDésordre"
     ],
@@ -3084,10 +4014,14 @@
     "id": 238,
     "pokedexId": "329",
     "nom": "Vibraninf",
+    "slug": "vibraninf",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/329.png",
     "habitats": [
       "Hautes herbes roses"
     ],
+    "habitatImages": {
+      "Hautes herbes roses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/137.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AplanissementVol"
     ],
@@ -3097,10 +4031,14 @@
     "id": 239,
     "pokedexId": "330",
     "nom": "Libégon",
+    "slug": "libegon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/330.png",
     "habitats": [
       "Hautes herbes roses"
     ],
+    "habitatImages": {
+      "Hautes herbes roses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/137.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "AplanissementVol"
     ],
@@ -3110,10 +4048,14 @@
     "id": 240,
     "pokedexId": "333",
     "nom": "Tylton",
+    "slug": "tylton",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/333.png",
     "habitats": [
       "Hautes herbes roses"
     ],
+    "habitatImages": {
+      "Hautes herbes roses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/137.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Désordre"
     ],
@@ -3123,10 +4065,14 @@
     "id": 241,
     "pokedexId": "334",
     "nom": "Altaria",
+    "slug": "altaria",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/334.png",
     "habitats": [
       "Jardin aux gazouillements"
     ],
+    "habitatImages": {
+      "Jardin aux gazouillements": "https://www.pokebip.com/pokedex-images/pokopia/habitats/147.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "DésordreVol"
     ],
@@ -3136,10 +4082,14 @@
     "id": 242,
     "pokedexId": "355",
     "nom": "Skelénox",
+    "slug": "skelenox",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/355.png",
     "habitats": [
       "Hautes herbes roses"
     ],
+    "habitatImages": {
+      "Hautes herbes roses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/137.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -3149,10 +4099,14 @@
     "id": 243,
     "pokedexId": "356",
     "nom": "Téraclope",
+    "slug": "teraclope",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/356.png",
     "habitats": [
       "Télévision au milieu des ordures"
     ],
+    "habitatImages": {
+      "Télévision au milieu des ordures": "https://www.pokebip.com/pokedex-images/pokopia/habitats/153.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -3162,10 +4116,14 @@
     "id": 244,
     "pokedexId": "477",
     "nom": "Noctunoir",
+    "slug": "noctunoir",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/477.png",
     "habitats": [
       "Télévision au milieu des ordures"
     ],
+    "habitatImages": {
+      "Télévision au milieu des ordures": "https://www.pokebip.com/pokedex-images/pokopia/habitats/153.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -3175,10 +4133,14 @@
     "id": 245,
     "pokedexId": "374",
     "nom": "Terhal",
+    "slug": "terhal",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/374.png",
     "habitats": [
       "Aire de repos pour les cyclistes"
     ],
+    "habitatImages": {
+      "Aire de repos pour les cyclistes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/149.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -3188,10 +4150,14 @@
     "id": 246,
     "pokedexId": "375",
     "nom": "Métang",
+    "slug": "metang",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/375.png",
     "habitats": [
       "Bureau de recherches professoral"
     ],
+    "habitatImages": {
+      "Bureau de recherches professoral": "https://www.pokebip.com/pokedex-images/pokopia/habitats/169.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recyclage"
     ],
@@ -3201,10 +4167,14 @@
     "id": 247,
     "pokedexId": "376",
     "nom": "Métalosse",
+    "slug": "metalosse",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/376.png",
     "habitats": [
       "Assortiment de meubles gaming"
     ],
+    "habitatImages": {
+      "Assortiment de meubles gaming": "https://www.pokebip.com/pokedex-images/pokopia/habitats/182.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RecyclageBroyage"
     ],
@@ -3214,10 +4184,14 @@
     "id": 248,
     "pokedexId": "495",
     "nom": "Vipélierre",
+    "slug": "vipelierre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/495.png",
     "habitats": [
       "Aire de jeu"
     ],
+    "habitatImages": {
+      "Aire de jeu": "https://www.pokebip.com/pokedex-images/pokopia/habitats/165.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -3227,10 +4201,14 @@
     "id": 249,
     "pokedexId": "496",
     "nom": "Lianaja",
+    "slug": "lianaja",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/496.png",
     "habitats": [
       "Fleurs duveteuses sous un arbre"
     ],
+    "habitatImages": {
+      "Fleurs duveteuses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/143.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -3240,10 +4218,14 @@
     "id": 250,
     "pokedexId": "497",
     "nom": "Majaspic",
+    "slug": "majaspic",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/497.png",
     "habitats": [
       "Coin lecture en libre-serviceFleurs duveteuses sous un arbre"
     ],
+    "habitatImages": {
+      "Coin lecture en libre-serviceFleurs duveteuses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/143.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationDésordre"
     ],
@@ -3253,10 +4235,14 @@
     "id": 251,
     "pokedexId": "656",
     "nom": "Grenousse",
+    "slug": "grenousse",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/656.png",
     "habitats": [
       "Hautes herbes roses riveraines"
     ],
+    "habitatImages": {
+      "Hautes herbes roses riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/139.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -3266,10 +4252,14 @@
     "id": 252,
     "pokedexId": "657",
     "nom": "Croâporal",
+    "slug": "croaporal",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/657.png",
     "habitats": [
       "Interrupteur facétieuxHautes herbes roses riveraines"
     ],
+    "habitatImages": {
+      "Interrupteur facétieuxHautes herbes roses riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/139.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -3279,10 +4269,14 @@
     "id": 253,
     "pokedexId": "658",
     "nom": "Amphinobi",
+    "slug": "amphinobi",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/658.png",
     "habitats": [
       "Interrupteur facétieuxHautes herbes roses riveraines"
     ],
+    "habitatImages": {
+      "Interrupteur facétieuxHautes herbes roses riveraines": "https://www.pokebip.com/pokedex-images/pokopia/habitats/139.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ArrosageCoupe de bois"
     ],
@@ -3292,10 +4286,14 @@
     "id": 254,
     "pokedexId": "702",
     "nom": "Dedenne",
+    "slug": "dedenne",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/702.png",
     "habitats": [
       "Parc à pneus"
     ],
+    "habitatImages": {
+      "Parc à pneus": "https://www.pokebip.com/pokedex-images/pokopia/habitats/175.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationRecherche"
     ],
@@ -3305,10 +4303,14 @@
     "id": 255,
     "pokedexId": "714",
     "nom": "Sonistrelle",
+    "slug": "sonistrelle",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/714.png",
     "habitats": [
       "Salon rythmique"
     ],
+    "habitatImages": {
+      "Salon rythmique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/160.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheVol"
     ],
@@ -3318,10 +4320,14 @@
     "id": 256,
     "pokedexId": "715",
     "nom": "Bruyverne",
+    "slug": "bruyverne",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/715.png",
     "habitats": [
       "Salon rythmique"
     ],
+    "habitatImages": {
+      "Salon rythmique": "https://www.pokebip.com/pokedex-images/pokopia/habitats/160.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RechercheVol"
     ],
@@ -3331,10 +4337,14 @@
     "id": 257,
     "pokedexId": "821",
     "nom": "Minisange",
+    "slug": "minisange",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/821.png",
     "habitats": [
       "Parterre de fleurs duveteuses"
     ],
+    "habitatImages": {
+      "Parterre de fleurs duveteuses": "https://www.pokebip.com/pokedex-images/pokopia/habitats/142.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -3344,10 +4354,14 @@
     "id": 258,
     "pokedexId": "822",
     "nom": "Bleuseille",
+    "slug": "bleuseille",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/822.png",
     "habitats": [
       "Hautes herbes roses en altitude"
     ],
+    "habitatImages": {
+      "Hautes herbes roses en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/140.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de bois"
     ],
@@ -3357,10 +4371,14 @@
     "id": 259,
     "pokedexId": "823",
     "nom": "Corvaillus",
+    "slug": "corvaillus",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/823.png",
     "habitats": [
       "Plaque d'égouts en travauxHautes herbes roses en altitude"
     ],
+    "habitatImages": {
+      "Plaque d'égouts en travauxHautes herbes roses en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/140.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Coupe de boisVol"
     ],
@@ -3370,10 +4388,14 @@
     "id": 260,
     "pokedexId": "885",
     "nom": "Fantyrm",
+    "slug": "fantyrm",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/885.png",
     "habitats": [
       "Hautes herbes roses sous un arbre"
     ],
+    "habitatImages": {
+      "Hautes herbes roses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/138.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementRecherche"
     ],
@@ -3383,10 +4405,14 @@
     "id": 261,
     "pokedexId": "886",
     "nom": "Dispareptil",
+    "slug": "dispareptil",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/886.png",
     "habitats": [
       "Réserve de bureauHautes herbes roses sous un arbre"
     ],
+    "habitatImages": {
+      "Réserve de bureauHautes herbes roses sous un arbre": "https://www.pokebip.com/pokedex-images/pokopia/habitats/138.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementRecherche"
     ],
@@ -3396,10 +4422,14 @@
     "id": 262,
     "pokedexId": "887",
     "nom": "Lanssorien",
+    "slug": "lanssorien",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/887.png",
     "habitats": [
       "Réserve de bureau"
     ],
+    "habitatImages": {
+      "Réserve de bureau": "https://www.pokebip.com/pokedex-images/pokopia/habitats/167.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "RangementTroc"
     ],
@@ -3409,10 +4439,14 @@
     "id": 263,
     "pokedexId": "906",
     "nom": "Poussacha",
+    "slug": "poussacha",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/906.png",
     "habitats": [
       "Hautes herbes sous un arbreSalle d'interrogatoire en duo"
     ],
+    "habitatImages": {
+      "Hautes herbes sous un arbreSalle d'interrogatoire en duo": "https://www.pokebip.com/pokedex-images/pokopia/habitats/138.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -3422,10 +4456,14 @@
     "id": 264,
     "pokedexId": "907",
     "nom": "Matourgeon",
+    "slug": "matourgeon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/907.png",
     "habitats": [
       "Salle d'interrogatoire en duo"
     ],
+    "habitatImages": {
+      "Salle d'interrogatoire en duo": "https://www.pokebip.com/pokedex-images/pokopia/habitats/155.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -3435,10 +4473,14 @@
     "id": 265,
     "pokedexId": "908",
     "nom": "Miascarade",
+    "slug": "miascarade",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/908.png",
     "habitats": [
       "Boîte à surprise intense"
     ],
+    "habitatImages": {
+      "Boîte à surprise intense": "https://www.pokebip.com/pokedex-images/pokopia/habitats/172.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "FertilisationAnimation"
     ],
@@ -3448,10 +4490,14 @@
     "id": 266,
     "pokedexId": "940",
     "nom": "Zapétrel",
+    "slug": "zapetrel",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/940.png",
     "habitats": [
       "Hautes herbes roses en altitude"
     ],
+    "habitatImages": {
+      "Hautes herbes roses en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/140.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -3461,10 +4507,14 @@
     "id": 267,
     "pokedexId": "941",
     "nom": "Fulgulairo",
+    "slug": "fulgulairo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/941.png",
     "habitats": [
       "Hautes herbes roses en altitude"
     ],
+    "habitatImages": {
+      "Hautes herbes roses en altitude": "https://www.pokebip.com/pokedex-images/pokopia/habitats/140.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "ÉlectrificationVol"
     ],
@@ -3474,10 +4524,14 @@
     "id": 268,
     "pokedexId": "957",
     "nom": "Forgerette",
+    "slug": "forgerette",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/957.png",
     "habitats": [
       "Dépôt d'ordures encombrantesPorte-bagages imposant"
     ],
+    "habitatImages": {
+      "Dépôt d'ordures encombrantesPorte-bagages imposant": "https://www.pokebip.com/pokedex-images/pokopia/habitats/28.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -3487,10 +4541,14 @@
     "id": 269,
     "pokedexId": "958",
     "nom": "Forgella",
+    "slug": "forgella",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/958.png",
     "habitats": [
       "Plaque d'égouts en travauxPorte-bagages imposant"
     ],
+    "habitatImages": {
+      "Plaque d'égouts en travauxPorte-bagages imposant": "https://www.pokebip.com/pokedex-images/pokopia/habitats/28.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Construction"
     ],
@@ -3500,10 +4558,12 @@
     "id": 270,
     "pokedexId": "270",
     "nom": "Forgelina",
-    "image": "https://www.pokepedia.fr/images/d/d9/Sprite_0959_HOME.png",
+    "slug": "forgelina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
     "habitats": [
       "Dépôt d'ordures encombrantes"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Travaux"
     ],
@@ -3513,10 +4573,14 @@
     "id": 271,
     "pokedexId": "142",
     "nom": "Ptéra",
+    "slug": "ptera",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/142.png",
     "habitats": [
       "Spécimen de Fossile Aile"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Aile": "https://www.pokebip.com/pokedex-images/pokopia/habitats/193.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Vol"
     ],
@@ -3526,10 +4590,14 @@
     "id": 272,
     "pokedexId": "408",
     "nom": "Kranidos",
+    "slug": "kranidos",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/408.png",
     "habitats": [
       "Spécimen de Fossile Crâne"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Crâne": "https://www.pokebip.com/pokedex-images/pokopia/habitats/194.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -3539,10 +4607,14 @@
     "id": 273,
     "pokedexId": "409",
     "nom": "Charkos",
+    "slug": "charkos",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/409.png",
     "habitats": [
       "Spécimen de Fossile Coup d'Boule"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Coup d'Boule": "https://www.pokebip.com/pokedex-images/pokopia/habitats/195.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageDésordre"
     ],
@@ -3552,10 +4624,14 @@
     "id": 274,
     "pokedexId": "410",
     "nom": "Dinoclier",
+    "slug": "dinoclier",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/410.png",
     "habitats": [
       "Spécimen de Fossile Armure"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Armure": "https://www.pokebip.com/pokedex-images/pokopia/habitats/196.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -3565,10 +4641,14 @@
     "id": 275,
     "pokedexId": "411",
     "nom": "Bastiodon",
+    "slug": "bastiodon",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/411.png",
     "habitats": [
       "Spécimen de Fossile Bouclier"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Bouclier": "https://www.pokebip.com/pokedex-images/pokopia/habitats/197.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageDésordre"
     ],
@@ -3578,10 +4658,14 @@
     "id": 276,
     "pokedexId": "696",
     "nom": "Ptyranidur",
+    "slug": "ptyranidur",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/696.png",
     "habitats": [
       "Spécimen de Fossile Mâchoire"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Mâchoire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/198.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -3591,10 +4675,14 @@
     "id": 277,
     "pokedexId": "697",
     "nom": "Rexillius",
+    "slug": "rexillius",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/697.png",
     "habitats": [
       "Spécimen de Fossile Tyran"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Tyran": "https://www.pokebip.com/pokedex-images/pokopia/habitats/199.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageDésordre"
     ],
@@ -3604,10 +4692,14 @@
     "id": 278,
     "pokedexId": "698",
     "nom": "Amagara",
+    "slug": "amagara",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/698.png",
     "habitats": [
       "Spécimen de Fossile Nageoire"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Nageoire": "https://www.pokebip.com/pokedex-images/pokopia/habitats/200.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Broyage"
     ],
@@ -3617,10 +4709,14 @@
     "id": 279,
     "pokedexId": "699",
     "nom": "Dragmara",
+    "slug": "dragmara",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/699.png",
     "habitats": [
       "Spécimen de Fossile Toundra"
     ],
+    "habitatImages": {
+      "Spécimen de Fossile Toundra": "https://www.pokebip.com/pokedex-images/pokopia/habitats/201.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "BroyageDésordre"
     ],
@@ -3630,10 +4726,14 @@
     "id": 280,
     "pokedexId": "133",
     "nom": "Évoli",
+    "slug": "evoli",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/133.png",
     "habitats": [
       "Rencontre à Ville-NouvelleJoli parterre de fleurs"
     ],
+    "habitatImages": {
+      "Rencontre à Ville-NouvelleJoli parterre de fleurs": "https://www.pokebip.com/pokedex-images/pokopia/habitats/8.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -3643,10 +4743,14 @@
     "id": 281,
     "pokedexId": "134",
     "nom": "Aquali",
+    "slug": "aquali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/134.png",
     "habitats": [
       "Coin boisson glacée océan"
     ],
+    "habitatImages": {
+      "Coin boisson glacée océan": "https://www.pokebip.com/pokedex-images/pokopia/habitats/202.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Arrosage"
     ],
@@ -3656,10 +4760,14 @@
     "id": 282,
     "pokedexId": "135",
     "nom": "Voltali",
+    "slug": "voltali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/135.png",
     "habitats": [
       "Coin frites électrisantes"
     ],
+    "habitatImages": {
+      "Coin frites électrisantes": "https://www.pokebip.com/pokedex-images/pokopia/habitats/203.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Électrification"
     ],
@@ -3669,10 +4777,14 @@
     "id": 283,
     "pokedexId": "136",
     "nom": "Pyroli",
+    "slug": "pyroli",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/136.png",
     "habitats": [
       "Coin pizza épicée"
     ],
+    "habitatImages": {
+      "Coin pizza épicée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/204.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Combustion"
     ],
@@ -3682,10 +4794,14 @@
     "id": 284,
     "pokedexId": "196",
     "nom": "Mentali",
+    "slug": "mentali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/196.png",
     "habitats": [
       "Coin mignardises"
     ],
+    "habitatImages": {
+      "Coin mignardises": "https://www.pokebip.com/pokedex-images/pokopia/habitats/205.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Rangement"
     ],
@@ -3695,10 +4811,14 @@
     "id": 285,
     "pokedexId": "197",
     "nom": "Noctali",
+    "slug": "noctali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/197.png",
     "habitats": [
       "Coin biscuits au chocolat noir"
     ],
+    "habitatImages": {
+      "Coin biscuits au chocolat noir": "https://www.pokebip.com/pokedex-images/pokopia/habitats/206.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Recherche"
     ],
@@ -3708,10 +4828,14 @@
     "id": 286,
     "pokedexId": "470",
     "nom": "Phyllali",
+    "slug": "phyllali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/470.png",
     "habitats": [
       "Coin sandwichs végétariens"
     ],
+    "habitatImages": {
+      "Coin sandwichs végétariens": "https://www.pokebip.com/pokedex-images/pokopia/habitats/207.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Fertilisation"
     ],
@@ -3721,10 +4845,14 @@
     "id": 287,
     "pokedexId": "471",
     "nom": "Givrali",
+    "slug": "givrali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/471.png",
     "habitats": [
       "Coin glace pilée"
     ],
+    "habitatImages": {
+      "Coin glace pilée": "https://www.pokebip.com/pokedex-images/pokopia/habitats/208.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Troc"
     ],
@@ -3734,10 +4862,14 @@
     "id": 288,
     "pokedexId": "700",
     "nom": "Nymphali",
+    "slug": "nymphali",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/700.png",
     "habitats": [
       "Coin gâteau adorable"
     ],
+    "habitatImages": {
+      "Coin gâteau adorable": "https://www.pokebip.com/pokedex-images/pokopia/habitats/209.png?v=pokopia-1.0"
+    },
     "materiaux": [
       "Animation"
     ],
@@ -3747,10 +4879,12 @@
     "id": 289,
     "pokedexId": "382",
     "nom": "Kyogre",
+    "slug": "kyogre",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/382.png",
     "habitats": [
       "Apparaît parfois dans l'océan, mais ne peut changer d'habitat"
     ],
+    "habitatImages": {},
     "materiaux": [
       "-"
     ],
@@ -3760,10 +4894,12 @@
     "id": 290,
     "pokedexId": "243",
     "nom": "Raikou",
+    "slug": "raikou",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/243.png",
     "habitats": [
       "Île Rêve de l'océan"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Électrification"
     ],
@@ -3773,10 +4909,12 @@
     "id": 291,
     "pokedexId": "244",
     "nom": "Entei",
+    "slug": "entei",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/244.png",
     "habitats": [
       "Île Rêve du volcan"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Combustion"
     ],
@@ -3786,10 +4924,12 @@
     "id": 292,
     "pokedexId": "245",
     "nom": "Suicune",
+    "slug": "suicune",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/245.png",
     "habitats": [
       "Île Rêve de la plaine"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Arrosage"
     ],
@@ -3799,10 +4939,12 @@
     "id": 293,
     "pokedexId": "721",
     "nom": "Volcanion",
+    "slug": "volcanion",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/721.png",
     "habitats": [
       "Organiser une fête à Collinangle et tirer un boulet de canon"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Combustion"
     ],
@@ -3812,10 +4954,12 @@
     "id": 294,
     "pokedexId": "144",
     "nom": "Artikodin",
+    "slug": "artikodin",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/144.png",
     "habitats": [
       "Construire les glacières jumelles"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Vol"
     ],
@@ -3825,10 +4969,12 @@
     "id": 295,
     "pokedexId": "145",
     "nom": "Électhor",
+    "slug": "electhor",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/145.png",
     "habitats": [
       "Construire la centrale abandonnée"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Vol"
     ],
@@ -3838,10 +4984,12 @@
     "id": 296,
     "pokedexId": "146",
     "nom": "Sulfura",
+    "slug": "sulfura",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/146.png",
     "habitats": [
       "Construire l'autel braise"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Vol"
     ],
@@ -3851,10 +4999,12 @@
     "id": 297,
     "pokedexId": "249",
     "nom": "Lugia",
+    "slug": "lugia",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/249.png",
     "habitats": [
       "Utiliser le Glas Tempête lorsque Lugia est présent"
     ],
+    "habitatImages": {},
     "materiaux": [
       "-"
     ],
@@ -3864,10 +5014,12 @@
     "id": 298,
     "pokedexId": "250",
     "nom": "Ho-Oh",
+    "slug": "ho-oh",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/250.png",
     "habitats": [
       "Utiliser le Glas Transparent lorsque Ho-Oh est présent"
     ],
+    "habitatImages": {},
     "materiaux": [
       "-"
     ],
@@ -3877,10 +5029,12 @@
     "id": 299,
     "pokedexId": "150",
     "nom": "Mewtwo",
+    "slug": "mewtwo",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/150.png",
     "habitats": [
       "Île Rêve du ciel"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Téléportation"
     ],
@@ -3890,10 +5044,12 @@
     "id": 300,
     "pokedexId": "151",
     "nom": "Mew",
+    "slug": "mew",
     "image": "https://www.pokebip.com/pages/icones/mini/NG/151.png",
     "habitats": [
       "Compléter la fresque mystérieuse de Terrassec"
     ],
+    "habitatImages": {},
     "materiaux": [
       "Téléportation"
     ],

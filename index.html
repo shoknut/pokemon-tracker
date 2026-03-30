@@ -18,28 +18,26 @@
       background-image:radial-gradient(ellipse 80% 40% at 50% -10%,rgba(255,203,59,.08) 0%,transparent 70%),
       radial-gradient(ellipse 60% 30% at 80% 100%,rgba(74,222,128,.05) 0%,transparent 60%)}
 
-    /* LOGIN */
+    /* ── LOGIN ── */
     #login-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;
       min-height:100vh;gap:1.5rem;padding:2rem}
     #login-screen h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
       background:linear-gradient(135deg,#ffcb3b 30%,#ff9f43 70%);
       -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    #login-screen p{color:var(--muted);font-size:1rem}
-    .btn-google{display:flex;align-items:center;gap:.75rem;padding:.8rem 1.8rem;
-      background:#fff;color:#333;border:none;border-radius:12px;
-      font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;
-      transition:transform .15s,box-shadow .15s;box-shadow:0 4px 15px rgba(0,0,0,.3)}
+    #login-screen p{color:var(--muted)}
+    .btn-google{display:flex;align-items:center;gap:.75rem;padding:.8rem 1.8rem;background:#fff;
+      color:#333;border:none;border-radius:12px;font-family:'Nunito',sans-serif;font-size:1rem;
+      font-weight:700;cursor:pointer;transition:transform .15s,box-shadow .15s;
+      box-shadow:0 4px 15px rgba(0,0,0,.3)}
     .btn-google:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.4)}
     .btn-google svg{width:22px;height:22px;flex-shrink:0}
 
-    /* APP */
+    /* ── APP ── */
     #app{display:none}
     header{text-align:center;padding:2.5rem 1rem 1.5rem}
     header h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
       background:linear-gradient(135deg,#ffcb3b 30%,#ff9f43 70%);
       -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}
-    header p{color:var(--muted);margin-top:.4rem;font-size:.95rem}
-
     .user-bar{display:flex;align-items:center;justify-content:center;gap:.6rem;
       margin-top:.6rem;font-size:.85rem;color:var(--muted)}
     .user-bar img{width:24px;height:24px;border-radius:50%;border:2px solid var(--border)}
@@ -47,13 +45,13 @@
       color:var(--muted);font-family:inherit;font-size:.75rem;padding:.2rem .6rem;
       cursor:pointer;transition:all .2s}
     .btn-logout:hover{border-color:var(--accent2);color:var(--accent2)}
-
     .progress-wrap{max-width:900px;margin:.5rem auto 0;padding:0 1.5rem}
     .progress-meta{display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted);margin-bottom:.4rem}
     .progress-meta strong{color:var(--accent);font-size:1rem}
     .progress-bar{height:10px;background:var(--border);border-radius:99px;overflow:hidden}
     .progress-fill{height:100%;background:linear-gradient(90deg,#ffcb3b,#4ade80);border-radius:99px;transition:width .5s ease}
 
+    /* ── CONTROLS ── */
     .controls{max-width:900px;margin:1.5rem auto;padding:0 1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
     .search-wrap{flex:1;min-width:200px;position:relative}
     .search-wrap svg{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
@@ -70,21 +68,25 @@
       font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
     .btn-filter.active,.btn-filter:hover{border-color:var(--accent);color:var(--accent);background:rgba(255,203,59,.08)}
 
+    /* ── GRID ── */
     .grid{max-width:900px;margin:0 auto 3rem;padding:0 1.5rem;
-      display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem}
+      display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1rem}
+
+    /* ── CARD ── */
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;
       padding:1rem .9rem .85rem;display:flex;flex-direction:column;align-items:center;gap:.5rem;
       cursor:pointer;position:relative;transition:transform .18s,border-color .18s,background .18s;
       user-select:none;animation:fadeIn .3s ease both}
     @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-    .card:hover{background:var(--card-hover);border-color:#3a5570;transform:translateY(-2px)}
+    .card:hover{background:var(--card-hover);border-color:#3a5570;transform:translateY(-3px);
+      box-shadow:0 8px 24px rgba(0,0,0,.3)}
     .card.found{border-color:var(--green);background:linear-gradient(145deg,#1c2d40 60%,#162a1e)}
     .card.found::after{content:'✓';position:absolute;top:.5rem;right:.6rem;
       width:22px;height:22px;background:var(--green);color:#0a2010;border-radius:50%;
       font-size:.75rem;font-weight:900;line-height:22px;text-align:center}
     .card-img{width:72px;height:72px;image-rendering:pixelated;transition:transform .2s;
       filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}
-    .card:hover .card-img{transform:scale(1.1)}
+    .card:hover .card-img{transform:scale(1.12)}
     .card.found .card-img{filter:drop-shadow(0 2px 8px rgba(74,222,128,.3))}
     .card-id{font-size:.7rem;color:var(--muted);font-weight:600;position:absolute;top:.6rem;left:.7rem}
     .card-name{font-size:.9rem;font-weight:800;text-align:center;line-height:1.2}
@@ -96,6 +98,71 @@
     .pill.mat{background:rgba(255,203,59,.1);color:#c8982c}
     .empty{grid-column:1/-1;text-align:center;padding:3rem;color:var(--muted)}
     .empty span{font-size:3rem;display:block;margin-bottom:.5rem}
+
+    /* ── MODAL ── */
+    .modal-overlay{position:fixed;inset:0;background:rgba(5,12,20,.85);backdrop-filter:blur(6px);
+      z-index:500;display:flex;align-items:center;justify-content:center;padding:1rem;
+      opacity:0;pointer-events:none;transition:opacity .25s}
+    .modal-overlay.open{opacity:1;pointer-events:all}
+    .modal{background:var(--surface);border:1px solid var(--border);border-radius:24px;
+      width:100%;max-width:480px;max-height:90vh;overflow-y:auto;
+      transform:translateY(20px) scale(.97);transition:transform .25s;position:relative}
+    .modal-overlay.open .modal{transform:translateY(0) scale(1)}
+
+    .modal-close{position:absolute;top:1rem;right:1rem;background:var(--card);
+      border:1px solid var(--border);border-radius:50%;width:34px;height:34px;
+      display:flex;align-items:center;justify-content:center;cursor:pointer;
+      color:var(--muted);font-size:1.1rem;transition:all .2s;z-index:10}
+    .modal-close:hover{border-color:var(--accent2);color:var(--accent2)}
+
+    .modal-hero{background:var(--card);border-radius:20px 20px 0 0;padding:2rem 1.5rem 1.5rem;
+      display:flex;flex-direction:column;align-items:center;gap:.75rem;position:relative;
+      border-bottom:1px solid var(--border)}
+    .modal-hero::before{content:'';position:absolute;inset:0;border-radius:20px 20px 0 0;
+      background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(255,203,59,.06) 0%,transparent 70%);
+      pointer-events:none}
+    .modal-hero.found-hero::before{background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(74,222,128,.08) 0%,transparent 70%)}
+
+    .modal-sprite{width:120px;height:120px;image-rendering:pixelated;
+      filter:drop-shadow(0 4px 12px rgba(0,0,0,.5));transition:transform .3s}
+    .modal-sprite:hover{transform:scale(1.05)}
+    .modal-num{font-size:.8rem;color:var(--muted);font-weight:700}
+    .modal-name{font-family:'Fredoka One',cursive;font-size:1.8rem;
+      background:linear-gradient(135deg,#e8f0f8,#8aafd4);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .modal-hero.found-hero .modal-name{background:linear-gradient(135deg,#4ade80,#86efac);
+      -webkit-background-clip:text;background-clip:text}
+
+    .modal-body{padding:1.5rem}
+    .modal-section{margin-bottom:1.25rem}
+    .modal-section-title{font-size:.7rem;font-weight:900;letter-spacing:.08em;
+      text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}
+
+    /* Habitat cards */
+    .habitat-list{display:flex;flex-direction:column;gap:.5rem}
+    .habitat-item{display:flex;align-items:center;gap:.75rem;background:var(--card);
+      border:1px solid var(--border);border-radius:12px;padding:.6rem .8rem}
+    .habitat-img{width:48px;height:48px;border-radius:8px;object-fit:cover;
+      background:var(--pill-bg);flex-shrink:0;display:flex;align-items:center;
+      justify-content:center;font-size:1.3rem}
+    .habitat-img img{width:100%;height:100%;border-radius:8px;object-fit:cover}
+    .habitat-name{font-size:.85rem;font-weight:700;color:var(--text)}
+
+    /* Matériaux */
+    .mat-list{display:flex;flex-wrap:wrap;gap:.4rem}
+    .mat-badge{background:rgba(255,203,59,.12);border:1px solid rgba(255,203,59,.25);
+      color:#c8982c;border-radius:8px;padding:.3rem .7rem;font-size:.8rem;font-weight:700}
+
+    /* Bouton trouvé */
+    .btn-found{width:100%;padding:.9rem;border-radius:14px;border:2px solid var(--border);
+      background:var(--card);color:var(--muted);font-family:'Nunito',sans-serif;
+      font-size:1rem;font-weight:800;cursor:pointer;transition:all .25s;
+      display:flex;align-items:center;justify-content:center;gap:.5rem;margin-top:.5rem}
+    .btn-found:hover{border-color:var(--green);color:var(--green);background:rgba(74,222,128,.08)}
+    .btn-found.is-found{border-color:var(--green);background:rgba(74,222,128,.12);color:var(--green)}
+    .btn-found.is-found:hover{border-color:var(--accent2);color:var(--accent2);background:rgba(255,107,107,.08)}
+
+    /* ── STATUS / TOAST ── */
     .firebase-status{position:fixed;bottom:1rem;right:1rem;font-size:.75rem;padding:.4rem .8rem;
       border-radius:8px;background:var(--surface);border:1px solid var(--border);
       color:var(--muted);transition:all .3s;z-index:100}
@@ -103,16 +170,22 @@
     .firebase-status.saved{color:var(--green);border-color:var(--green)}
     .toast{position:fixed;bottom:1rem;left:50%;transform:translateX(-50%) translateY(80px);
       background:var(--card);border:1px solid var(--border);border-radius:12px;
-      padding:.6rem 1.2rem;font-size:.9rem;font-weight:700;z-index:200;
+      padding:.6rem 1.2rem;font-size:.9rem;font-weight:700;z-index:600;
       transition:transform .3s ease;pointer-events:none}
     .toast.show{transform:translateX(-50%) translateY(0)}
     .toast.found-toast{border-color:var(--green);color:var(--green)}
     .toast.unfound-toast{border-color:var(--accent2);color:var(--accent2)}
-    @media(max-width:480px){.grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.7rem}}
+
+    @media(max-width:480px){
+      .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.7rem}
+      .modal{border-radius:20px 20px 0 0;position:fixed;bottom:0;left:0;right:0;max-height:85vh}
+      .modal-overlay{align-items:flex-end;padding:0}
+    }
   </style>
 </head>
 <body>
 
+<!-- LOGIN -->
 <div id="login-screen">
   <h1>🌿 Pokopia Tracker</h1>
   <p>Connecte-toi pour suivre ta progression</p>
@@ -127,6 +200,7 @@
   </button>
 </div>
 
+<!-- APP -->
 <div id="app">
   <header>
     <h1>🌿 Pokopia Tracker</h1>
@@ -143,6 +217,7 @@
       <div class="progress-bar"><div class="progress-fill" id="fill" style="width:0%"></div></div>
     </div>
   </header>
+
   <div class="controls">
     <div class="search-wrap">
       <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -157,7 +232,34 @@
       <button class="btn-filter" data-status="missing">✗ Manquants</button>
     </div>
   </div>
+
   <div class="grid" id="grid"></div>
+</div>
+
+<!-- MODAL DÉTAIL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div class="modal-hero" id="modal-hero">
+      <img class="modal-sprite" id="modal-sprite" src="" alt="" />
+      <div class="modal-num" id="modal-num"></div>
+      <div class="modal-name" id="modal-name"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title">🏕️ Habitats</div>
+        <div class="habitat-list" id="modal-habitats"></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">⚙️ Spécialités</div>
+        <div class="mat-list" id="modal-mats"></div>
+      </div>
+      <button class="btn-found" id="btn-found">
+        <span id="btn-found-icon">○</span>
+        <span id="btn-found-label">Marquer comme trouvé</span>
+      </button>
+    </div>
+  </div>
 </div>
 
 <div class="firebase-status" id="fb-status">⏳ Chargement…</div>
@@ -185,10 +287,11 @@
 
   let pokemons = [], progress = {}, currentUser = null;
   let filterStatus = 'all', filterMat = '', searchQuery = '', saveTimer = null;
+  let modalPokemonId = null;
 
+  // ── AUTH ──
   document.getElementById('btn-login').addEventListener('click', () =>
     signInWithPopup(auth, provider).catch(console.error));
-
   document.getElementById('btn-logout').addEventListener('click', () => signOut(auth));
 
   onAuthStateChanged(auth, async user => {
@@ -207,6 +310,7 @@
     }
   });
 
+  // ── DATA ──
   async function loadData() {
     if (!pokemons.length) {
       const res = await fetch('./pokemon.json');
@@ -214,7 +318,7 @@
       const allMats = [...new Set(pokemons.flatMap(p => p.materiaux))].sort();
       const sel = document.getElementById('filter-mat');
       while (sel.options.length > 1) sel.remove(1);
-      allMats.forEach(m => { const o = document.createElement('option'); o.value = m; o.textContent = m; sel.appendChild(o); });
+      allMats.forEach(m => { const o = document.createElement('option'); o.value=m; o.textContent=m; sel.appendChild(o); });
       document.getElementById('total').textContent = pokemons.length;
     }
     await loadProgress();
@@ -246,25 +350,30 @@
   function setStatus(s) {
     const el = document.getElementById('fb-status');
     el.className = 'firebase-status ' + s;
-    el.textContent = s === 'saving' ? '⏳ Sauvegarde…' : s === 'saved' ? '☁️ Sauvegardé' : '⚠️ Erreur réseau';
+    el.textContent = s==='saving' ? '⏳ Sauvegarde…' : s==='saved' ? '☁️ Sauvegardé' : '⚠️ Erreur réseau';
   }
 
+  // ── TOGGLE ──
   function toggleFound(id) {
     const key = String(id);
     progress[key] = !progress[key];
     if (!progress[key]) delete progress[key];
     saveProgress();
     updateProgress();
+    // Mettre à jour la carte dans la grille
     const card = document.querySelector(`[data-id="${id}"]`);
     if (card) {
       const found = !!progress[key];
       card.classList.toggle('found', found);
-      showToast(card.querySelector('.card-name').textContent, found);
       if (filterStatus === 'found'   && !found) card.style.display = 'none';
       if (filterStatus === 'missing' &&  found) card.style.display = 'none';
     }
+    // Mettre à jour la modale si ouverte sur ce pokémon
+    if (modalPokemonId === id) updateModalFoundState(id);
+    showToast(pokemons.find(p=>p.id===id)?.nom || '', !!progress[key]);
   }
 
+  // ── RENDER GRID ──
   function render() {
     const grid = document.getElementById('grid');
     const q = searchQuery.toLowerCase();
@@ -282,10 +391,10 @@
     }
     grid.innerHTML = filtered.map((p, i) => {
       const found = !!progress[String(p.id)];
-      const hab = p.habitats.slice(0,2).map(h=>`<span class="pill" title="${h}">${h}</span>`).join('');
-      const mat = p.materiaux.slice(0,2).map(m=>`<span class="pill mat" title="${m}">${m}</span>`).join('');
+      const hab = p.habitats.slice(0,1).map(h=>`<span class="pill" title="${h}">${h}</span>`).join('');
+      const mat = p.materiaux.slice(0,1).map(m=>`<span class="pill mat" title="${m}">${m}</span>`).join('');
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
-        style="animation-delay:${Math.min(i*20,400)}ms" onclick="window._toggle(${p.id})">
+        style="animation-delay:${Math.min(i*20,400)}ms" onclick="window._openModal(${p.id})">
         <span class="card-id">#${p.id}</span>
         <img class="card-img" src="${p.image}" alt="${p.nom}"
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
@@ -306,6 +415,72 @@
     document.getElementById('fill').style.width  = pct + '%';
   }
 
+  // ── MODAL ──
+  function openModal(id) {
+    const p = pokemons.find(pk => pk.id === id);
+    if (!p) return;
+    modalPokemonId = id;
+
+    // Sprite (grand)
+    const bigSprite = p.image.replace('/mini/', '/miniart/') || p.image;
+    document.getElementById('modal-sprite').src = p.image;
+    document.getElementById('modal-sprite').onerror = function() {
+      this.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${p.pokedexId}.png`;
+    };
+    document.getElementById('modal-num').textContent = `N° ${p.pokedexId}`;
+    document.getElementById('modal-name').textContent = p.nom;
+
+    // Habitats
+    const habList = document.getElementById('modal-habitats');
+    habList.innerHTML = p.habitats.map(h => {
+      const imgSrc = p.habitatImages && p.habitatImages[h];
+      const imgEl = imgSrc
+        ? `<div class="habitat-img"><img src="${imgSrc}" alt="${h}" /></div>`
+        : `<div class="habitat-img">🏕️</div>`;
+      return `<div class="habitat-item">${imgEl}<div class="habitat-name">${h}</div></div>`;
+    }).join('') || '<span style="color:var(--muted);font-size:.85rem">Aucun habitat connu</span>';
+
+    // Matériaux
+    document.getElementById('modal-mats').innerHTML = p.materiaux.length
+      ? p.materiaux.map(m => `<span class="mat-badge">⚙️ ${m}</span>`).join('')
+      : '<span style="color:var(--muted);font-size:.85rem">Aucune spécialité</span>';
+
+    updateModalFoundState(id);
+
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function updateModalFoundState(id) {
+    const found = !!progress[String(id)];
+    const hero = document.getElementById('modal-hero');
+    const btn  = document.getElementById('btn-found');
+    const icon = document.getElementById('btn-found-icon');
+    const label= document.getElementById('btn-found-label');
+
+    hero.classList.toggle('found-hero', found);
+    btn.classList.toggle('is-found', found);
+    icon.textContent  = found ? '✓' : '○';
+    label.textContent = found ? 'Trouvé ! (cliquer pour annuler)' : 'Marquer comme trouvé';
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+    modalPokemonId = null;
+  }
+
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  document.getElementById('btn-found').addEventListener('click', () => {
+    if (modalPokemonId !== null) toggleFound(modalPokemonId);
+  });
+
+  // ── TOAST ──
   let toastTimer;
   function showToast(nom, found) {
     const el = document.getElementById('toast');
@@ -315,6 +490,7 @@
     toastTimer = setTimeout(() => el.classList.remove('show'), 2000);
   }
 
+  // ── EVENTS ──
   document.getElementById('search').addEventListener('input', e => { searchQuery = e.target.value; render(); });
   document.getElementById('filter-mat').addEventListener('change', e => { filterMat = e.target.value; render(); });
   document.querySelectorAll('.btn-filter').forEach(btn => btn.addEventListener('click', () => {
@@ -324,7 +500,7 @@
     render();
   }));
 
-  window._toggle = toggleFound;
+  window._openModal = openModal;
 </script>
 </body>
 </html>
