@@ -18,7 +18,7 @@
       background-image:radial-gradient(ellipse 80% 40% at 50% -10%,rgba(255,203,59,.08) 0%,transparent 70%),
       radial-gradient(ellipse 60% 30% at 80% 100%,rgba(74,222,128,.05) 0%,transparent 60%)}
 
-    /* ── LOGIN ── */
+    /* LOGIN */
     #login-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;
       min-height:100vh;gap:1.5rem;padding:2rem}
     #login-screen h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
@@ -32,7 +32,7 @@
     .btn-google:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.4)}
     .btn-google svg{width:22px;height:22px;flex-shrink:0}
 
-    /* ── APP ── */
+    /* APP */
     #app{display:none}
     header{text-align:center;padding:2.5rem 1rem 1.5rem}
     header h1{font-family:'Fredoka One',cursive;font-size:clamp(2rem,6vw,3.5rem);
@@ -51,7 +51,7 @@
     .progress-bar{height:10px;background:var(--border);border-radius:99px;overflow:hidden}
     .progress-fill{height:100%;background:linear-gradient(90deg,#ffcb3b,#4ade80);border-radius:99px;transition:width .5s ease}
 
-    /* ── CONTROLS ── */
+    /* CONTROLS */
     .controls{max-width:900px;margin:1.5rem auto;padding:0 1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
     .search-wrap{flex:1;min-width:200px;position:relative}
     .search-wrap svg{position:absolute;left:.9rem;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
@@ -68,18 +68,15 @@
       font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
     .btn-filter.active,.btn-filter:hover{border-color:var(--accent);color:var(--accent);background:rgba(255,203,59,.08)}
 
-    /* ── GRID ── */
+    /* GRID */
     .grid{max-width:900px;margin:0 auto 3rem;padding:0 1.5rem;
       display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1rem}
-
-    /* ── CARD ── */
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;
       padding:1rem .9rem .85rem;display:flex;flex-direction:column;align-items:center;gap:.5rem;
       cursor:pointer;position:relative;transition:transform .18s,border-color .18s,background .18s;
       user-select:none;animation:fadeIn .3s ease both}
     @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-    .card:hover{background:var(--card-hover);border-color:#3a5570;transform:translateY(-3px);
-      box-shadow:0 8px 24px rgba(0,0,0,.3)}
+    .card:hover{background:var(--card-hover);border-color:#3a5570;transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.3)}
     .card.found{border-color:var(--green);background:linear-gradient(145deg,#1c2d40 60%,#162a1e)}
     .card.found::after{content:'✓';position:absolute;top:.5rem;right:.6rem;
       width:22px;height:22px;background:var(--green);color:#0a2010;border-radius:50%;
@@ -99,70 +96,84 @@
     .empty{grid-column:1/-1;text-align:center;padding:3rem;color:var(--muted)}
     .empty span{font-size:3rem;display:block;margin-bottom:.5rem}
 
-    /* ── MODAL ── */
-    .modal-overlay{position:fixed;inset:0;background:rgba(5,12,20,.85);backdrop-filter:blur(6px);
+    /* MODAL */
+    .modal-overlay{position:fixed;inset:0;background:rgba(5,12,20,.88);backdrop-filter:blur(8px);
       z-index:500;display:flex;align-items:center;justify-content:center;padding:1rem;
       opacity:0;pointer-events:none;transition:opacity .25s}
     .modal-overlay.open{opacity:1;pointer-events:all}
     .modal{background:var(--surface);border:1px solid var(--border);border-radius:24px;
-      width:100%;max-width:480px;max-height:90vh;overflow-y:auto;
-      transform:translateY(20px) scale(.97);transition:transform .25s;position:relative}
+      width:100%;max-width:500px;max-height:90vh;overflow-y:auto;
+      transform:translateY(20px) scale(.97);transition:transform .25s;position:relative;
+      scrollbar-width:thin;scrollbar-color:var(--border) transparent}
     .modal-overlay.open .modal{transform:translateY(0) scale(1)}
-
     .modal-close{position:absolute;top:1rem;right:1rem;background:var(--card);
       border:1px solid var(--border);border-radius:50%;width:34px;height:34px;
       display:flex;align-items:center;justify-content:center;cursor:pointer;
-      color:var(--muted);font-size:1.1rem;transition:all .2s;z-index:10}
+      color:var(--muted);font-size:1rem;transition:all .2s;z-index:10;line-height:1}
     .modal-close:hover{border-color:var(--accent2);color:var(--accent2)}
 
-    .modal-hero{background:var(--card);border-radius:20px 20px 0 0;padding:2rem 1.5rem 1.5rem;
-      display:flex;flex-direction:column;align-items:center;gap:.75rem;position:relative;
-      border-bottom:1px solid var(--border)}
-    .modal-hero::before{content:'';position:absolute;inset:0;border-radius:20px 20px 0 0;
-      background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(255,203,59,.06) 0%,transparent 70%);
-      pointer-events:none}
-    .modal-hero.found-hero::before{background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(74,222,128,.08) 0%,transparent 70%)}
-
-    .modal-sprite{width:120px;height:120px;image-rendering:pixelated;
+    /* Hero */
+    .modal-hero{background:var(--card);border-radius:22px 22px 0 0;padding:2rem 1.5rem 1.5rem;
+      display:flex;flex-direction:column;align-items:center;gap:.6rem;
+      border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+    .modal-hero::before{content:'';position:absolute;inset:0;
+      background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(255,203,59,.07) 0%,transparent 70%);pointer-events:none}
+    .modal-hero.found-hero::before{background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(74,222,128,.09) 0%,transparent 70%)}
+    .modal-sprite{width:110px;height:110px;image-rendering:pixelated;
       filter:drop-shadow(0 4px 12px rgba(0,0,0,.5));transition:transform .3s}
-    .modal-sprite:hover{transform:scale(1.05)}
-    .modal-num{font-size:.8rem;color:var(--muted);font-weight:700}
-    .modal-name{font-family:'Fredoka One',cursive;font-size:1.8rem;
+    .modal-sprite:hover{transform:scale(1.06)}
+    .modal-num{font-size:.75rem;color:var(--muted);font-weight:700;letter-spacing:.05em}
+    .modal-name{font-family:'Fredoka One',cursive;font-size:1.9rem;
       background:linear-gradient(135deg,#e8f0f8,#8aafd4);
       -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
     .modal-hero.found-hero .modal-name{background:linear-gradient(135deg,#4ade80,#86efac);
       -webkit-background-clip:text;background-clip:text}
 
-    .modal-body{padding:1.5rem}
-    .modal-section{margin-bottom:1.25rem}
-    .modal-section-title{font-size:.7rem;font-weight:900;letter-spacing:.08em;
+    /* Body */
+    .modal-body{padding:1.25rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.25rem}
+    .section-title{font-size:.7rem;font-weight:900;letter-spacing:.08em;
       text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}
 
-    /* Habitat cards */
-    .habitat-list{display:flex;flex-direction:column;gap:.5rem}
-    .habitat-item{display:flex;align-items:center;gap:.75rem;background:var(--card);
-      border:1px solid var(--border);border-radius:12px;padding:.6rem .8rem}
-    .habitat-img{width:48px;height:48px;border-radius:8px;object-fit:cover;
-      background:var(--pill-bg);flex-shrink:0;display:flex;align-items:center;
-      justify-content:center;font-size:1.3rem}
-    .habitat-img img{width:100%;height:100%;border-radius:8px;object-fit:cover}
-    .habitat-name{font-size:.85rem;font-weight:700;color:var(--text)}
-
-    /* Matériaux */
+    /* Spécialités */
     .mat-list{display:flex;flex-wrap:wrap;gap:.4rem}
-    .mat-badge{background:rgba(255,203,59,.12);border:1px solid rgba(255,203,59,.25);
+    .mat-badge{background:rgba(255,203,59,.1);border:1px solid rgba(255,203,59,.2);
       color:#c8982c;border-radius:8px;padding:.3rem .7rem;font-size:.8rem;font-weight:700}
+
+    /* Habitat card */
+    .habitat-card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+    .habitat-header{display:flex;gap:.75rem;align-items:center;padding:.75rem}
+    .habitat-thumb{width:64px;height:64px;border-radius:8px;object-fit:cover;
+      background:var(--pill-bg);flex-shrink:0}
+    .habitat-thumb-placeholder{width:64px;height:64px;border-radius:8px;background:var(--pill-bg);
+      display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0}
+    .habitat-info{flex:1;min-width:0}
+    .habitat-name{font-size:.95rem;font-weight:800;margin-bottom:.25rem}
+    .habitat-ressources{font-size:.75rem;color:var(--muted);line-height:1.4}
+    .habitat-ressources strong{color:#8aafd4}
+
+    /* Habitat meta : horaires, météo, rareté, zones */
+    .habitat-meta{padding:.6rem .75rem;border-top:1px solid var(--border);
+      display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;background:rgba(0,0,0,.15)}
+    .meta-group{display:flex;align-items:center;gap:.3rem}
+    .meta-label{font-size:.65rem;color:var(--muted);font-weight:700;margin-right:.1rem}
+    .meta-icon{width:22px;height:22px;border-radius:6px;object-fit:contain}
+    .rarete-stars{display:flex;gap:1px}
+    .star{font-size:.8rem;line-height:1}
+    .star.filled{color:#ffcb3b}
+    .star.empty-star{color:#2a3f58}
+    .zone-badge{background:var(--pill-bg);border-radius:6px;padding:.15rem .45rem;
+      font-size:.7rem;font-weight:700;color:#8aafd4}
 
     /* Bouton trouvé */
     .btn-found{width:100%;padding:.9rem;border-radius:14px;border:2px solid var(--border);
       background:var(--card);color:var(--muted);font-family:'Nunito',sans-serif;
       font-size:1rem;font-weight:800;cursor:pointer;transition:all .25s;
-      display:flex;align-items:center;justify-content:center;gap:.5rem;margin-top:.5rem}
+      display:flex;align-items:center;justify-content:center;gap:.5rem}
     .btn-found:hover{border-color:var(--green);color:var(--green);background:rgba(74,222,128,.08)}
     .btn-found.is-found{border-color:var(--green);background:rgba(74,222,128,.12);color:var(--green)}
     .btn-found.is-found:hover{border-color:var(--accent2);color:var(--accent2);background:rgba(255,107,107,.08)}
 
-    /* ── STATUS / TOAST ── */
+    /* STATUS / TOAST */
     .firebase-status{position:fixed;bottom:1rem;right:1rem;font-size:.75rem;padding:.4rem .8rem;
       border-radius:8px;background:var(--surface);border:1px solid var(--border);
       color:var(--muted);transition:all .3s;z-index:100}
@@ -178,8 +189,8 @@
 
     @media(max-width:480px){
       .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.7rem}
-      .modal{border-radius:20px 20px 0 0;position:fixed;bottom:0;left:0;right:0;max-height:85vh}
       .modal-overlay{align-items:flex-end;padding:0}
+      .modal{border-radius:20px 20px 0 0;max-height:88vh}
     }
   </style>
 </head>
@@ -217,7 +228,6 @@
       <div class="progress-bar"><div class="progress-fill" id="fill" style="width:0%"></div></div>
     </div>
   </header>
-
   <div class="controls">
     <div class="search-wrap">
       <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -232,13 +242,12 @@
       <button class="btn-filter" data-status="missing">✗ Manquants</button>
     </div>
   </div>
-
   <div class="grid" id="grid"></div>
 </div>
 
-<!-- MODAL DÉTAIL -->
+<!-- MODAL -->
 <div class="modal-overlay" id="modal-overlay">
-  <div class="modal" id="modal">
+  <div class="modal">
     <button class="modal-close" id="modal-close">✕</button>
     <div class="modal-hero" id="modal-hero">
       <img class="modal-sprite" id="modal-sprite" src="" alt="" />
@@ -246,13 +255,13 @@
       <div class="modal-name" id="modal-name"></div>
     </div>
     <div class="modal-body">
-      <div class="modal-section">
-        <div class="modal-section-title">🏕️ Habitats</div>
-        <div class="habitat-list" id="modal-habitats"></div>
-      </div>
-      <div class="modal-section">
-        <div class="modal-section-title">⚙️ Spécialités</div>
+      <div id="modal-mats-section">
+        <div class="section-title">⚙️ Spécialités</div>
         <div class="mat-list" id="modal-mats"></div>
+      </div>
+      <div id="modal-habitats-section">
+        <div class="section-title">🏕️ Habitats</div>
+        <div id="modal-habitats"></div>
       </div>
       <button class="btn-found" id="btn-found">
         <span id="btn-found-icon">○</span>
@@ -315,7 +324,9 @@
     if (!pokemons.length) {
       const res = await fetch('./pokemon.json');
       pokemons = await res.json();
-      const allMats = [...new Set(pokemons.flatMap(p => p.materiaux))].sort();
+
+      // Matériaux pour le filtre (depuis materiaux[] ou habitats[].nom pour spécialités)
+      const allMats = [...new Set(pokemons.flatMap(p => p.materiaux || []))].sort();
       const sel = document.getElementById('filter-mat');
       while (sel.options.length > 1) sel.remove(1);
       allMats.forEach(m => { const o = document.createElement('option'); o.value=m; o.textContent=m; sel.appendChild(o); });
@@ -360,7 +371,6 @@
     if (!progress[key]) delete progress[key];
     saveProgress();
     updateProgress();
-    // Mettre à jour la carte dans la grille
     const card = document.querySelector(`[data-id="${id}"]`);
     if (card) {
       const found = !!progress[key];
@@ -368,47 +378,56 @@
       if (filterStatus === 'found'   && !found) card.style.display = 'none';
       if (filterStatus === 'missing' &&  found) card.style.display = 'none';
     }
-    // Mettre à jour la modale si ouverte sur ce pokémon
     if (modalPokemonId === id) updateModalFoundState(id);
-    showToast(pokemons.find(p=>p.id===id)?.nom || '', !!progress[key]);
+    const p = pokemons.find(p => p.id === id);
+    showToast(p?.nom || '', !!progress[key]);
   }
 
   // ── RENDER GRID ──
   function render() {
     const grid = document.getElementById('grid');
     const q = searchQuery.toLowerCase();
+
     const filtered = pokemons.filter(p => {
       if (q && !p.nom.toLowerCase().includes(q)) return false;
-      if (filterMat && !p.materiaux.includes(filterMat)) return false;
+      if (filterMat && !(p.materiaux || []).includes(filterMat)) return false;
       const found = !!progress[String(p.id)];
       if (filterStatus === 'found'   && !found) return false;
       if (filterStatus === 'missing' &&  found) return false;
       return true;
     });
+
     if (!filtered.length) {
       grid.innerHTML = `<div class="empty"><span>🔍</span>Aucun Pokémon trouvé…</div>`;
       updateProgress(); return;
     }
+
     grid.innerHTML = filtered.map((p, i) => {
       const found = !!progress[String(p.id)];
-      const hab = p.habitats.slice(0,1).map(h=>`<span class="pill" title="${h}">${h}</span>`).join('');
-      const mat = p.materiaux.slice(0,1).map(m=>`<span class="pill mat" title="${m}">${m}</span>`).join('');
+      // Premier habitat (objet ou string selon version du JSON)
+      const firstHab = p.habitats?.[0];
+      const habNom   = firstHab?.nom || (typeof firstHab === 'string' ? firstHab : '');
+      const firstMat = (p.materiaux || [])[0] || '';
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
         style="animation-delay:${Math.min(i*20,400)}ms" onclick="window._openModal(${p.id})">
         <span class="card-id">#${p.id}</span>
         <img class="card-img" src="${p.image}" alt="${p.nom}"
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
         <div class="card-name">${p.nom}</div>
-        <div class="card-habitats">${hab}${mat}</div>
+        <div class="card-habitats">
+          ${habNom  ? `<span class="pill" title="${habNom}">${habNom}</span>` : ''}
+          ${firstMat ? `<span class="pill mat" title="${firstMat}">${firstMat}</span>` : ''}
+        </div>
       </div>`;
     }).join('');
+
     updateProgress();
   }
 
   function updateProgress() {
     const total = pokemons.length;
     const found = Object.values(progress).filter(Boolean).length;
-    const pct = total ? Math.round(found/total*100) : 0;
+    const pct   = total ? Math.round(found/total*100) : 0;
     document.getElementById('count').textContent = found;
     document.getElementById('total').textContent = total;
     document.getElementById('pct').textContent   = pct + '%';
@@ -416,52 +435,109 @@
   }
 
   // ── MODAL ──
+  function renderStars(etoiles) {
+    const max = 3;
+    return Array.from({length: max}, (_, i) =>
+      `<span class="star ${i < etoiles ? 'filled' : 'empty-star'}">★</span>`
+    ).join('');
+  }
+
+  function renderHabitat(h) {
+    // Compatible ancien format (string) et nouveau format (objet)
+    if (typeof h === 'string') {
+      return `<div class="habitat-card">
+        <div class="habitat-header">
+          <div class="habitat-thumb-placeholder">🏕️</div>
+          <div class="habitat-info"><div class="habitat-name">${h}</div></div>
+        </div>
+      </div>`;
+    }
+
+    const thumb = h.image
+      ? `<img class="habitat-thumb" src="${h.image}" alt="${h.nom}" onerror="this.style.display='none'">`
+      : `<div class="habitat-thumb-placeholder">🏕️</div>`;
+
+    const horairesHtml = (h.horaires || []).map(hr =>
+      typeof hr === 'object'
+        ? `<img class="meta-icon" src="${hr.icon}" alt="${hr.label}" title="${hr.label}">`
+        : `<span style="font-size:.75rem;color:var(--muted)">${hr}</span>`
+    ).join('');
+
+    const meteoHtml = (h.meteo || []).map(m =>
+      typeof m === 'object'
+        ? `<img class="meta-icon" src="${m.icon}" alt="${m.label}" title="${m.label}">`
+        : `<span style="font-size:.75rem;color:var(--muted)">${m}</span>`
+    ).join('');
+
+    const rareteHtml = h.rarete
+      ? (typeof h.rarete === 'object'
+          ? `<div class="meta-group"><span class="meta-label">Rareté</span><div class="rarete-stars">${renderStars(h.rarete.etoiles)}</div></div>`
+          : `<div class="meta-group"><span class="meta-label">Rareté</span><span style="font-size:.8rem">${h.rarete}</span></div>`)
+      : '';
+
+    const zonesHtml = h.zones
+      ? `<div class="meta-group"><span class="meta-label">Zone</span><span class="zone-badge">${h.zones}</span></div>`
+      : '';
+
+    const ressourcesHtml = h.ressources
+      ? `<div class="habitat-ressources"><strong>Ressources :</strong> ${h.ressources}</div>`
+      : '';
+
+    const metaHtml = (horairesHtml || meteoHtml || rareteHtml || zonesHtml)
+      ? `<div class="habitat-meta">
+          ${horairesHtml ? `<div class="meta-group"><span class="meta-label">Horaires</span>${horairesHtml}</div>` : ''}
+          ${meteoHtml    ? `<div class="meta-group"><span class="meta-label">Météo</span>${meteoHtml}</div>` : ''}
+          ${rareteHtml}
+          ${zonesHtml}
+        </div>` : '';
+
+    return `<div class="habitat-card" style="margin-bottom:.6rem">
+      <div class="habitat-header">
+        ${thumb}
+        <div class="habitat-info">
+          <div class="habitat-name">${h.nom}</div>
+          ${ressourcesHtml}
+        </div>
+      </div>
+      ${metaHtml}
+    </div>`;
+  }
+
   function openModal(id) {
     const p = pokemons.find(pk => pk.id === id);
     if (!p) return;
     modalPokemonId = id;
 
-    // Sprite (grand)
-    const bigSprite = p.image.replace('/mini/', '/miniart/') || p.image;
     document.getElementById('modal-sprite').src = p.image;
     document.getElementById('modal-sprite').onerror = function() {
       this.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${p.pokedexId}.png`;
     };
-    document.getElementById('modal-num').textContent = `N° ${p.pokedexId}`;
+    document.getElementById('modal-num').textContent  = `N° ${p.pokedexId}`;
     document.getElementById('modal-name').textContent = p.nom;
 
-    // Habitats
-    const habList = document.getElementById('modal-habitats');
-    habList.innerHTML = p.habitats.map(h => {
-      const imgSrc = p.habitatImages && p.habitatImages[h];
-      const imgEl = imgSrc
-        ? `<div class="habitat-img"><img src="${imgSrc}" alt="${h}" /></div>`
-        : `<div class="habitat-img">🏕️</div>`;
-      return `<div class="habitat-item">${imgEl}<div class="habitat-name">${h}</div></div>`;
-    }).join('') || '<span style="color:var(--muted);font-size:.85rem">Aucun habitat connu</span>';
-
-    // Matériaux
-    document.getElementById('modal-mats').innerHTML = p.materiaux.length
-      ? p.materiaux.map(m => `<span class="mat-badge">⚙️ ${m}</span>`).join('')
+    // Spécialités
+    const mats = p.materiaux || [];
+    document.getElementById('modal-mats').innerHTML = mats.length
+      ? mats.map(m => `<span class="mat-badge">⚙️ ${m}</span>`).join('')
       : '<span style="color:var(--muted);font-size:.85rem">Aucune spécialité</span>';
 
-    updateModalFoundState(id);
+    // Habitats
+    const habs = p.habitats || [];
+    document.getElementById('modal-habitats').innerHTML = habs.length
+      ? habs.map(h => renderHabitat(h)).join('')
+      : '<span style="color:var(--muted);font-size:.85rem">Aucun habitat connu</span>';
 
+    updateModalFoundState(id);
     document.getElementById('modal-overlay').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
 
   function updateModalFoundState(id) {
     const found = !!progress[String(id)];
-    const hero = document.getElementById('modal-hero');
-    const btn  = document.getElementById('btn-found');
-    const icon = document.getElementById('btn-found-icon');
-    const label= document.getElementById('btn-found-label');
-
-    hero.classList.toggle('found-hero', found);
-    btn.classList.toggle('is-found', found);
-    icon.textContent  = found ? '✓' : '○';
-    label.textContent = found ? 'Trouvé ! (cliquer pour annuler)' : 'Marquer comme trouvé';
+    document.getElementById('modal-hero').classList.toggle('found-hero', found);
+    document.getElementById('btn-found').classList.toggle('is-found', found);
+    document.getElementById('btn-found-icon').textContent  = found ? '✓' : '○';
+    document.getElementById('btn-found-label').textContent = found ? 'Trouvé ! (cliquer pour annuler)' : 'Marquer comme trouvé';
   }
 
   function closeModal() {
@@ -475,7 +551,6 @@
     if (e.target === document.getElementById('modal-overlay')) closeModal();
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
-
   document.getElementById('btn-found').addEventListener('click', () => {
     if (modalPokemonId !== null) toggleFound(modalPokemonId);
   });
