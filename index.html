@@ -143,8 +143,9 @@
       max-width: 960px;
       margin: 0 auto;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
+      justify-content: space-between;
       gap: .75rem;
     }
     .header-logo {
@@ -183,6 +184,7 @@
       max-width: 960px;
       margin: 0 auto;
       width: 100%;
+      padding-top: 30px;
     }
     .progress-meta {
       display: flex;
@@ -792,6 +794,7 @@
       .modal-name { font-size: 1.4rem; }
       .btn-filter span { display: none; }
       .controls { gap: .5rem; }
+      .header-inner { flex-direction: column; justify-content: inherit;}
     }
   </style>
 </head>
@@ -824,13 +827,15 @@
         <span id="user-name"></span>
         <button class="btn-logout" id="btn-logout">Déconnexion</button>
       </div>
-      <div class="progress-wrap">
+    </div>
+    <div class="progress-wrap">
         <div class="progress-meta">
-          <span>Trouvés : <span class="count-found" id="count">0</span> / <span id="total">0</span></span>
-          <span id="pct">0%</span>
+            <span>Trouvés : <span class="count-found" id="count">0</span> / <span id="total">0</span></span>
+            <span id="pct">0%</span>
         </div>
-        <div class="progress-bar"><div class="progress-fill" id="fill" style="width:0%"></div></div>
-      </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="fill" style="width:0%"></div>
+        </div>
     </div>
   </header>
 
