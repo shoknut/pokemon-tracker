@@ -842,6 +842,8 @@
       <input type="search" id="search" placeholder="Chercher un Pokémon…" />
     </div>
     <select id="filter-mat"><option value="">Toutes les spécialités</option></select>
+    <select id="filter-zone"><option value="">Toutes les zones</option></select>
+    <select id="filter-habitat"><option value="">Tous les habitats</option></select>
     <div class="btn-group">
       <button class="btn-filter active" data-status="all">Tous</button>
       <button class="btn-filter" data-status="found">✓ Trouvés</button>
@@ -902,7 +904,7 @@
   const provider = new GoogleAuthProvider();
 
   let pokemons = [], progress = {}, currentUser = null;
-  let filterStatus = 'all', filterMat = '', searchQuery = '', saveTimer = null;
+  let filterStatus = 'all', filterMat = '', filterZone = '', filterHabitat = '', searchQuery = '', saveTimer = null;
   let modalPokemonId = null;
 
   // AUTH
@@ -934,6 +936,34 @@
       const sel = document.getElementById('filter-mat');
       while (sel.options.length > 1) sel.remove(1);
       allMats.forEach(m => { const o = document.createElement('option'); o.value=m; o.textContent=m; sel.appendChild(o); });
+
+      // Zones
+      const allZones = [...new Set(
+        pokemons.flatMap(p => (p.habitats || [])
+          .filter(h => typeof h === 'object' && h.zones)
+          .flatMap(h => h.zones.split(',').map(z => z.trim()))
+        )
+      )].sort((a, b) => {
+        // "Toutes" en dernier
+        if (a === 'Toutes') return 1;
+        if (b === 'Toutes') return -1;
+        return a.localeCompare(b, 'fr');
+      });
+      const selZone = document.getElementById('filter-zone');
+      while (selZone.options.length > 1) selZone.remove(1);
+      allZones.forEach(z => { const o = document.createElement('option'); o.value=z; o.textContent=z; selZone.appendChild(o); });
+
+      // Habitats
+      const allHabitats = [...new Set(
+        pokemons.flatMap(p => (p.habitats || [])
+          .filter(h => typeof h === 'object' && h.nom)
+          .map(h => h.nom)
+        )
+      )].sort((a, b) => a.localeCompare(b, 'fr'));
+      const selHab = document.getElementById('filter-habitat');
+      while (selHab.options.length > 1) selHab.remove(1);
+      allHabitats.forEach(h => { const o = document.createElement('option'); o.value=h; o.textContent=h; selHab.appendChild(o); });
+
       document.getElementById('total').textContent = pokemons.length;
     }
     await loadProgress();
@@ -992,6 +1022,21 @@
     const filtered = pokemons.filter(p => {
       if (q && !p.nom.toLowerCase().includes(q)) return false;
       if (filterMat && !(p.materiaux || []).includes(filterMat)) return false;
+      // Filtre zone
+      if (filterZone) {
+        const hasZone = (p.habitats || []).some(h =>
+          typeof h === 'object' && h.zones &&
+          h.zones.split(',').map(z => z.trim()).includes(filterZone)
+        );
+        if (!hasZone) return false;
+      }
+      // Filtre habitat
+      if (filterHabitat) {
+        const hasHab = (p.habitats || []).some(h =>
+          typeof h === 'object' && h.nom === filterHabitat
+        );
+        if (!hasHab) return false;
+      }
       const found = !!progress[String(p.id)];
       if (filterStatus === 'found'   && !found) return false;
       if (filterStatus === 'missing' &&  found) return false;
@@ -1077,37 +1122,37 @@
 
   // ── MAP SPÉCIALITÉS → ICÔNES ──
   const SPEC_ICONS = {
-    'Travaux':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/travaux.png',
-    'Expertise':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/expertise.png',
-    'Téléportation':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/teleportation.png',
-    'Construction':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/construction.png',
-    'Broyage':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/broyage.png',
-    'Arrosage':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/arrosage.png',
-    'Fertilisation':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/fertilisation.png',
-    'Combustion':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/combustion.png',
-    'Troc':           'https://www.pokebip.com/pokedex-images/pokopia/specialites/troc.png',
-    'Désordre':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/desordre.png',
-    'Vol':            'https://www.pokebip.com/pokedex-images/pokopia/specialites/vol.png',
-    'Recherche':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/recherche.png',
-    'Coupe de bois':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/coupe-de-bois.png',
-    'Animation':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/animation.png',
-    'Électrification':'https://www.pokebip.com/pokedex-images/pokopia/specialites/electrification.png',
-    'Aplanissement':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/aplanissement.png',
-    'Rangement':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/rangement.png',
-    'Recyclage':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/recyclage.png',
-    'Stockage':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/stockage.png',
-    'Collection':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/collection.png',
-    'Minerai rare':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/minerai-rare.png',
-    'Bâillement':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/baillement.png',
-    'Récolte de miel':'https://www.pokebip.com/pokedex-images/pokopia/specialites/recolte-de-miel.png',
-    'Île Rêve':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/ile-reve.png',
-    'Transformation': 'https://www.pokebip.com/pokedex-images/pokopia/specialites/transformation.png',
-    'Luminescence':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/luminescence.png',
-    'DJ':             'https://www.pokebip.com/pokedex-images/pokopia/specialites/dj.png',
-    'Explosion':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/explosion.png',
-    'Peinture':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/peinture.png',
-    'Fête':           'https://www.pokebip.com/pokedex-images/pokopia/specialites/fete.png',
-    'Gloutonnerie':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/gloutonnerie.png',
+    'Travaux':         'https://www.pokebip.com/pokedex-images/pokopia/specialites/travaux.png',
+    'Expertise':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/expertise.png',
+    'Téléportation':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/teleportation.png',
+    'Construction':    'https://www.pokebip.com/pokedex-images/pokopia/specialites/construction.png',
+    'Broyage':         'https://www.pokebip.com/pokedex-images/pokopia/specialites/broyage.png',
+    'Arrosage':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/arrosage.png',
+    'Fertilisation':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/fertilisation.png',
+    'Combustion':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/combustion.png',
+    'Troc':            'https://www.pokebip.com/pokedex-images/pokopia/specialites/troc.png',
+    'Désordre':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/desordre.png',
+    'Vol':             'https://www.pokebip.com/pokedex-images/pokopia/specialites/vol.png',
+    'Recherche':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/recherche.png',
+    'Coupe de bois':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/coupe-de-bois.png',
+    'Animation':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/animation.png',
+    'Électrification': 'https://www.pokebip.com/pokedex-images/pokopia/specialites/electrification.png',
+    'Aplanissement':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/aplanissement.png',
+    'Rangement':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/rangement.png',
+    'Recyclage':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/recyclage.png',
+    'Stockage':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/stockage.png',
+    'Collection':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/collection.png',
+    'Minerai rare':    'https://www.pokebip.com/pokedex-images/pokopia/specialites/minerai-rare.png',
+    'Bâillement':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/baillement.png',
+    'Récolte de miel': 'https://www.pokebip.com/pokedex-images/pokopia/specialites/recolte-de-miel.png',
+    'Île Rêve':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/ile-reve.png',
+    'Transformation':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/transformation.png',
+    'Luminescence':    'https://www.pokebip.com/pokedex-images/pokopia/specialites/luminescence.png',
+    'DJ':              'https://www.pokebip.com/pokedex-images/pokopia/specialites/dj.png',
+    'Explosion':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/explosion.png',
+    'Peinture':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/peinture.png',
+    'Fête':            'https://www.pokebip.com/pokedex-images/pokopia/specialites/fete.png',
+    'Gloutonnerie':    'https://www.pokebip.com/pokedex-images/pokopia/specialites/gloutonnerie.png',
   };
 
   function openModal(id) {
@@ -1171,6 +1216,8 @@
 
   document.getElementById('search').addEventListener('input', e => { searchQuery = e.target.value; render(); });
   document.getElementById('filter-mat').addEventListener('change', e => { filterMat = e.target.value; render(); });
+  document.getElementById('filter-zone').addEventListener('change', e => { filterZone = e.target.value; render(); });
+  document.getElementById('filter-habitat').addEventListener('change', e => { filterHabitat = e.target.value; render(); });
   document.querySelectorAll('.btn-filter').forEach(btn => btn.addEventListener('click', () => {
     document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
