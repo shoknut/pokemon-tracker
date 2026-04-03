@@ -462,14 +462,14 @@
       transform: translateY(24px) scale(.95);
       transition: transform .3s cubic-bezier(.34,1.56,.64,1);
       position: relative;
-      scrollbar-width: thin;
-      scrollbar-color: var(--border) transparent;
+      scrollbar-width: none;
       box-shadow: var(--shadow-lg), 0 0 0 6px rgba(92,200,50,.1);
       display: flex;
       flex-direction: column;
       flex-shrink: 0;
     }
     .modal-overlay.open .modal { transform: translateY(0) scale(1); }
+    .modal::-webkit-scrollbar { display: none; }
 
     .modal-close {
       position: absolute;
