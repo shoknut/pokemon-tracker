@@ -3751,7 +3751,7 @@
     "pokedexId": "317",
     "nom": "Avaltout",
     "slug": "avaltout",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/317.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/317.png?v=pokopia-1.0",
     "materiaux": [
       "Stockage"
     ],
@@ -8618,7 +8618,7 @@
     "pokedexId": "255",
     "nom": "Poussifeu",
     "slug": "poussifeu",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/255.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/255.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -14345,7 +14345,7 @@
     "pokedexId": "848",
     "nom": "Toxizap",
     "slug": "toxizap",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/848.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/848.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -14506,7 +14506,7 @@
     "pokedexId": "926",
     "nom": "Pâtachiot",
     "slug": "patachiot",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/926.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/926.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -18684,7 +18684,7 @@
     "pokedexId": "822",
     "nom": "Bleuseille",
     "slug": "bleuseille",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/822.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/822.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois"
     ],
