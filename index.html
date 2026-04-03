@@ -588,9 +588,17 @@
       border: 2px solid rgba(255,217,61,.5);
       color: #7a5c00;
       border-radius: var(--radius-sm);
-      padding: .3rem .8rem;
+      padding: .3rem .75rem .3rem .4rem;
       font-size: .82rem;
       font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: .35rem;
+    }
+    .mat-badge-icon {
+      width: 22px; height: 22px;
+      object-fit: contain;
+      flex-shrink: 0;
     }
 
     /* Habitat card */
@@ -855,11 +863,11 @@
     </div>
     <div class="modal-body">
       <div>
-        <div class="section-title">⚙️ Spécialités</div>
+        <div class="section-title">Spécialités</div>
         <div class="mat-list" id="modal-mats"></div>
       </div>
       <div>
-        <div class="section-title">🏕️ Habitats</div>
+        <div class="section-title">Habitats</div>
         <div id="modal-habitats"></div>
       </div>
       <button class="btn-found" id="btn-found">
@@ -1034,13 +1042,13 @@
     if (typeof h === 'string') {
       return `<div class="habitat-card">
         <div class="habitat-header">
-          <div class="habitat-thumb-placeholder">🏕️</div>
+          <div class="habitat-thumb-placeholder"></div>
           <div class="habitat-info"><div class="habitat-name">${h}</div></div>
         </div></div>`;
     }
     const thumb = h.image
       ? `<img class="habitat-thumb" src="${h.image}" alt="${h.nom}" onerror="this.style.display='none'">`
-      : `<div class="habitat-thumb-placeholder">🏕️</div>`;
+      : `<div class="habitat-thumb-placeholder"></div>`;
 
     const horH = (h.horaires||[]).map(hr =>
       typeof hr==='object' ? `<img class="meta-icon" src="${hr.icon}" alt="${hr.label}" title="${hr.label}">` : hr
@@ -1066,6 +1074,42 @@
       </div>${metaH}</div>`;
   }
 
+
+  // ── MAP SPÉCIALITÉS → ICÔNES ──
+  const SPEC_ICONS = {
+    'Travaux':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/travaux.png',
+    'Expertise':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/expertise.png',
+    'Téléportation':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/teleportation.png',
+    'Construction':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/construction.png',
+    'Broyage':        'https://www.pokebip.com/pokedex-images/pokopia/specialites/broyage.png',
+    'Arrosage':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/arrosage.png',
+    'Fertilisation':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/fertilisation.png',
+    'Combustion':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/combustion.png',
+    'Troc':           'https://www.pokebip.com/pokedex-images/pokopia/specialites/troc.png',
+    'Désordre':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/desordre.png',
+    'Vol':            'https://www.pokebip.com/pokedex-images/pokopia/specialites/vol.png',
+    'Recherche':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/recherche.png',
+    'Coupe de bois':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/coupe-de-bois.png',
+    'Animation':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/animation.png',
+    'Électrification':'https://www.pokebip.com/pokedex-images/pokopia/specialites/electrification.png',
+    'Aplanissement':  'https://www.pokebip.com/pokedex-images/pokopia/specialites/aplanissement.png',
+    'Rangement':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/rangement.png',
+    'Recyclage':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/recyclage.png',
+    'Stockage':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/stockage.png',
+    'Collection':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/collection.png',
+    'Minerai rare':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/minerai-rare.png',
+    'Bâillement':     'https://www.pokebip.com/pokedex-images/pokopia/specialites/baillement.png',
+    'Récolte de miel':'https://www.pokebip.com/pokedex-images/pokopia/specialites/recolte-de-miel.png',
+    'Île Rêve':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/ile-reve.png',
+    'Transformation': 'https://www.pokebip.com/pokedex-images/pokopia/specialites/transformation.png',
+    'Luminescence':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/luminescence.png',
+    'DJ':             'https://www.pokebip.com/pokedex-images/pokopia/specialites/dj.png',
+    'Explosion':      'https://www.pokebip.com/pokedex-images/pokopia/specialites/explosion.png',
+    'Peinture':       'https://www.pokebip.com/pokedex-images/pokopia/specialites/peinture.png',
+    'Fête':           'https://www.pokebip.com/pokedex-images/pokopia/specialites/fete.png',
+    'Gloutonnerie':   'https://www.pokebip.com/pokedex-images/pokopia/specialites/gloutonnerie.png',
+  };
+
   function openModal(id) {
     const p = pokemons.find(pk => pk.id === id);
     if (!p) return;
@@ -1078,7 +1122,11 @@
     document.getElementById('modal-name').textContent = p.nom;
     const mats = p.materiaux || [];
     document.getElementById('modal-mats').innerHTML = mats.length
-      ? mats.map(m => `<span class="mat-badge">⚙️ ${m}</span>`).join('')
+      ? mats.map(m => {
+        const icon = SPEC_ICONS[m];
+        const img = icon ? `<img class="mat-badge-icon" src="${icon}" alt="${m}" onerror="this.style.display='none'">` : '';
+        return `<span class="mat-badge">${img}${m}</span>`;
+      }).join('')
       : '<span style="color:var(--muted);font-size:.85rem;font-weight:700">Aucune spécialité</span>';
     const habs = p.habitats || [];
     document.getElementById('modal-habitats').innerHTML = habs.length
