@@ -7501,7 +7501,7 @@
     "pokedexId": "466",
     "nom": "Élekable",
     "slug": "elekable",
-    "image": "https://www.pokebip.com/pokedex-images/300/456.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/466.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Électrification"
@@ -14082,7 +14082,7 @@
     "pokedexId": "192",
     "nom": "Rongrigou Cuisinière",
     "slug": "rongrigou-cuisiniere",
-    "image": "https://www.pokebip.com/pokedex-images/300/10285.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/10285.png?v=pokopia-1.0",
     "materiaux": ["Fête"],
     "habitats": [
       {
