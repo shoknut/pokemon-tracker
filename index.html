@@ -776,9 +776,12 @@
     .toast.unfound-toast { border-color: var(--red);    color: var(--red); }
 
     @media (max-width: 600px) {
-      .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: .75rem; }
-      .controls { padding: 0 1rem; }
-      .grid { padding: 0 1rem; }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: .75rem; padding: 0 1rem; }
+      .controls { padding: 0 1rem; gap: .5rem; }
+      .filter-row { gap: .5rem; }
+      #filter-mat    { flex: 1; min-width: 120px; font-size: .82rem; padding: .55rem .7rem; }
+      #filter-zone   { flex: 1; min-width: 110px; font-size: .82rem; padding: .55rem .7rem; }
+      #filter-habitat{ flex: 1 1 100%; font-size: .82rem; padding: .55rem .7rem; }
       header { padding: .75rem 1rem 1rem; }
       .header-logo { height: 44px; }
       .modal-overlay { align-items: flex-end; padding: 0; }
@@ -788,12 +791,11 @@
         max-width: 100vw;
         width: 100%;
       }
-      .modal-hero { padding: 1rem 1rem 1rem; }
+      .modal-hero { padding: 1rem; }
       .modal-body { padding: 1rem 1rem 1.5rem; }
       .modal-sprite { width: 80px; height: 80px; }
       .modal-name { font-size: 1.4rem; }
-      .btn-filter span { display: none; }
-      .controls { gap: .5rem; }
+      input[type="search"] { font-size: .85rem; }
       .header-inner { flex-direction: column; justify-content: inherit;}
     }
   </style>
