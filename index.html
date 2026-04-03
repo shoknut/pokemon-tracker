@@ -457,12 +457,15 @@
       max-width: 500px;
       max-height: 90vh;
       overflow-y: auto;
+      overflow-x: hidden;
       transform: translateY(24px) scale(.95);
       transition: transform .3s cubic-bezier(.34,1.56,.64,1);
       position: relative;
       scrollbar-width: thin;
       scrollbar-color: var(--border) transparent;
       box-shadow: var(--shadow-lg), 0 0 0 6px rgba(92,200,50,.1);
+      display: flex;
+      flex-direction: column;
     }
     .modal-overlay.open .modal { transform: translateY(0) scale(1); }
 
@@ -656,11 +659,11 @@
       text-transform: uppercase;
     }
     .meta-icon {
-      width: 24px; height: 24px;
+      width: 26px; height: 26px;
       border-radius: 6px;
       object-fit: contain;
-      border: 1.5px solid var(--border);
-      background: white;
+      border: none;
+      background: none;
     }
 
     .rarete-stars { display: flex; gap: 2px; }
