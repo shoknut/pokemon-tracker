@@ -198,7 +198,7 @@
     "pokedexId": "3",
     "nom": "Florizarre",
     "slug": "florizarre",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/3.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/3.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -296,7 +296,7 @@
     "pokedexId": "4",
     "nom": "Salamèche",
     "slug": "salameche",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/4.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/4.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -347,7 +347,7 @@
     "pokedexId": "5",
     "nom": "Reptincel",
     "slug": "reptincel",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/5.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/5.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -398,7 +398,7 @@
     "pokedexId": "6",
     "nom": "Dracaufeu",
     "slug": "dracaufeu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/6.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/6.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Vol"
@@ -488,7 +488,7 @@
     "pokedexId": "7",
     "nom": "Carapuce",
     "slug": "carapuce",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/7.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/7.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -585,7 +585,7 @@
     "pokedexId": "8",
     "nom": "Carabaffe",
     "slug": "carabaffe",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/8.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/8.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -640,7 +640,7 @@
     "pokedexId": "9",
     "nom": "Tortank",
     "slug": "tortank",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/9.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/9.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Troc"
@@ -738,7 +738,7 @@
     "pokedexId": "16",
     "nom": "Roucool",
     "slug": "roucool",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/16.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/16.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche",
       "Vol"
@@ -828,7 +828,7 @@
     "pokedexId": "17",
     "nom": "Roucoups",
     "slug": "roucoups",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/17.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/17.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche",
       "Vol"
@@ -918,7 +918,7 @@
     "pokedexId": "18",
     "nom": "Roucarnage",
     "slug": "roucarnage",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/18.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/18.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Vol"
@@ -970,7 +970,7 @@
     "pokedexId": "43",
     "nom": "Mystherbe",
     "slug": "mystherbe",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/43.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/43.png?v=pokopia-1.0",
     "materiaux": [
       "Fertilisation"
     ],
@@ -1013,7 +1013,7 @@
     "pokedexId": "44",
     "nom": "Ortide",
     "slug": "ortide",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/44.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/44.png?v=pokopia-1.0",
     "materiaux": [
       "Fertilisation"
     ],
@@ -1068,7 +1068,7 @@
     "pokedexId": "45",
     "nom": "Rafflesia",
     "slug": "rafflesia",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/45.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/45.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -1124,7 +1124,7 @@
     "pokedexId": "182",
     "nom": "Joliflor",
     "slug": "joliflor",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/182.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/182.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Fertilisation"
@@ -1180,7 +1180,7 @@
     "pokedexId": "46",
     "nom": "Paras",
     "slug": "paras",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/46.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/46.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -1277,7 +1277,7 @@
     "pokedexId": "47",
     "nom": "Parasect",
     "slug": "parasect",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/47.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/47.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -1374,7 +1374,7 @@
     "pokedexId": "48",
     "nom": "Mimitoss",
     "slug": "mimitoss",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/48.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/48.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -1447,7 +1447,7 @@
     "pokedexId": "49",
     "nom": "Aéromite",
     "slug": "aeromite",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/49.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/49.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -1520,7 +1520,7 @@
     "pokedexId": "69",
     "nom": "Chétiflor",
     "slug": "chetiflor",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/69.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/69.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -1576,7 +1576,7 @@
     "pokedexId": "70",
     "nom": "Boustiflor",
     "slug": "boustiflor",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/70.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/70.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -1674,7 +1674,7 @@
     "pokedexId": "71",
     "nom": "Empiflor",
     "slug": "empiflor",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/71.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/71.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Fertilisation"
@@ -1772,7 +1772,7 @@
     "pokedexId": "79",
     "nom": "Ramoloss",
     "slug": "ramoloss",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/79.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/79.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Bâillement"
@@ -1828,7 +1828,7 @@
     "pokedexId": "80",
     "nom": "Flagadoss",
     "slug": "flagadoss",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/80.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/80.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Troc"
@@ -1968,7 +1968,7 @@
     "pokedexId": "199",
     "nom": "Roigada",
     "slug": "roigada",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/199.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/199.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Téléportation"
@@ -2108,7 +2108,7 @@
     "pokedexId": "81",
     "nom": "Magnéti",
     "slug": "magneti",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/81.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/81.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -2163,7 +2163,7 @@
     "pokedexId": "82",
     "nom": "Magnéton",
     "slug": "magneton",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/82.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/82.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -2260,7 +2260,7 @@
     "pokedexId": "462",
     "nom": "Magnézone",
     "slug": "magnezone",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/462.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/462.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification",
       "Recyclage"
@@ -2358,7 +2358,7 @@
     "pokedexId": "95",
     "nom": "Onix",
     "slug": "onix",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/95.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/95.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Broyage"
@@ -2414,7 +2414,7 @@
     "pokedexId": "208",
     "nom": "Steelix",
     "slug": "steelix",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/208.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/208.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Broyage"
@@ -2470,7 +2470,7 @@
     "pokedexId": "104",
     "nom": "Osselait",
     "slug": "osselait",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/104.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/104.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -2525,7 +2525,7 @@
     "pokedexId": "105",
     "nom": "Ossatueur",
     "slug": "ossatueur",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/105.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/105.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -2580,7 +2580,7 @@
     "pokedexId": "236",
     "nom": "Debugant",
     "slug": "debugant",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/236.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/236.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -2635,7 +2635,7 @@
     "pokedexId": "106",
     "nom": "Kicklee",
     "slug": "kicklee",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/106.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/106.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -2690,7 +2690,7 @@
     "pokedexId": "107",
     "nom": "Tygnon",
     "slug": "tygnon",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/107.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/107.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -2745,7 +2745,7 @@
     "pokedexId": "237",
     "nom": "Kapoera",
     "slug": "kapoera",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/237.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/237.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -2800,7 +2800,7 @@
     "pokedexId": "109",
     "nom": "Smogo",
     "slug": "smogo",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/109.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/109.png?v=pokopia-1.0",
     "materiaux": [
       "Recyclage"
     ],
@@ -2855,7 +2855,7 @@
     "pokedexId": "110",
     "nom": "Smogogo",
     "slug": "smogogo",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/110.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/110.png?v=pokopia-1.0",
     "materiaux": [
       "Recyclage"
     ],
@@ -2952,7 +2952,7 @@
     "pokedexId": "114",
     "nom": "Saquedeneu",
     "slug": "saquedeneu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/114.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/114.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -3758,7 +3758,7 @@
     "habitats": [
       {
         "nom": "Table surprise culinaire",
-        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/120.png?v=pokopia-1.0",
+        "image": "https://www.pokebip.com/pokedex-images/habitats/120.png?v=pokopia-1.0",
         "ressources": "N'importe quel banc ou canapé x2, N'importe quelle grande table x1, Assiette de fête x4",
         "horaires": [
           {
@@ -3853,7 +3853,7 @@
     "pokedexId": "332",
     "nom": "Cacturne",
     "slug": "cacturne",
-    "image": "hhttps://www.pokebip.com/pokedex-images/300/332.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/332.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Fertilisation"
@@ -4220,7 +4220,7 @@
     "pokedexId": "425",
     "nom": "Baudrive",
     "slug": "baudrive",
-    "image": "https://www.pokebip.com/pages/icones/mini/NG/425.png",
+    "image": "https://www.pokebip.com/pokedex-images/300/425.png?v=pokopia-1.0",
     "materiaux": [
       "Île Rêve"
     ],
@@ -4359,7 +4359,7 @@
     "pokedexId": "426",
     "nom": "Grodrive",
     "slug": "grodrive",
-    "image": "https://www.pokebip.com/pages/icones/mini/NG/426.png",
+    "image": "https://www.pokebip.com/pokedex-images/300/426.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement",
       "Vol"
@@ -4415,7 +4415,7 @@
     "pokedexId": "529",
     "nom": "Rototaupe",
     "slug": "rototaupe",
-    "image": "hhttps://www.pokebip.com/pokedex-images/pokopia/habitats/529.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/529.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -4470,7 +4470,7 @@
     "pokedexId": "530",
     "nom": "Minotaupe",
     "slug": "minotaupe",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/530.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/530.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Recherche"
@@ -4526,7 +4526,7 @@
     "pokedexId": "532",
     "nom": "Charpenti",
     "slug": "charpenti",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/532.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/532.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -4581,7 +4581,7 @@
     "pokedexId": "533",
     "nom": "Ouvrifier",
     "slug": "ouvrifier",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/533.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/533.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -4678,7 +4678,7 @@
     "pokedexId": "534",
     "nom": "Bétochef",
     "slug": "betochef",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/534.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/534.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Construction"
@@ -4734,7 +4734,7 @@
     "pokedexId": "607",
     "nom": "Funécire",
     "slug": "funecire",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/607.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/607.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -4831,7 +4831,7 @@
     "pokedexId": "608",
     "nom": "Mélancolux",
     "slug": "melancolux",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/608.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/608.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -4928,7 +4928,7 @@
     "pokedexId": "609",
     "nom": "Lugulabre",
     "slug": "lugulabre",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/609.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/609.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -4983,7 +4983,7 @@
     "pokedexId": "610",
     "nom": "Coupenotte",
     "slug": "coupenotte",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/610.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/610.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois"
     ],
@@ -5080,7 +5080,7 @@
     "pokedexId": "611",
     "nom": "Incisache",
     "slug": "incisache",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/611.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/611.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois"
     ],
@@ -5177,7 +5177,7 @@
     "pokedexId": "612",
     "nom": "Tranchodon",
     "slug": "tranchodon",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/612.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/612.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Désordre"
@@ -5275,7 +5275,7 @@
     "pokedexId": "704",
     "nom": "Mucuscule",
     "slug": "mucuscule",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/704.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/704.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -5356,7 +5356,7 @@
     "pokedexId": "705",
     "nom": "Colimucus",
     "slug": "colimucus",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/705.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/705.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -5403,7 +5403,7 @@
     "pokedexId": "706",
     "nom": "Muplodocus",
     "slug": "muplodocus",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/706.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/706.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Troc"
@@ -5459,7 +5459,7 @@
     "pokedexId": "845",
     "nom": "Nigosier",
     "slug": "nigosier",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/845.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/845.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Vol"
@@ -5515,7 +5515,7 @@
     "pokedexId": "172",
     "nom": "Pichu",
     "slug": "pichu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/172.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/172.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -5570,7 +5570,7 @@
     "pokedexId": "25",
     "nom": "Pikachu",
     "slug": "pikachu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/25.png?v=pokopia-1.0g",
+    "image": "https://www.pokebip.com/pokedex-images/300/25.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -5680,7 +5680,7 @@
     "pokedexId": "26",
     "nom": "Raichu",
     "slug": "raichu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/26.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/26.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Électrification"
@@ -5736,7 +5736,7 @@
     "pokedexId": "41",
     "nom": "Nosferapti",
     "slug": "nosferapti",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/41.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/41.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -5833,7 +5833,7 @@
     "pokedexId": "42",
     "nom": "Nosferalto",
     "slug": "nosferalto",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/42.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/42.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -5888,7 +5888,7 @@
     "pokedexId": "169",
     "nom": "Nostenfer",
     "slug": "nostenfer",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/169.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/169.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Recherche"
@@ -5962,7 +5962,7 @@
     "pokedexId": "52",
     "nom": "Miaouss",
     "slug": "miaouss",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/52.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/52.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -6059,7 +6059,7 @@
     "pokedexId": "53",
     "nom": "Persian",
     "slug": "persian",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/53.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/53.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche",
       "Troc"
@@ -6115,7 +6115,7 @@
     "pokedexId": "54",
     "nom": "Psykokwak",
     "slug": "psykokwak",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/54.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/54.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -6170,7 +6170,7 @@
     "pokedexId": "55",
     "nom": "Akwakwak",
     "slug": "akwakwak",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/55.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/55.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -6225,7 +6225,7 @@
     "pokedexId": "58",
     "nom": "Caninos",
     "slug": "caninos",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/58.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/58.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Recherche"
@@ -6323,7 +6323,7 @@
     "pokedexId": "59",
     "nom": "Arcanin",
     "slug": "arcanin",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/59.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/59.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Recherche"
@@ -6421,7 +6421,7 @@
     "pokedexId": "83",
     "nom": "Canarticho",
     "slug": "canarticho",
-    "image": "https://www.pokebip.com/pages/icones/mini/NG/83.png",
+    "image": "https://www.pokebip.com/pokedex-images/300/83.png?v=pokopia-1.0",
     "materiaux": [
       "Construction",
       "Coupe de bois"
@@ -6477,7 +6477,7 @@
     "pokedexId": "88",
     "nom": "Tadmorv",
     "slug": "tadmorv",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/88.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/88.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre"
     ],
@@ -6532,7 +6532,7 @@
     "pokedexId": "89",
     "nom": "Grotadmorv",
     "slug": "grotadmorv",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/89.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/89.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre"
     ],
@@ -6587,7 +6587,7 @@
     "pokedexId": "92",
     "nom": "Fantominus",
     "slug": "fantominus",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/92.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/92.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement",
       "Troc"
@@ -6631,7 +6631,7 @@
     "pokedexId": "93",
     "nom": "Spectrum",
     "slug": "spectrum",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/93.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/93.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement",
       "Troc"
@@ -6705,7 +6705,7 @@
     "pokedexId": "94",
     "nom": "Ectoplasma",
     "slug": "ectoplasma",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/94.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/94.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement",
       "Troc"
@@ -6749,7 +6749,7 @@
     "pokedexId": "100",
     "nom": "Voltorbe",
     "slug": "voltorbe",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/100.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/100.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification",
       "Explosion"
@@ -6847,7 +6847,7 @@
     "pokedexId": "101",
     "nom": "Électrode",
     "slug": "electrode",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/101.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/101.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification",
       "Explosion"
@@ -6945,7 +6945,7 @@
     "pokedexId": "102",
     "nom": "Noeunoeuf",
     "slug": "noeunoeuf",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/102.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/102.png?v=pokopia-1.0",
     "materiaux": [
       "Fertilisation",
       "Téléportation"
@@ -7043,7 +7043,7 @@
     "pokedexId": "103",
     "nom": "Noadkoko",
     "slug": "noadkoko",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/103.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/103.png?v=pokopia-1.0",
     "materiaux": [
       "Fertilisation",
       "Téléportation"
@@ -7141,7 +7141,7 @@
     "pokedexId": "440",
     "nom": "Ptiravi",
     "slug": "ptiravi",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/440.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/440.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -7238,7 +7238,7 @@
     "pokedexId": "113",
     "nom": "Leveinard",
     "slug": "leveinard",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/113.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/113.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -7293,7 +7293,7 @@
     "pokedexId": "242",
     "nom": "Leuphorie",
     "slug": "leuphorie",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/242.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/242.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Troc"
@@ -7349,7 +7349,7 @@
     "pokedexId": "239",
     "nom": "Élekid",
     "slug": "elekid",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/239.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/239.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -7404,7 +7404,7 @@
     "pokedexId": "125",
     "nom": "Élektek",
     "slug": "elektek",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/125.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/125.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -7501,7 +7501,7 @@
     "pokedexId": "466",
     "nom": "Élekable",
     "slug": "elekable",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/466.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/456.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Électrification"
@@ -7599,7 +7599,7 @@
     "pokedexId": "131",
     "nom": "Lokhlass",
     "slug": "lokhlass",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/131.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/131.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -7654,7 +7654,7 @@
     "pokedexId": "446",
     "nom": "Goinfrex",
     "slug": "goinfrex",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/446.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/446.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement"
     ],
@@ -7751,7 +7751,7 @@
     "pokedexId": "143",
     "nom": "Ronflex",
     "slug": "ronflex",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/143.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/143.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Troc"
@@ -7849,7 +7849,7 @@
     "pokedexId": "167",
     "nom": "Mimigal",
     "slug": "mimigal",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/167.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/167.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre"
     ],
@@ -7904,7 +7904,7 @@
     "pokedexId": "168",
     "nom": "Migalos",
     "slug": "migalos",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/168.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/168.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre"
     ],
@@ -7959,7 +7959,7 @@
     "pokedexId": "179",
     "nom": "Wattouat",
     "slug": "wattouat",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/179.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/179.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Électrification"
@@ -8057,7 +8057,7 @@
     "pokedexId": "180",
     "nom": "Lainergie",
     "slug": "lainergie",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/180.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/180.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Électrification"
@@ -8510,7 +8510,7 @@
     "pokedexId": "980",
     "nom": "Terraiste",
     "slug": "terraiste",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/980.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/980.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Désordre"
@@ -8608,7 +8608,7 @@
     "pokedexId": "235",
     "nom": "Queulorior",
     "slug": "queulorior",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/235.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/235.png?v=pokopia-1.0",
     "materiaux": [],
     "habitats": [],
     "trouve": false
@@ -8618,7 +8618,7 @@
     "pokedexId": "255",
     "nom": "Poussifeu",
     "slug": "poussifeu",
-    "image": "hhttps://www.pokebip.com/pokedex-images/pokopia/300/255.png?v=pokopia-1.0",
+    "image": "hhttps://www.pokebip.com/pokedex-images/300/255.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -8715,7 +8715,7 @@
     "pokedexId": "256",
     "nom": "Galifeu",
     "slug": "galifeu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/256.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/256.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Construction"
@@ -8813,7 +8813,7 @@
     "pokedexId": "257",
     "nom": "Braségali",
     "slug": "brasegali",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/257.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/257.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Construction"
@@ -8911,7 +8911,7 @@
     "pokedexId": "278",
     "nom": "Goélise",
     "slug": "goelise",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/278.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/278.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Vol"
@@ -9001,7 +9001,7 @@
     "pokedexId": "279",
     "nom": "Bekipan",
     "slug": "bekipan",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/279.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/279.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Vol"
@@ -9091,7 +9091,7 @@
     "pokedexId": "296",
     "nom": "Makuhita",
     "slug": "makuhita",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/296.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/296.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Construction"
@@ -9189,7 +9189,7 @@
     "pokedexId": "297",
     "nom": "Hariyama",
     "slug": "hariyama",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/297.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/297.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Construction"
@@ -9287,7 +9287,7 @@
     "pokedexId": "359",
     "nom": "Absol",
     "slug": "absol",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/359.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/359.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois"
     ],
@@ -9342,7 +9342,7 @@
     "pokedexId": "393",
     "nom": "Tiplouf",
     "slug": "tiplouf",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/393.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/393.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -9397,7 +9397,7 @@
     "pokedexId": "394",
     "nom": "Prinplouf",
     "slug": "prinplouf",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/394.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/394.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Troc"
@@ -9495,7 +9495,7 @@
     "pokedexId": "395",
     "nom": "Pingoléon",
     "slug": "pingoleon",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/395.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/395.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage",
       "Troc"
@@ -9577,7 +9577,7 @@
     "pokedexId": "531",
     "nom": "Nanméouïe",
     "slug": "nanmeouie",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/531.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/531.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -9632,7 +9632,7 @@
     "pokedexId": "568",
     "nom": "Miamiasme",
     "slug": "miamiasme",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/568.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/568.png?v=pokopia-1.0",
     "materiaux": [
       "Recyclage"
     ],
@@ -9687,7 +9687,7 @@
     "pokedexId": "569",
     "nom": "Miasmax",
     "slug": "miasmax",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/569.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/569.png?v=pokopia-1.0",
     "materiaux": [
       "Désordre",
       "Recyclage"
@@ -9743,7 +9743,7 @@
     "pokedexId": "570",
     "nom": "Zorua",
     "slug": "zorua",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/570.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/570.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -9798,7 +9798,7 @@
     "pokedexId": "571",
     "nom": "Zoroark",
     "slug": "zoroark",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/571.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/571.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Troc"
@@ -9896,7 +9896,7 @@
     "pokedexId": "572",
     "nom": "Chinchidou",
     "slug": "chinchidou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/572.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/572.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement"
     ],
@@ -9993,7 +9993,7 @@
     "pokedexId": "573",
     "nom": "Pashmilla",
     "slug": "pashmilla",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/573.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/573.png?v=pokopia-1.0",
     "materiaux": [
       "Rangement",
       "Recyclage"
@@ -10049,7 +10049,7 @@
     "pokedexId": "736",
     "nom": "Larvibule",
     "slug": "larvibule",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/736.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/736.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois"
     ],
@@ -10146,7 +10146,7 @@
     "pokedexId": "737",
     "nom": "Chrysapile",
     "slug": "chrysapile",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/737.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/737.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Électrification"
@@ -10202,7 +10202,7 @@
     "pokedexId": "738",
     "nom": "Lucanon",
     "slug": "lucanon",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/738.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/738.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Électrification"
@@ -10258,7 +10258,7 @@
     "pokedexId": "778",
     "nom": "Mimiqui",
     "slug": "mimiqui",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/778.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/778.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -10313,7 +10313,7 @@
     "pokedexId": "921",
     "nom": "Pohm",
     "slug": "pohm",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/921.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/921.png?v=pokopia-1.0",
     "materiaux": [
       "Électrification"
     ],
@@ -10410,7 +10410,7 @@
     "pokedexId": "922",
     "nom": "Pohmotte",
     "slug": "pohmotte",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/922.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/922.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Électrification"
@@ -10508,7 +10508,7 @@
     "pokedexId": "923",
     "nom": "Pohmarmotte",
     "slug": "pohmarmotte",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/923.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/923.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Électrification"
@@ -10564,7 +10564,7 @@
     "pokedexId": "978",
     "nom": "Nigirigon Forme Courbée",
     "slug": "nigirigon-forme-courbee",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/978.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/978.png?v=pokopia-1.0",
     "materiaux": ["Troc"],
     "habitats": [
       {
@@ -10723,7 +10723,7 @@
     "pokedexId": "23",
     "nom": "Abo",
     "slug": "abo",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/23.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/23.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -10778,7 +10778,7 @@
     "pokedexId": "24",
     "nom": "Arbok",
     "slug": "arbok",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/24.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/24.png?v=pokopia-1.0",
     "materiaux": [
       "Recherche"
     ],
@@ -10833,7 +10833,7 @@
     "pokedexId": "173",
     "nom": "Mélo",
     "slug": "melo",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/173.png?v=pokopia-1.0g",
+    "image": "https://www.pokebip.com/pokedex-images/300/173.png?v=pokopia-1.0g",
     "materiaux": [
       "Animation"
     ],
@@ -10876,7 +10876,7 @@
     "pokedexId": "35",
     "nom": "Mélofée",
     "slug": "melofee",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/35.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/35.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -10949,7 +10949,7 @@
     "pokedexId": "36",
     "nom": "Mélodelfe",
     "slug": "melodelfe",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/36.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/36.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Troc"
@@ -11023,7 +11023,7 @@
     "pokedexId": "174",
     "nom": "Toudoudou",
     "slug": "toudoudou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/174.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/174.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -11078,7 +11078,7 @@
     "pokedexId": "39",
     "nom": "Rondoudou",
     "slug": "rondoudou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/39.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/39.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -11175,7 +11175,7 @@
     "pokedexId": "40",
     "nom": "Grodoudou",
     "slug": "grodoudou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/40.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/40.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Troc"
@@ -11231,7 +11231,7 @@
     "pokedexId": "50",
     "nom": "Taupiqueur",
     "slug": "taupiqueur",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/50.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/50.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -11328,7 +11328,7 @@
     "pokedexId": "51",
     "nom": "Triopikeur",
     "slug": "triopikeur",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/51.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/51.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Broyage"
@@ -11426,7 +11426,7 @@
     "pokedexId": "66",
     "nom": "Machoc",
     "slug": "machoc",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/66.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/66.png?v=pokopia-1.0",
     "materiaux": [
       "Construction",
       "Rangement"
@@ -11482,7 +11482,7 @@
     "pokedexId": "67",
     "nom": "Machopeur",
     "slug": "machopeur",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/67.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/67.png?v=pokopia-1.0",
     "materiaux": [
       "Construction",
       "Rangement"
@@ -11580,7 +11580,7 @@
     "pokedexId": "68",
     "nom": "Mackogneur",
     "slug": "mackogneur",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/68.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/68.png?v=pokopia-1.0",
     "materiaux": [
       "Construction",
       "Rangement"
@@ -11678,7 +11678,7 @@
     "pokedexId": "74",
     "nom": "Racaillou",
     "slug": "racaillou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/74.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/74.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage"
     ],
@@ -11733,7 +11733,7 @@
     "pokedexId": "75",
     "nom": "Gravalanch",
     "slug": "gravalanch",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/75.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/75.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage"
     ],
@@ -11788,7 +11788,7 @@
     "pokedexId": "76",
     "nom": "Grolem",
     "slug": "grolem",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/76.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/76.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Troc"
@@ -11844,7 +11844,7 @@
     "pokedexId": "240",
     "nom": "Magby",
     "slug": "magby",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/240.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/240.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -11899,7 +11899,7 @@
     "pokedexId": "126",
     "nom": "Magmar",
     "slug": "magmar",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/126.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/126.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -11954,7 +11954,7 @@
     "pokedexId": "467",
     "nom": "Maganon",
     "slug": "maganon",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/467.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/467.png?v=pokopia-1.0",
     "materiaux": [
       "Broyage",
       "Combustion"
@@ -12010,7 +12010,7 @@
     "pokedexId": "438",
     "nom": "Manzaï",
     "slug": "manzai",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/438.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/438.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement"
     ],
@@ -12065,7 +12065,7 @@
     "pokedexId": "185",
     "nom": "Simularbre",
     "slug": "simularbre",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/185.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/185.png?v=pokopia-1.0",
     "materiaux": [
       "Troc"
     ],
@@ -12162,7 +12162,7 @@
     "pokedexId": "198",
     "nom": "Cornèbre",
     "slug": "cornebre",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/198.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/198.png?v=pokopia-1.0",
     "materiaux": [
       "Troc",
       "Vol"
@@ -12236,7 +12236,7 @@
     "pokedexId": "430",
     "nom": "Corboss",
     "slug": "corboss",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/430.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/430.png?v=pokopia-1.0",
     "materiaux": [
       "Troc",
       "Vol"
@@ -12310,7 +12310,7 @@
     "pokedexId": "246",
     "nom": "Embrylex",
     "slug": "embrylex",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/246.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/246.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Broyage"
@@ -12366,7 +12366,7 @@
     "pokedexId": "247",
     "nom": "Ymphect",
     "slug": "ymphect",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/247.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/247.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Broyage"
@@ -12422,7 +12422,7 @@
     "pokedexId": "248",
     "nom": "Tyranocif",
     "slug": "tyranocif",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/248.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/248.png?v=pokopia-1.0",
     "materiaux": [
       "Aplanissement",
       "Broyage"
@@ -12520,7 +12520,7 @@
     "pokedexId": "270",
     "nom": "Nénupiot",
     "slug": "nenupiot",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/270.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/270.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -12659,7 +12659,7 @@
     "pokedexId": "271",
     "nom": "Lombre",
     "slug": "lombre",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/271.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/271.png?v=pokopia-1.0",
     "materiaux": [
       "Arrosage"
     ],
@@ -12756,7 +12756,7 @@
     "pokedexId": "272",
     "nom": "Ludicolo",
     "slug": "ludicolo",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/272.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/272.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Arrosage"
@@ -12812,7 +12812,7 @@
     "pokedexId": "303",
     "nom": "Mysdibule",
     "slug": "mysdibule",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/303.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/303.png?v=pokopia-1.0",
     "materiaux": [
       "Construction",
       "Troc"
@@ -12868,7 +12868,7 @@
     "pokedexId": "324",
     "nom": "Chartor",
     "slug": "chartor",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/324.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/324.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -12923,7 +12923,7 @@
     "pokedexId": "401",
     "nom": "Crikzik",
     "slug": "crikzik",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/401.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/401.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -13020,7 +13020,7 @@
     "pokedexId": "402",
     "nom": "Mélokrik",
     "slug": "melokrik",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/402.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/402.png?v=pokopia-1.0",
     "materiaux": [
       "Animation"
     ],
@@ -13117,7 +13117,7 @@
     "pokedexId": "441",
     "nom": "Pijako",
     "slug": "pijako",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/441.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/441.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Vol"
@@ -13207,7 +13207,7 @@
     "pokedexId": "447",
     "nom": "Riolu",
     "slug": "riolu",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/447.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/447.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -13304,7 +13304,7 @@
     "pokedexId": "448",
     "nom": "Lucario",
     "slug": "lucario",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/448.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/448.png?v=pokopia-1.0",
     "materiaux": [
       "Construction"
     ],
@@ -13359,7 +13359,7 @@
     "pokedexId": "182",
     "nom": "Motisma DJ",
     "slug": "motisma",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/10284.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/10284.png?v=pokopia-1.0",
     "materiaux": ["DJ"],
     "habitats": [
       {
@@ -13412,7 +13412,7 @@
     "pokedexId": "636",
     "nom": "Pyronille",
     "slug": "pyronille",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/636.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/636.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Désordre"
@@ -13468,7 +13468,7 @@
     "pokedexId": "637",
     "nom": "Pyrax",
     "slug": "pyrax",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/637.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/637.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion",
       "Désordre"
@@ -13566,7 +13566,7 @@
     "pokedexId": "722",
     "nom": "Brindibou",
     "slug": "brindibou",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/722.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/722.png?v=pokopia-1.0",
     "materiaux": [
       "Fertilisation"
     ],
@@ -13621,7 +13621,7 @@
     "pokedexId": "723",
     "nom": "Efflèche",
     "slug": "effleche",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/723.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/723.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Fertilisation"
@@ -13677,7 +13677,7 @@
     "pokedexId": "724",
     "nom": "Archéduc",
     "slug": "archeduc",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/724.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/724.png?v=pokopia-1.0",
     "materiaux": [
       "Coupe de bois",
       "Fertilisation"
@@ -13775,7 +13775,7 @@
     "pokedexId": "813",
     "nom": "Flambino",
     "slug": "flambino",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/813.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/813.png?v=pokopia-1.0",
     "materiaux": [
       "Combustion"
     ],
@@ -13830,7 +13830,7 @@
     "pokedexId": "814",
     "nom": "Lapyro",
     "slug": "lapyro",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/814.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/814.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Combustion"
@@ -13928,7 +13928,7 @@
     "pokedexId": "815",
     "nom": "Pyrobut",
     "slug": "pyrobut",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/815.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/815.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Combustion"
@@ -14026,7 +14026,7 @@
     "pokedexId": "819",
     "nom": "Rongourmand",
     "slug": "rongourmand",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/819.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/819.png?v=pokopia-1.0",
     "materiaux": [
       "Animation",
       "Recherche"
@@ -14082,7 +14082,7 @@
     "pokedexId": "192",
     "nom": "Rongrigou Cuisinière",
     "slug": "rongrigou-cuisiniere",
-    "image": "https://www.pokebip.com/pokedex-images/pokopia/300/10285.png?v=pokopia-1.0",
+    "image": "https://www.pokebip.com/pokedex-images/300/10285.png?v=pokopia-1.0",
     "materiaux": ["Fête"],
     "habitats": [
       {
