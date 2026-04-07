@@ -598,6 +598,13 @@ window.POKOPIA_TRANSLATIONS.items = {
   "allumée":                         "(lit)",
   // Générique
   "N'importe quel buisson":          "Any bush",
+  // Plage / extérieur
+  "Parasol de plage":                "Beach Umbrella",
+  "Table basse":                     "Coffee Table",
+  "Chaise longue":                   "Deck Chair",
+  "Toboggan aquatique":              "Water Slide",
+  "Balançoire":                      "Swing",
+  "Pot de fleurs":                   "Flower Pot",
 };
 
 // Fonction de traduction des ressources
