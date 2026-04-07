@@ -798,6 +798,37 @@
       input[type="search"] { font-size: .85rem; }
       .header-inner { flex-direction: column; justify-content: inherit;}
     }
+
+    /* LANGUE SWITCH */
+    .lang-switch {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      background: var(--bg2);
+      border: 2px solid var(--border);
+      border-radius: 99px;
+      padding: 3px;
+      box-shadow: var(--shadow-sm);
+    }
+    .lang-btn {
+      padding: .25rem .7rem;
+      border-radius: 99px;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: 'Fredoka', cursive;
+      font-size: .85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .lang-btn.active {
+      background: var(--white);
+      color: var(--green-dark);
+      font-weight: 700;
+      box-shadow: 0 1px 4px rgba(60,120,30,.15);
+    }
+    .lang-btn:hover:not(.active) { color: var(--text2); }
   </style>
 </head>
 <body>
@@ -869,6 +900,7 @@
       <img class="modal-sprite" id="modal-sprite" src="" alt="" />
       <div class="modal-num" id="modal-num"></div>
       <div class="modal-name" id="modal-name"></div>
+      <div id="modal-subname" style="font-size:.85rem;color:var(--green-dark);font-weight:700;opacity:.75;margin-top:-.3rem"></div>
     </div>
     <div class="modal-body">
       <div>
@@ -912,6 +944,7 @@
 
   let pokemons = [], progress = {}, currentUser = null;
   let filterStatus = 'all', filterMat = '', filterZone = '', filterHabitat = '', searchQuery = '', saveTimer = null;
+  let lang = 'fr';
   let modalPokemonId = null;
 
   // AUTH
@@ -1058,12 +1091,13 @@
       const firstHab = p.habitats?.[0];
       const habNom   = firstHab?.nom || (typeof firstHab === 'string' ? firstHab : '');
       const firstMat = (p.materiaux || [])[0] || '';
+      const displayName = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
         style="animation-delay:${Math.min(i*18,500)}ms" onclick="window._openModal(${p.id})">
         <span class="card-id">#${p.id}</span>
-        <img class="card-img" src="${p.image}" alt="${p.nom}"
+        <img class="card-img" src="${p.image}" alt="${displayName}"
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
-        <div class="card-name">${p.nom}</div>
+        <div class="card-name">${displayName}</div>
         <div class="card-pills">
           ${habNom   ? `<span class="pill" title="${habNom}">${habNom}</span>` : ''}
           ${firstMat ? `<span class="pill mat" title="${firstMat}">${firstMat}</span>` : ''}
@@ -1171,7 +1205,11 @@
       this.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${p.pokedexId}.png`;
     };
     document.getElementById('modal-num').textContent  = `N° ${p.pokedexId}`;
-    document.getElementById('modal-name').textContent = p.nom;
+    // Sous-titre langue secondaire
+    const altName = lang === 'en' ? p.nom : (p.nom_en || '');
+    const subEl = document.getElementById('modal-subname');
+    if (subEl) subEl.textContent = altName !== (lang === 'en' ? (p.nom_en || p.nom) : p.nom) ? altName : '';
+    document.getElementById('modal-name').textContent = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
     const mats = p.materiaux || [];
     document.getElementById('modal-mats').innerHTML = mats.length
       ? mats.map(m => {
@@ -1231,6 +1269,17 @@
     filterStatus = btn.dataset.status;
     render();
   }));
+  // Langue switch
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      lang = btn.dataset.lang;
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      render();
+      // Re-ouvrir la modale si ouverte
+      if (modalPokemonId !== null) openModal(modalPokemonId);
+    });
+  });
+
   window._openModal = openModal;
 </script>
 </body>
