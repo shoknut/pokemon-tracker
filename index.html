@@ -908,11 +908,11 @@
     </div>
     <div class="modal-body">
       <div>
-        <div class="section-title">Spécialités</div>
+        <div class="section-title" id="title-specialities">⚙️ Spécialités</div>
         <div class="mat-list" id="modal-mats"></div>
       </div>
       <div>
-        <div class="section-title">Habitats</div>
+        <div class="section-title" id="title-habitats">🏕️ Habitats</div>
         <div id="modal-habitats"></div>
       </div>
       <button class="btn-found" id="btn-found">
@@ -958,6 +958,61 @@
   function tZone(fr)     { return lang === 'en' ? (TR.zones[fr]        || fr) : fr; }
   function tRarete(fr)   { return lang === 'en' ? (TR.rarete[fr]       || fr) : fr; }
   function tRessource(fr){ return lang === 'en' ? TR.translateRessource(fr)   : fr; }
+
+  const T = {
+    fr: {
+      search_placeholder:"Chercher un Pokémon…", all_specialities:"Toutes les spécialités",
+      all_zones:"Toutes les zones", all_habitats:"Tous les habitats",
+      btn_all:"Tous", btn_found:"✓ Trouvés", btn_missing:"✗ Manquants",
+      found_count:"Trouvés", logout:"Déconnexion",
+      specialities_title:"⚙️ Spécialités", habitats_title:"🏕️ Habitats",
+      resources:"Ressources :", schedule:"Horaires", weather:"Météo",
+      rarity:"Rareté", zone:"Zone",
+      mark_found:"Marquer comme trouvé", mark_unfound:"Trouvé ! (cliquer pour annuler)",
+      no_results:"Aucun Pokémon trouvé…", no_speciality:"Aucune spécialité", no_habitat:"Aucun habitat connu",
+      toast_found:(n)=>`✅ ${n} trouvé !`, toast_removed:(n)=>`❌ ${n} retiré`,
+    },
+    en: {
+      search_placeholder:"Search a Pokémon…", all_specialities:"All specialities",
+      all_zones:"All zones", all_habitats:"All habitats",
+      btn_all:"All", btn_found:"✓ Found", btn_missing:"✗ Missing",
+      found_count:"Found", logout:"Logout",
+      specialities_title:"⚙️ Specialities", habitats_title:"🏕️ Habitats",
+      resources:"Resources:", schedule:"Schedule", weather:"Weather",
+      rarity:"Rarity", zone:"Zone",
+      mark_found:"Mark as found", mark_unfound:"Found! (click to undo)",
+      no_results:"No Pokémon found…", no_speciality:"No speciality", no_habitat:"No known habitat",
+      toast_found:(n)=>`✅ ${n} found!`, toast_removed:(n)=>`❌ ${n} removed`,
+    }
+  };
+
+  function applyLang() {
+    const t = T[lang];
+    document.getElementById('search').placeholder             = t.search_placeholder;
+    document.getElementById('filter-mat').options[0].text     = t.all_specialities;
+    document.getElementById('filter-zone').options[0].text    = t.all_zones;
+    document.getElementById('filter-habitat').options[0].text = t.all_habitats;
+    document.getElementById('btn-logout').textContent         = t.logout;
+    document.querySelector('[data-status="all"]').textContent    = t.btn_all;
+    document.querySelector('[data-status="found"]').textContent  = t.btn_found;
+    document.querySelector('[data-status="missing"]').textContent= t.btn_missing;
+    const fl = document.getElementById('found-label');
+    if (fl) fl.textContent = t.found_count;
+    const ts = document.getElementById('title-specialities');
+    const th = document.getElementById('title-habitats');
+    if (ts) ts.textContent = t.specialities_title;
+    if (th) th.textContent = t.habitats_title;
+    ['filter-mat','filter-zone','filter-habitat'].forEach(id => {
+      Array.from(document.getElementById(id).options).forEach((o,i) => {
+        if (!i) return;
+        const fr = o.getAttribute('data-fr') || o.value;
+        if (id==='filter-mat')     o.textContent = tSpec(fr);
+        if (id==='filter-zone')    o.textContent = tZone(fr);
+        if (id==='filter-habitat') o.textContent = tHabitat(fr);
+      });
+    });
+    document.documentElement.lang = lang;
+  }
   let modalPokemonId = null;
 
   // AUTH
@@ -1096,13 +1151,13 @@
       return true;
     });
     if (!filtered.length) {
-      grid.innerHTML = `<div class="empty"><span>🔍</span><p>Aucun Pokémon trouvé…</p></div>`;
+      grid.innerHTML = `<div class="empty"><span>🔍</span><p>${T[lang].no_results}</p></div>`;
       updateProgress(); return;
     }
     grid.innerHTML = filtered.map((p, i) => {
       const found   = !!progress[String(p.id)];
       const firstHab = p.habitats?.[0];
-      const habNom   = firstHab?.nom || (typeof firstHab === 'string' ? firstHab : '');
+      const habNom   = tHabitat(firstHab?.nom || (typeof firstHab === 'string' ? firstHab : ''));
       const firstMat = tSpec((p.materiaux || [])[0] || '');
       const displayName = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
@@ -1157,14 +1212,15 @@
     ).join('');
     const rarH = h.rarete
       ? (typeof h.rarete==='object'
-        ? `<div class="meta-group"><span class="meta-label">Rareté</span><div class="rarete-stars">${renderStars(h.rarete.etoiles)}</div></div>`
-        : `<div class="meta-group"><span class="meta-label">Rareté</span><span>${h.rarete}</span></div>`)
+        ? `<div class="meta-group"><span class="meta-label">${T[lang].rarity}</span><div class="rarete-stars">${renderStars(h.rarete.etoiles)}</div></div>`
+        : `<div class="meta-group"><span class="meta-label">${T[lang].rarity}</span><span>${tRarete(h.rarete)}</span></div>`)
       : '';
-    const zonH = h.zones ? `<div class="meta-group"><span class="meta-label">Zone</span><span class="zone-badge">${h.zones}</span></div>` : '';
-    const resH = h.ressources ? `<div class="habitat-ressources"><strong>Ressources :</strong> ${h.ressources}</div>` : '';
+    const zonesDisplay = h.zones ? h.zones.split(',').map(z=>tZone(z.trim())).join(', ') : '';
+    const zonH = zonesDisplay ? `<div class="meta-group"><span class="meta-label">${T[lang].zone}</span><span class="zone-badge">${zonesDisplay}</span></div>` : '';
+    const resH = h.ressources ? `<div class="habitat-ressources"><strong>${T[lang].resources}</strong> ${tRessource(h.ressources)}</div>` : '';
     const metaH = (horH||metH||rarH||zonH) ? `<div class="habitat-meta">
-      ${horH ? `<div class="meta-group"><span class="meta-label">Horaires</span>${horH}</div>` : ''}
-      ${metH ? `<div class="meta-group"><span class="meta-label">Météo</span>${metH}</div>` : ''}
+      ${horH ? `<div class="meta-group"><span class="meta-label">${T[lang].schedule}</span>${horH}</div>` : ''}
+      ${metH ? `<div class="meta-group"><span class="meta-label">${T[lang].weather}</span>${metH}</div>` : ''}
       ${rarH}${zonH}</div>` : '';
 
     return `<div class="habitat-card">
@@ -1222,7 +1278,10 @@
     const altName = lang === 'en' ? p.nom : (p.nom_en || '');
     const subEl = document.getElementById('modal-subname');
     if (subEl) subEl.textContent = altName !== (lang === 'en' ? (p.nom_en || p.nom) : p.nom) ? altName : '';
-    document.getElementById('modal-name').textContent = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
+    const mainName = lang==='en' ? (p.nom_en||p.nom) : p.nom;
+    const subName  = lang==='en' ? p.nom : (p.nom_en||'');
+    document.getElementById('modal-name').textContent = mainName;
+    if (subEl) subEl.textContent = subName !== mainName ? subName : '';
     const mats = p.materiaux || [];
     document.getElementById('modal-mats').innerHTML = mats.length
       ? mats.map(m => {
@@ -1230,11 +1289,11 @@
         const img = icon ? `<img class="mat-badge-icon" src="${icon}" alt="${m}" onerror="this.style.display='none'">` : '';
         return `<span class="mat-badge">${img}${tSpec(m)}</span>`;
       }).join('')
-      : '<span style="color:var(--muted);font-size:.85rem;font-weight:700">Aucune spécialité</span>';
+      : `<span style="color:var(--muted);font-size:.85rem;font-weight:700">${T[lang].no_speciality}</span>`;
     const habs = p.habitats || [];
     document.getElementById('modal-habitats').innerHTML = habs.length
       ? habs.map(h => renderHabitat(h)).join('')
-      : '<span style="color:var(--muted);font-size:.85rem;font-weight:700">Aucun habitat connu</span>';
+      : `<span style="color:var(--muted);font-size:.85rem;font-weight:700">${T[lang].no_habitat}</span>`;
     updateModalFoundState(id);
     document.getElementById('modal-overlay').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -1245,7 +1304,7 @@
     document.getElementById('modal-hero').classList.toggle('found-hero', found);
     document.getElementById('btn-found').classList.toggle('is-found', found);
     document.getElementById('btn-found-icon').textContent  = found ? '✓' : '○';
-    document.getElementById('btn-found-label').textContent = found ? 'Trouvé ! (cliquer pour annuler)' : 'Marquer comme trouvé';
+    const tUI=T[lang]; document.getElementById('btn-found-label').textContent = found ? tUI.mark_unfound : tUI.mark_found;
   }
 
   function closeModal() {
@@ -1266,7 +1325,7 @@
   let toastTimer;
   function showToast(nom, found) {
     const el = document.getElementById('toast');
-    el.textContent = found ? `✅ ${nom} trouvé !` : `❌ ${nom} retiré`;
+    const tT=T[lang]; el.textContent = found ? tT.toast_found(nom) : tT.toast_removed(nom);
     el.className = 'toast show ' + (found ? 'found-toast' : 'unfound-toast');
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
@@ -1287,6 +1346,7 @@
     btn.addEventListener('click', () => {
       lang = btn.dataset.lang;
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      applyLang();
       render();
       // Re-ouvrir la modale si ouverte
       if (modalPokemonId !== null) openModal(modalPokemonId);
