@@ -1005,11 +1005,11 @@
     </div>
     <div class="modal-body">
       <div>
-        <div class="section-title" id="title-specialities">Spécialités</div>
+        <div class="section-title" id="title-specialities">⚙️ Spécialités</div>
         <div class="mat-list" id="modal-mats"></div>
       </div>
       <div>
-        <div class="section-title" id="title-habitats">Habitats</div>
+        <div class="section-title" id="title-habitats">🏕️ Habitats</div>
         <div id="modal-habitats"></div>
       </div>
       <button class="btn-found" id="btn-found">
@@ -1024,6 +1024,7 @@
 <!-- ══ POPUP COMPTE ══ -->
 <div class="signup-overlay" id="signup-overlay">
   <div class="signup-card">
+    <span class="signup-emoji">🌿</span>
     <div class="signup-title" id="signup-title">Sauvegardez votre progression !</div>
     <p class="signup-text" id="signup-text">
       Vous avez déjà trouvé <strong id="signup-count">10</strong> Pokémon !<br>
@@ -1069,7 +1070,8 @@
 
   let pokemons = [], progress = {}, currentUser = null;
   let filterStatus = 'all', filterMat = '', filterZone = '', filterHabitat = '', searchQuery = '', saveTimer = null;
-  let lang = 'fr';
+  // Charger la langue sauvegardée (localStorage)
+  let lang = localStorage.getItem('pokopia_lang') || 'fr';
 
   // ── HELPERS TRADUCTION ──
   const TR = window.POKOPIA_TRANSLATIONS;
@@ -1231,6 +1233,19 @@
         progress = local;
         console.warn(e);
       }
+      // Charger la langue depuis Firestore (priorité sur localStorage)
+      try {
+        const settingsSnap = await getDoc(doc(db, 'settings', user.uid));
+        if (settingsSnap.exists() && settingsSnap.data().lang) {
+          lang = settingsSnap.data().lang;
+        } else {
+          // Première connexion : sauvegarder la langue actuelle
+          await setDoc(doc(db, 'settings', user.uid), { lang }, { merge: true });
+        }
+        localStorage.setItem('pokopia_lang', lang);
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+        applyLang();
+      } catch(e) { console.warn(e); }
       // Mettre à jour UI header
       document.getElementById('user-name').textContent = user.displayName;
       document.getElementById('user-avatar').src = user.photoURL || '';
@@ -1578,13 +1593,20 @@
     render();
   }));
   // Langue switch
+  // Appliquer la langue sauvegardée au chargement
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       lang = btn.dataset.lang;
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      // Sauvegarder la langue
+      localStorage.setItem('pokopia_lang', lang);
+      if (currentUser) {
+        setDoc(doc(db, 'settings', currentUser.uid), { lang }, { merge: true }).catch(console.warn);
+      }
       applyLang();
       render();
-      // Re-ouvrir la modale si ouverte
       if (modalPokemonId !== null) openModal(modalPokemonId);
     });
   });
