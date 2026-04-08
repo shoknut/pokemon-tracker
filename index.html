@@ -1084,7 +1084,7 @@
       search_placeholder:"Chercher un Pokémon…", all_specialities:"Toutes les spécialités",
       all_zones:"Toutes les zones", all_habitats:"Tous les habitats",
       btn_all:"Tous", btn_found:"✓ Trouvés", btn_missing:"✗ Manquants",
-      found_count:"Trouvés", logout:"Déconnexion",
+      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter",
       specialities_title:"⚙️ Spécialités", habitats_title:"🏕️ Habitats",
       resources:"Ressources :", schedule:"Horaires", weather:"Météo",
       rarity:"Rareté", zone:"Zone",
@@ -1096,7 +1096,7 @@
       search_placeholder:"Search a Pokémon…", all_specialities:"All specialities",
       all_zones:"All zones", all_habitats:"All habitats",
       btn_all:"All", btn_found:"✓ Found", btn_missing:"✗ Missing",
-      found_count:"Found", logout:"Logout",
+      found_count:"Found", logout:"Logout", login:"🔑 Sign in",
       specialities_title:"⚙️ Specialities", habitats_title:"🏕️ Habitats",
       resources:"Resources:", schedule:"Schedule", weather:"Weather",
       rarity:"Rarity", zone:"Zone",
@@ -1113,6 +1113,7 @@
     document.getElementById('filter-zone').options[0].text    = t.all_zones;
     document.getElementById('filter-habitat').options[0].text = t.all_habitats;
     document.getElementById('btn-logout').textContent         = t.logout;
+    document.getElementById('btn-login-header').textContent    = t.login;
     document.querySelector('[data-status="all"]').textContent    = t.btn_all;
     document.querySelector('[data-status="found"]').textContent  = t.btn_found;
     document.querySelector('[data-status="missing"]').textContent= t.btn_missing;
