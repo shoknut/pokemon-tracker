@@ -33,7 +33,7 @@ window.POKOPIA_TRANSLATIONS = {
     'Transformation':   'Transform',
     'Travaux':          'Engineer',
     'Troc':             'Trade',
-    'Téléportation':    'Fly',
+    'Téléportation':    'Teleport',
     'Vol':              'Fly',
     'Électrification':  'Generate',
     'Île Rêve':         'Dream Island',
