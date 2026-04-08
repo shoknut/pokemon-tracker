@@ -1133,9 +1133,9 @@
   // ── Popup ──
   function showSignupPopup() {
     const count = Object.values(progress).filter(Boolean).length;
-    document.getElementById('signup-count').textContent = count;
-    // Adapter le texte selon si c'est le premier popup ou les suivants
-    if (count === POPUP_THRESHOLD) {
+    const isFirst = count === POPUP_THRESHOLD;
+    // On met à jour le innerHTML en une seule fois (évite le problème de signup-count manquant)
+    if (isFirst) {
       document.getElementById('signup-title').textContent = lang === 'en'
         ? 'Save your progress!' : 'Sauvegardez votre progression !';
       document.getElementById('signup-text').innerHTML = lang === 'en'
