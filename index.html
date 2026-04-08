@@ -1355,7 +1355,8 @@
     }
     if (modalPokemonId === id) updateModalFoundState(id);
     const p = pokemons.find(p => p.id === id);
-    showToast(p?.nom || '', !!progress[key]);
+    const displayNom = p ? (lang === 'en' ? (p.nom_en || p.nom) : p.nom) : '';
+    showToast(displayNom, !!progress[key]);
   }
 
   function render() {
