@@ -909,28 +909,22 @@
     .btn-logout.hidden { display: none; }
 
     /* ── SUPPORT BUTTON ── */
-    .support-bar {
-      max-width: 960px;
-      margin: 0 auto 1.5rem;
-      padding: 0 1.5rem;
-      display: flex;
-      justify-content: center;
-    }
     .btn-kofi {
       display: inline-flex;
       align-items: center;
-      gap: .5rem;
-      padding: .5rem 1.1rem;
+      gap: .4rem;
+      padding: .4rem .9rem;
       background: #fff;
       border: 2px solid #e8e8e8;
       border-radius: 99px;
       font-family: 'Nunito', sans-serif;
-      font-size: .82rem;
+      font-size: .78rem;
       font-weight: 800;
       color: #555;
       text-decoration: none;
       transition: all .2s;
       box-shadow: var(--shadow-sm);
+      white-space: nowrap;
     }
     .btn-kofi:hover {
       border-color: #FF5E5B;
@@ -939,12 +933,7 @@
       box-shadow: var(--shadow-md);
     }
     .btn-kofi .kofi-icon { font-size: 1rem; }
-    .btn-kofi .patreon-icon { font-size: .9rem; }
-    .support-sep {
-      color: var(--border);
-      font-size: .8rem;
-      margin: 0 .25rem;
-    }
+
   </style>
 </head>
 <body>
@@ -954,7 +943,13 @@
 <div id="app" style="display:block">
   <header>
     <div class="header-inner">
-      <img class="header-logo" src="./Pokemon_Pokopia_Logo.webp" alt="Pokémon Pokopia" />
+      <div style="display:flex;align-items:center;gap:.75rem;">
+        <img class="header-logo" src="./Pokemon_Pokopia_Logo.webp" alt="Pokémon Pokopia" />
+        <!-- 🔧 REMPLACE l'URL par ton vrai lien Ko-fi -->
+        <a class="btn-kofi" href="https://ko-fi.com/VOTRE_USERNAME" target="_blank" rel="noopener">
+          <span class="kofi-icon">☕</span> Ko-fi
+        </a>
+      </div>
       <div class="user-bar">
         <img id="user-avatar" src="" alt="" />
         <span id="user-name"></span>
@@ -992,14 +987,6 @@
       <button class="btn-filter" data-status="found">✓ Trouvés</button>
       <button class="btn-filter" data-status="missing">✗ Manquants</button>
     </div>
-  </div>
-
-
-  <div class="support-bar">
-    <!-- 🔧 REMPLACE les URLs par tes vrais liens une fois tes comptes créés -->
-    <a class="btn-kofi" href="https://ko-fi.com/xiaoxiao3004" target="_blank" rel="noopener">
-      <span class="kofi-icon">☕</span> Ko-fi
-    </a>
   </div>
 
   <div class="grid" id="grid"></div>

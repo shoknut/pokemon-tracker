@@ -43,11 +43,11 @@ window.POKOPIA_TRANSLATIONS = {
   zones: {
     'Toutes':             'All',
     'Île-Nuage':          'Cloud Isle',
-    'Terrassec':          'Terrassec',
-    'Grisemer':           'Grisemer',
-    'Collinangle':        'Collinangle',
+    'Terrassec':          'Withered Wastelands',
+    'Grisemer':           'Bleak Beach',
+    'Collinangle':        'Rocky Ridges',
     'Ville-Nouvelle':     'Newtown',
-    'Flotîles-Millefeux': 'Flotiles-Millefeux',
+    'Flotîles-Millefeux': 'Sparkling Skylands',
   },
 
   // ── RARETÉ ───────────────────────────────────────────────────────────────────
@@ -63,7 +63,7 @@ window.POKOPIA_TRANSLATIONS = {
     'Aire de camping':                        'Camping Area',
     'Aire de jeu':                            'Play Area',
     'Aire de repos pour les cyclistes':       'Cyclists Rest Area',
-    'Amas de Poké Balls':                     'Poké Ball Pile',
+    'Amas de Poké Balls':                     'Poke Ball Pile',
     'Apparait à Collinangle':                 'Appears at Collinangle',
     'Apparait à Grisemer':                    'Appears at Grisemer',
     'Apparait à Terrassec':                   'Appears at Terrassec',
