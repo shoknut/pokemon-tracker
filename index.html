@@ -1004,11 +1004,11 @@
     </div>
     <div class="modal-body">
       <div>
-        <div class="section-title" id="title-specialities">⚙️ Spécialités</div>
+        <div class="section-title" id="title-specialities">Spécialités</div>
         <div class="mat-list" id="modal-mats"></div>
       </div>
       <div>
-        <div class="section-title" id="title-habitats">🏕️ Habitats</div>
+        <div class="section-title" id="title-habitats">Habitats</div>
         <div id="modal-habitats"></div>
       </div>
       <button class="btn-found" id="btn-found">
@@ -1023,7 +1023,6 @@
 <!-- ══ POPUP COMPTE ══ -->
 <div class="signup-overlay" id="signup-overlay">
   <div class="signup-card">
-    <span class="signup-emoji">🌿</span>
     <div class="signup-title" id="signup-title">Sauvegardez votre progression !</div>
     <p class="signup-text" id="signup-text">
       Vous avez déjà trouvé <strong id="signup-count">10</strong> Pokémon !<br>
@@ -1084,7 +1083,7 @@
       search_placeholder:"Chercher un Pokémon…", all_specialities:"Toutes les spécialités",
       all_zones:"Toutes les zones", all_habitats:"Tous les habitats",
       btn_all:"Tous", btn_found:"✓ Trouvés", btn_missing:"✗ Manquants",
-      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter",
+      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter", skip:"Continuer sans compte",
       specialities_title:"⚙️ Spécialités", habitats_title:"🏕️ Habitats",
       resources:"Ressources :", schedule:"Horaires", weather:"Météo",
       rarity:"Rareté", zone:"Zone",
@@ -1096,7 +1095,7 @@
       search_placeholder:"Search a Pokémon…", all_specialities:"All specialities",
       all_zones:"All zones", all_habitats:"All habitats",
       btn_all:"All", btn_found:"✓ Found", btn_missing:"✗ Missing",
-      found_count:"Found", logout:"Logout", login:"🔑 Sign in",
+      found_count:"Found", logout:"Logout", login:"🔑 Sign in", skip:"Continue without account",
       specialities_title:"⚙️ Specialities", habitats_title:"🏕️ Habitats",
       resources:"Resources:", schedule:"Schedule", weather:"Weather",
       rarity:"Rarity", zone:"Zone",
@@ -1114,6 +1113,11 @@
     document.getElementById('filter-habitat').options[0].text = t.all_habitats;
     document.getElementById('btn-logout').textContent         = t.logout;
     document.getElementById('btn-login-header').textContent    = t.login;
+    document.getElementById('btn-skip').textContent             = t.skip;
+    // Mettre à jour le popup si ouvert
+    if (document.getElementById('signup-overlay').classList.contains('open')) {
+      showSignupPopup();
+    }
     document.querySelector('[data-status="all"]').textContent    = t.btn_all;
     document.querySelector('[data-status="found"]').textContent  = t.btn_found;
     document.querySelector('[data-status="missing"]').textContent= t.btn_missing;
