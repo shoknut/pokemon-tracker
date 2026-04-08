@@ -829,36 +829,98 @@
       box-shadow: 0 1px 4px rgba(60,120,30,.15);
     }
     .lang-btn:hover:not(.active) { color: var(--text2); }
+
+    /* ── POPUP COMPTE ── */
+    .signup-overlay {
+      position: fixed; inset: 0;
+      background: rgba(30,60,15,.55);
+      backdrop-filter: blur(5px);
+      z-index: 700;
+      display: flex; align-items: center; justify-content: center;
+      padding: 1rem;
+      opacity: 0; pointer-events: none;
+      transition: opacity .3s;
+    }
+    .signup-overlay.open { opacity: 1; pointer-events: all; }
+    .signup-card {
+      background: var(--white);
+      border: 3px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 2rem 2rem 1.75rem;
+      max-width: 380px; width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow-lg), 0 0 0 6px rgba(92,200,50,.1);
+      transform: scale(.93) translateY(16px);
+      transition: transform .3s cubic-bezier(.34,1.56,.64,1);
+    }
+    .signup-overlay.open .signup-card { transform: scale(1) translateY(0); }
+    .signup-emoji { font-size: 2.5rem; display: block; margin-bottom: .75rem; }
+    .signup-title {
+      font-family: 'Fredoka', cursive;
+      font-size: 1.4rem; font-weight: 700;
+      color: var(--text); margin-bottom: .5rem;
+    }
+    .signup-text {
+      font-size: .9rem; color: var(--text2);
+      font-weight: 700; line-height: 1.5;
+      margin-bottom: 1.25rem;
+    }
+    .signup-text strong { color: var(--green-dark); }
+    .btn-signup-google {
+      display: flex; align-items: center; justify-content: center;
+      gap: .7rem; width: 100%;
+      padding: .85rem 1.5rem;
+      background: var(--white); color: #333;
+      border: 2px solid #e0e0e0;
+      border-radius: var(--radius-lg);
+      font-family: 'Nunito', sans-serif;
+      font-size: .95rem; font-weight: 800;
+      cursor: pointer; transition: all .2s;
+      box-shadow: 0 3px 10px rgba(0,0,0,.1);
+      margin-bottom: .75rem;
+    }
+    .btn-signup-google:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.15); }
+    .btn-signup-google svg { width: 20px; height: 20px; flex-shrink: 0; }
+    .btn-skip {
+      background: none; border: none;
+      color: var(--muted); font-family: inherit;
+      font-size: .82rem; font-weight: 700;
+      cursor: pointer; padding: .3rem .5rem;
+      transition: color .2s;
+    }
+    .btn-skip:hover { color: var(--text2); }
+    .signup-progress {
+      font-size: .75rem; color: var(--muted);
+      font-weight: 700; margin-bottom: 1rem;
+    }
+    /* User bar — masquer avatar/nom si non connecté */
+    .user-bar.guest img,
+    .user-bar.guest #user-name { display: none; }
+    .btn-login-header {
+      background: var(--green);
+      border: none; border-radius: var(--radius-md);
+      color: white; font-family: 'Fredoka', cursive;
+      font-size: .9rem; font-weight: 600;
+      padding: .3rem .9rem; cursor: pointer;
+      transition: all .2s; box-shadow: 0 2px 8px rgba(92,200,50,.3);
+    }
+    .btn-login-header:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(92,200,50,.4); }
+    .btn-login-header.hidden { display: none; }
   </style>
 </head>
 <body>
 
 <!-- ══ LOGIN ══ -->
-<div id="login-screen">
-  <img class="login-logo" src="./Pokemon_Pokopia_Logo.webp" alt="Pokémon Pokopia" />
-  <div class="login-card">
-    <p>Connecte-toi pour suivre ta progression 🌿</p>
-    <button class="btn-google" id="btn-login">
-      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-      </svg>
-      Se connecter avec Google
-    </button>
-  </div>
-</div>
-
 <!-- ══ APP ══ -->
-<div id="app">
+<div id="app" style="display:block">
   <header>
     <div class="header-inner">
       <img class="header-logo" src="./Pokemon_Pokopia_Logo.webp" alt="Pokémon Pokopia" />
       <div class="user-bar">
         <img id="user-avatar" src="" alt="" />
         <span id="user-name"></span>
-        <button class="btn-logout" id="btn-logout">Déconnexion</button>
+        <button class="btn-login-header" id="btn-login-header">🔑 Se connecter</button>
+        <button class="btn-logout hidden" id="btn-logout">Déconnexion</button>
         <div class="lang-switch">
           <button class="lang-btn active" data-lang="fr">FR</button>
           <button class="lang-btn" data-lang="en">EN</button>
@@ -920,6 +982,30 @@
         <span id="btn-found-label">Marquer comme trouvé</span>
       </button>
     </div>
+  </div>
+</div>
+
+
+<!-- ══ POPUP COMPTE ══ -->
+<div class="signup-overlay" id="signup-overlay">
+  <div class="signup-card">
+    <span class="signup-emoji">🌿</span>
+    <div class="signup-title" id="signup-title">Sauvegardez votre progression !</div>
+    <p class="signup-text" id="signup-text">
+      Vous avez déjà trouvé <strong id="signup-count">10</strong> Pokémon !<br>
+      Créez un compte gratuit pour ne jamais perdre votre avancée, même si vous changez d'appareil.
+    </p>
+    <div class="signup-progress" id="signup-progress"></div>
+    <button class="btn-signup-google" id="btn-signup-google">
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+      </svg>
+      <span id="signup-btn-text">Créer un compte avec Google</span>
+    </button>
+    <button class="btn-skip" id="btn-skip">Continuer sans compte</button>
   </div>
 </div>
 
@@ -1016,23 +1102,116 @@
   let modalPokemonId = null;
 
   // AUTH
-  document.getElementById('btn-login').addEventListener('click', () =>
-    signInWithPopup(auth, provider).catch(console.error));
-  document.getElementById('btn-logout').addEventListener('click', () => signOut(auth));
 
+  const LS_KEY = 'pokopia_progress';
+  const POPUP_THRESHOLD = 10; // Premier popup
+  const POPUP_REPEAT    = 5;  // Popup récurrent
+  let popupShown = false;
+
+  // ── LocalStorage helpers ──
+  function loadFromLocal() {
+    try { return JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch { return {}; }
+  }
+  function saveToLocal(data) {
+    localStorage.setItem(LS_KEY, JSON.stringify(data));
+  }
+
+  // ── Connexion Google (depuis popup ou header) ──
+  async function doLogin() {
+    try {
+      await signInWithPopup(auth, provider);
+    } catch(e) { console.error(e); }
+  }
+
+  document.getElementById('btn-login-header').addEventListener('click', doLogin);
+  document.getElementById('btn-signup-google').addEventListener('click', doLogin);
+  document.getElementById('btn-logout').addEventListener('click', () => signOut(auth));
+  document.getElementById('btn-skip').addEventListener('click', () => {
+    closeSignupPopup();
+  });
+
+  // ── Popup ──
+  function showSignupPopup() {
+    const count = Object.values(progress).filter(Boolean).length;
+    document.getElementById('signup-count').textContent = count;
+    // Adapter le texte selon si c'est le premier popup ou les suivants
+    if (count === POPUP_THRESHOLD) {
+      document.getElementById('signup-title').textContent = lang === 'en'
+        ? 'Save your progress!' : 'Sauvegardez votre progression !';
+      document.getElementById('signup-text').innerHTML = lang === 'en'
+        ? `You've already found <strong>${count}</strong> Pokémon!<br>Create a free account to never lose your progress, even if you change device.`
+        : `Vous avez déjà trouvé <strong>${count}</strong> Pokémon !<br>Créez un compte gratuit pour ne jamais perdre votre avancée, même si vous changez d'appareil.`;
+      document.getElementById('signup-btn-text').textContent = lang === 'en'
+        ? 'Create account with Google' : 'Créer un compte avec Google';
+    } else {
+      document.getElementById('signup-title').textContent = lang === 'en'
+        ? 'Still going strong!' : 'Toujours plus loin !';
+      document.getElementById('signup-text').innerHTML = lang === 'en'
+        ? `<strong>${count}</strong> Pokémon found! Your progress is only saved locally.<br>Sign in to back it up to the cloud for free.`
+        : `<strong>${count}</strong> Pokémon trouvés ! Votre progression n'est sauvegardée que localement.<br>Connectez-vous pour la sauvegarder dans le cloud gratuitement.`;
+      document.getElementById('signup-btn-text').textContent = lang === 'en'
+        ? 'Sign in with Google' : 'Se connecter avec Google';
+    }
+    document.getElementById('signup-overlay').classList.add('open');
+  }
+  function closeSignupPopup() {
+    document.getElementById('signup-overlay').classList.remove('open');
+  }
+  document.getElementById('signup-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('signup-overlay')) closeSignupPopup();
+  });
+
+  // ── Vérifier si on doit montrer le popup (invité seulement) ──
+  function checkPopup() {
+    if (currentUser) return; // connecté → jamais de popup
+    const count = Object.values(progress).filter(Boolean).length;
+    if (count === POPUP_THRESHOLD) {
+      showSignupPopup();
+    } else if (count > POPUP_THRESHOLD && (count - POPUP_THRESHOLD) % POPUP_REPEAT === 0) {
+      showSignupPopup();
+    }
+  }
+
+  // ── Auth state ──
   onAuthStateChanged(auth, async user => {
     if (user) {
       currentUser = user;
-      document.getElementById('login-screen').style.display = 'none';
-      document.getElementById('app').style.display = 'block';
+      closeSignupPopup();
+      // Fusion : localStorage → Firestore
+      const local = loadFromLocal();
+      // Charger Firestore
+      try {
+        const snap = await getDoc(doc(db, 'progress', user.uid));
+        const remote = snap.exists() ? (snap.data().found || {}) : {};
+        // Merge : union des deux (local + remote)
+        progress = { ...remote, ...local };
+        await setDoc(doc(db, 'progress', user.uid), { found: progress });
+        localStorage.removeItem(LS_KEY); // nettoyage
+      } catch(e) {
+        progress = local;
+        console.warn(e);
+      }
+      // Mettre à jour UI header
       document.getElementById('user-name').textContent = user.displayName;
       document.getElementById('user-avatar').src = user.photoURL || '';
-      await loadData();
+      document.getElementById('btn-login-header').classList.add('hidden');
+      document.getElementById('btn-logout').classList.remove('hidden');
+      document.getElementById('user-avatar').style.display = 'block';
+      document.getElementById('user-name').style.display = 'block';
+      document.querySelector('.user-bar').classList.remove('guest');
+      setStatus('saved');
+      if (!pokemons.length) await loadData();
+      else { render(); updateProgress(); }
     } else {
       currentUser = null;
-      document.getElementById('login-screen').style.display = 'flex';
-      document.getElementById('app').style.display = 'none';
-      progress = {};
+      progress = loadFromLocal();
+      // Header mode invité
+      document.getElementById('btn-login-header').classList.remove('hidden');
+      document.getElementById('btn-logout').classList.add('hidden');
+      document.querySelector('.user-bar').classList.add('guest');
+      setStatus('local');
+      if (!pokemons.length) await loadData();
+      else { render(); updateProgress(); }
     }
   });
 
@@ -1079,7 +1258,11 @@
   }
 
   async function loadProgress() {
-    if (!currentUser) return;
+    if (!currentUser) {
+      progress = loadFromLocal();
+      setStatus('local');
+      return;
+    }
     setStatus('saving');
     try {
       const snap = await getDoc(doc(db, 'progress', currentUser.uid));
@@ -1089,7 +1272,15 @@
   }
 
   function saveProgress() {
-    if (!currentUser) return;
+    if (!currentUser) {
+      // Invité → localStorage
+      saveToLocal(progress);
+      setStatus('local');
+      checkPopup();
+      return;
+    }
+    // Connecté → Firestore
+    saveToLocal(progress); // backup local aussi
     clearTimeout(saveTimer);
     setStatus('saving');
     saveTimer = setTimeout(async () => {
@@ -1103,7 +1294,7 @@
   function setStatus(s) {
     const el = document.getElementById('fb-status');
     el.className = 'firebase-status ' + s;
-    el.textContent = s==='saving' ? '⏳ Sauvegarde…' : s==='saved' ? '☁️ Sauvegardé' : '⚠️ Erreur';
+    el.textContent = s==='saving' ? '⏳ Sauvegarde…' : s==='saved' ? '☁️ Sauvegardé' : s==='local' ? '💾 Local' : '⚠️ Erreur';
   }
 
   function toggleFound(id) {
