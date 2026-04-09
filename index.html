@@ -1268,6 +1268,9 @@
       document.getElementById('user-name').style.display = '';
       document.getElementById('user-avatar').style.display = '';
       document.querySelector('.user-bar').classList.add('guest');
+      // Appliquer la langue sauvegardée
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      applyLang();
       setStatus('local');
       if (!pokemons.length) await loadData();
       else { render(); updateProgress(); }
