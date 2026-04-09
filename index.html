@@ -1316,6 +1316,7 @@
       document.getElementById('total').textContent = pokemons.length;
     }
     await loadProgress();
+    applyLang(); // Applique la langue APRÈS que les selects sont peuplés
     render();
   }
 
