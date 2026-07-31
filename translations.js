@@ -63,7 +63,7 @@ window.POKOPIA_TRANSLATIONS = {
     'Aire de camping':                        'Camping Area',
     'Aire de jeu':                            'Play Area',
     'Aire de repos pour les cyclistes':       'Cyclists Rest Area',
-    'Amas de Poké Balls':                     'Poke Ball Pile',
+    'Amas de Poké Balls':                     'Poké Ball Pile',
     'Apparait à Collinangle':                 'Appears at Collinangle',
     'Apparait à Grisemer':                    'Appears at Grisemer',
     'Apparait à Terrassec':                   'Appears at Terrassec',
@@ -278,6 +278,12 @@ window.POKOPIA_TRANSLATIONS = {
     'Zone en pagaille':                       'Chaotic Zone',
     'Zone piégée':                            'Trapped Zone',
     'Étang avec plantes flottantes':          'Pond with Floating Plants',
+    // Habitats événements
+    'Tapis de fleurs jaunes':                 'Yellow Flower Carpet',
+    "Kit d'excursion":                        'Excursion Kit',
+    'Coin pique-nique fleuri':                'Flowery Picnic Spot',
+    'Kit de chasse aux trésors':              'Treasure Hunting Kit',
+    'Chambre ciel étoilé':                    'Surrounded by Stars',
   },
 };
 
@@ -605,6 +611,20 @@ window.POKOPIA_TRANSLATIONS.items = {
   "Toboggan aquatique":              "Water Slide",
   "Balançoire":                      "Swing",
   "Pot de fleurs":                   "Flower Pot",
+  // Items événements
+  "Fleurs paisibles":                "Peaceful Flowers",
+  "Sac à dos fleur":                 "Flower Backpack",
+  "Gourde Granivol":                 "Hoppip Water Bottle",
+  "Boîtes-repas":                    "Lunch Boxes",
+  "Coussin fleur":                   "Flower Cushion",
+  "Service de table fleur":          "Flower Tableware",
+  "Sac d'exploration":               "Exploration Bag",
+  "Carte assortie d'une boussole":   "Map with Compass",
+  "Trésor":                          "Treasure",
+  "Armoire étoile":                  "Star Wardrobe",
+  "Lit ciel étoilé":                 "Starry Sky Bed",
+  "Table nuage":                     "Cloud Table",
+  "Lampe Jirachi (allumée)":         "Jirachi Lamp (lit)",
 };
 
 // Fonction de traduction des ressources

@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1001,
+    "pokedexId": "187",
+    "nom": "Granivol",
+    "nom_en": "Hoppip",
+    "slug": "granivol",
+    "image": "https://www.pokebip.com/pokedex-images/300/187.png?v=1.0",
+    "materiaux": [
+      "Fertilisation"
+    ],
+    "evenement": "Des aigrettes pour Granivol (9-24 mars 2026)",
+    "habitats": [
+      {
+        "nom": "Tapis de fleurs jaunes",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10001.png?v=1.0",
+        "ressources": "Fleurs paisibles x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Toutes"
+      }
+    ],
+    "trouve": false
+  },
+  {
+    "id": 1002,
+    "pokedexId": "188",
+    "nom": "Floravol",
+    "nom_en": "Skiploom",
+    "slug": "floravol",
+    "image": "https://www.pokebip.com/pokedex-images/300/188.png?v=1.0",
+    "materiaux": [
+      "Fertilisation"
+    ],
+    "evenement": "Des aigrettes pour Granivol (9-24 mars 2026)",
+    "habitats": [
+      {
+        "nom": "Tapis de fleurs jaunes",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10001.png?v=1.0",
+        "ressources": "Fleurs paisibles x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Toutes"
+      },
+      {
+        "nom": "Kit d'excursion",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10002.png?v=1.0",
+        "ressources": "Sac à dos fleur x1, Gourde Granivol x1, Boîtes-repas x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Toutes"
+      }
+    ],
+    "trouve": false
+  },
+  {
+    "id": 1003,
+    "pokedexId": "189",
+    "nom": "Cotovol",
+    "nom_en": "Jumpluff",
+    "slug": "cotovol",
+    "image": "https://www.pokebip.com/pokedex-images/300/189.png?v=1.0",
+    "materiaux": [
+      "Désordre",
+      "Fertilisation"
+    ],
+    "evenement": "Des aigrettes pour Granivol (9-24 mars 2026)",
+    "habitats": [
+      {
+        "nom": "Tapis de fleurs jaunes",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10001.png?v=1.0",
+        "ressources": "Fleurs paisibles x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Très rare",
+          "etoiles": 3
+        },
+        "zones": "Toutes"
+      },
+      {
+        "nom": "Coin pique-nique fleuri",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10003.png?v=1.0",
+        "ressources": "Fleurs paisibles x1, Coussin fleur x1, Boîtes-repas x1, Service de table fleur x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Toutes"
+      }
+    ],
+    "trouve": false
+  },
+  {
+    "id": 1004,
+    "pokedexId": "302",
+    "nom": "Ténéfix",
+    "nom_en": "Sableye",
+    "slug": "tenefix",
+    "image": "https://www.pokebip.com/pokedex-images/300/302.png?v=1.0",
+    "materiaux": [
+      "Recherche"
+    ],
+    "evenement": "Chasse aux gemmes de Ténéfix (29 avril - 14 mai 2026)",
+    "habitats": [
+      {
+        "nom": "Kit de chasse aux trésors",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10004.png?v=1.0",
+        "ressources": "Sac d'exploration x1, Carte assortie d'une boussole x1, Trésor x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Toutes"
+      }
+    ],
+    "trouve": false
+  },
+  {
+    "id": 1005,
+    "pokedexId": "385",
+    "nom": "Jirachi",
+    "nom_en": "Jirachi",
+    "slug": "jirachi",
+    "image": "https://www.pokebip.com/pokedex-images/300/385.png?v=1.0",
+    "materiaux": [
+      "Désordre"
+    ],
+    "evenement": "Vœux de Jirachi (23 juin - 8 juillet 2026)",
+    "habitats": [
+      {
+        "nom": "Chambre ciel étoilé",
+        "image": "https://www.pokebip.com/pokedex-images/pokopia/habitats/10005.png?v=1.0",
+        "ressources": "Armoire étoile x1, Lit ciel étoilé x1, Table nuage x1, Lampe Jirachi (allumée) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Toutes"
+      }
+    ],
+    "trouve": false
+  }
+]

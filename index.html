@@ -935,6 +935,46 @@
     }
     .btn-kofi .kofi-icon { font-size: 1rem; }
 
+
+    /* ── ONGLETS ── */
+    .tabs-bar {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem 0;
+      display: flex;
+      gap: .5rem;
+    }
+    .tab-btn {
+      padding: .55rem 1.3rem;
+      border: 2px solid var(--border);
+      border-bottom: none;
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      background: var(--bg2);
+      color: var(--muted);
+      font-family: 'Fredoka', cursive;
+      font-size: .95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+    }
+    .tab-btn:hover { color: var(--text2); }
+    .tab-btn.active {
+      background: var(--white);
+      color: var(--green-dark);
+      font-weight: 700;
+      box-shadow: 0 -3px 8px rgba(60,120,30,.08);
+    }
+    .tab-count {
+      font-size: .72rem;
+      background: var(--bg2);
+      border-radius: 99px;
+      padding: .1rem .5rem;
+      font-weight: 800;
+    }
+    .tab-btn.active .tab-count { background: var(--green-light, #e3f5d8); }
   </style>
 </head>
 <body>
@@ -972,6 +1012,11 @@
         </div>
     </div>
   </header>
+
+  <div class="tabs-bar">
+    <button class="tab-btn active" data-tab="main" id="tab-main">🌿 <span id="tab-main-label">Principaux</span> <span class="tab-count" id="tab-main-count"></span></button>
+    <button class="tab-btn" data-tab="event" id="tab-event">⭐ <span id="tab-event-label">Événements</span> <span class="tab-count" id="tab-event-count"></span></button>
+  </div>
 
   <div class="controls">
     <div class="search-wrap">
@@ -1069,6 +1114,7 @@
   const provider = new GoogleAuthProvider();
 
   let pokemons = [], progress = {}, currentUser = null;
+  let currentTab = 'main';
   let filterStatus = 'all', filterMat = '', filterZone = '', filterHabitat = '', searchQuery = '', saveTimer = null;
   // Charger la langue sauvegardée (localStorage)
   let lang = localStorage.getItem('pokopia_lang') || 'fr';
@@ -1086,7 +1132,7 @@
       search_placeholder:"Chercher un Pokémon…", all_specialities:"Toutes les spécialités",
       all_zones:"Toutes les zones", all_habitats:"Tous les habitats",
       btn_all:"Tous", btn_found:"✓ Trouvés", btn_missing:"✗ Manquants",
-      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter", skip:"Continuer sans compte",
+      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter", skip:"Continuer sans compte", tab_main:"Principaux", tab_event:"Événements",
       specialities_title:"⚙️ Spécialités", habitats_title:"🏕️ Habitats",
       resources:"Ressources :", schedule:"Horaires", weather:"Météo",
       rarity:"Rareté", zone:"Zone",
@@ -1098,7 +1144,7 @@
       search_placeholder:"Search a Pokémon…", all_specialities:"All specialities",
       all_zones:"All zones", all_habitats:"All habitats",
       btn_all:"All", btn_found:"✓ Found", btn_missing:"✗ Missing",
-      found_count:"Found", logout:"Logout", login:"🔑 Sign in", skip:"Continue without account",
+      found_count:"Found", logout:"Logout", login:"🔑 Sign in", skip:"Continue without account", tab_main:"Main", tab_event:"Events",
       specialities_title:"⚙️ Specialities", habitats_title:"🏕️ Habitats",
       resources:"Resources:", schedule:"Schedule", weather:"Weather",
       rarity:"Rarity", zone:"Zone",
@@ -1117,6 +1163,8 @@
     document.getElementById('btn-logout').textContent         = t.logout;
     document.getElementById('btn-login-header').textContent    = t.login;
     document.getElementById('btn-skip').textContent             = t.skip;
+    document.getElementById('tab-main-label').textContent       = t.tab_main;
+    document.getElementById('tab-event-label').textContent      = t.tab_event;
     // Mettre à jour le popup si ouvert
     if (document.getElementById('signup-overlay').classList.contains('open')) {
       showSignupPopup();
@@ -1279,8 +1327,21 @@
 
   async function loadData() {
     if (!pokemons.length) {
-      const res = await fetch('./pokemon.json');
-      pokemons = await res.json();
+      const [resMain, resEvents] = await Promise.all([
+        fetch('./pokemon.json'),
+        fetch('./pokemon-events.json').catch(() => null)
+      ]);
+      const mainList = await resMain.json();
+      mainList.forEach(p => p.cat = 'main');
+      let eventList = [];
+      if (resEvents && resEvents.ok) {
+        eventList = await resEvents.json();
+        eventList.forEach(p => p.cat = 'event');
+      }
+      pokemons = [...mainList, ...eventList];
+      // Compteurs d'onglets
+      document.getElementById('tab-main-count').textContent  = mainList.length;
+      document.getElementById('tab-event-count').textContent = eventList.length;
       const allMats = [...new Set(pokemons.flatMap(p => p.materiaux || []))].sort();
       const sel = document.getElementById('filter-mat');
       while (sel.options.length > 1) sel.remove(1);
@@ -1383,7 +1444,9 @@
     const grid = document.getElementById('grid');
     const q = searchQuery.toLowerCase();
     const filtered = pokemons.filter(p => {
-      if (q && !p.nom.toLowerCase().includes(q)) return false;
+      if ((p.cat || 'main') !== currentTab) return false;
+      const nameToSearch = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
+      if (q && !nameToSearch.toLowerCase().includes(q) && !p.nom.toLowerCase().includes(q)) return false;
       if (filterMat && !(p.materiaux || []).includes(filterMat)) return false;
       // Filtre zone
       if (filterZone) {
@@ -1417,7 +1480,7 @@
       const displayName = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
         style="animation-delay:${Math.min(i*18,500)}ms" onclick="window._openModal(${p.id})">
-        <span class="card-id">#${p.id}</span>
+        <span class="card-id">${p.cat === "event" ? "⭐ #" + (p.id - 1000) : "#" + p.id}</span>
         <img class="card-img" src="${p.image}" alt="${displayName}"
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
         <div class="card-name">${displayName}</div>
@@ -1431,8 +1494,9 @@
   }
 
   function updateProgress() {
-    const total = pokemons.length;
-    const found = Object.values(progress).filter(Boolean).length;
+    const tabPokemons = pokemons.filter(p => (p.cat || 'main') === currentTab);
+    const total = tabPokemons.length;
+    const found = tabPokemons.filter(p => !!progress[String(p.id)]).length;
     const pct   = total ? Math.round(found/total*100) : 0;
     document.getElementById('count').textContent = found;
     document.getElementById('total').textContent = total;
@@ -1599,6 +1663,15 @@
   // Langue switch
   // Appliquer la langue sauvegardée au chargement
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+
+  // Onglets Principaux / Événements
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentTab = btn.dataset.tab;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === currentTab));
+      render();
+    });
+  });
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
