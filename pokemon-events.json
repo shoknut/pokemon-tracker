@@ -368,5 +368,29 @@
       }
     ],
     "trouve": false
+  },
+  {
+    "id": 1006,
+    "pokedexId": "349",
+    "nom": "Barpau",
+    "nom_en": "Feebas",
+    "slug": "barpau",
+    "image": "https://www.pokebip.com/pokedex-images/300/349.png?v=1.0",
+    "materiaux": [],
+    "evenement": "Nouvel événement (à partir du 12 août 2026)",
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 1007,
+    "pokedexId": "350",
+    "nom": "Milobellus",
+    "nom_en": "Milotic",
+    "slug": "milobellus",
+    "image": "https://www.pokebip.com/pokedex-images/300/350.png?v=1.0",
+    "materiaux": [],
+    "evenement": "Nouvel événement (à partir du 12 août 2026)",
+    "habitats": [],
+    "trouve": false
   }
 ]

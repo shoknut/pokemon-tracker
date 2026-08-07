@@ -1016,6 +1016,7 @@
   <div class="tabs-bar">
     <button class="tab-btn active" data-tab="main" id="tab-main">🌿 <span id="tab-main-label">Principaux</span> <span class="tab-count" id="tab-main-count"></span></button>
     <button class="tab-btn" data-tab="event" id="tab-event">⭐ <span id="tab-event-label">Événements</span> <span class="tab-count" id="tab-event-count"></span></button>
+    <button class="tab-btn" data-tab="dlc" id="tab-dlc">🫧 <span id="tab-dlc-label">Fonds Bulleux</span> <span class="tab-count" id="tab-dlc-count"></span></button>
   </div>
 
   <div class="controls">
@@ -1132,7 +1133,7 @@
       search_placeholder:"Chercher un Pokémon…", all_specialities:"Toutes les spécialités",
       all_zones:"Toutes les zones", all_habitats:"Tous les habitats",
       btn_all:"Tous", btn_found:"✓ Trouvés", btn_missing:"✗ Manquants",
-      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter", skip:"Continuer sans compte", tab_main:"Principaux", tab_event:"Événements",
+      found_count:"Trouvés", logout:"Déconnexion", login:"🔑 Se connecter", skip:"Continuer sans compte", tab_main:"Principaux", tab_event:"Événements", tab_dlc:"Fonds Bulleux",
       specialities_title:"⚙️ Spécialités", habitats_title:"🏕️ Habitats",
       resources:"Ressources :", schedule:"Horaires", weather:"Météo",
       rarity:"Rareté", zone:"Zone",
@@ -1144,7 +1145,7 @@
       search_placeholder:"Search a Pokémon…", all_specialities:"All specialities",
       all_zones:"All zones", all_habitats:"All habitats",
       btn_all:"All", btn_found:"✓ Found", btn_missing:"✗ Missing",
-      found_count:"Found", logout:"Logout", login:"🔑 Sign in", skip:"Continue without account", tab_main:"Main", tab_event:"Events",
+      found_count:"Found", logout:"Logout", login:"🔑 Sign in", skip:"Continue without account", tab_main:"Main", tab_event:"Events", tab_dlc:"Bubbly Basin",
       specialities_title:"⚙️ Specialities", habitats_title:"🏕️ Habitats",
       resources:"Resources:", schedule:"Schedule", weather:"Weather",
       rarity:"Rarity", zone:"Zone",
@@ -1165,6 +1166,7 @@
     document.getElementById('btn-skip').textContent             = t.skip;
     document.getElementById('tab-main-label').textContent       = t.tab_main;
     document.getElementById('tab-event-label').textContent      = t.tab_event;
+    document.getElementById('tab-dlc-label').textContent        = t.tab_dlc;
     // Mettre à jour le popup si ouvert
     if (document.getElementById('signup-overlay').classList.contains('open')) {
       showSignupPopup();
@@ -1327,9 +1329,10 @@
 
   async function loadData() {
     if (!pokemons.length) {
-      const [resMain, resEvents] = await Promise.all([
+      const [resMain, resEvents, resDlc] = await Promise.all([
         fetch('./pokemon.json'),
-        fetch('./pokemon-events.json').catch(() => null)
+        fetch('./pokemon-events.json').catch(() => null),
+        fetch('./pokemon-fonds-bulleux.json').catch(() => null)
       ]);
       const mainList = await resMain.json();
       mainList.forEach(p => p.cat = 'main');
@@ -1338,10 +1341,16 @@
         eventList = await resEvents.json();
         eventList.forEach(p => p.cat = 'event');
       }
-      pokemons = [...mainList, ...eventList];
+      let dlcList = [];
+      if (resDlc && resDlc.ok) {
+        dlcList = await resDlc.json();
+        dlcList.forEach(p => p.cat = 'dlc');
+      }
+      pokemons = [...mainList, ...eventList, ...dlcList];
       // Compteurs d'onglets
       document.getElementById('tab-main-count').textContent  = mainList.length;
       document.getElementById('tab-event-count').textContent = eventList.length;
+      document.getElementById('tab-dlc-count').textContent   = dlcList.length;
       const allMats = [...new Set(pokemons.flatMap(p => p.materiaux || []))].sort();
       const sel = document.getElementById('filter-mat');
       while (sel.options.length > 1) sel.remove(1);
@@ -1480,7 +1489,7 @@
       const displayName = lang === 'en' ? (p.nom_en || p.nom) : p.nom;
       return `<div class="card ${found?'found':''}" data-id="${p.id}"
         style="animation-delay:${Math.min(i*18,500)}ms" onclick="window._openModal(${p.id})">
-        <span class="card-id">${p.cat === "event" ? "⭐ #" + (p.id - 1000) : "#" + p.id}</span>
+        <span class="card-id">${p.cat === "event" ? "⭐ #" + (p.id - 1000) : p.cat === "dlc" ? "🫧 #" + (p.id - 2000) : "#" + p.id}</span>
         <img class="card-img" src="${p.image}" alt="${displayName}"
           onerror="this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.pokedexId}.png'"/>
         <div class="card-name">${displayName}</div>

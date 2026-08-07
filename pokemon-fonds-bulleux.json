@@ -1,0 +1,685 @@
+[
+  {
+    "id": 2001,
+    "pokedexId": "90",
+    "nom": "Kokiyas",
+    "nom_en": "Shellder",
+    "slug": "kokiyas",
+    "image": "https://www.pokebip.com/pokedex-images/300/90.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Désordre"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2002,
+    "pokedexId": "91",
+    "nom": "Crustabri",
+    "nom_en": "Cloyster",
+    "slug": "crustabri",
+    "image": "https://www.pokebip.com/pokedex-images/300/91.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Désordre"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2003,
+    "pokedexId": "116",
+    "nom": "Hypotrempe",
+    "nom_en": "Horsea",
+    "slug": "hypotrempe",
+    "image": "https://www.pokebip.com/pokedex-images/300/116.png?v=1.0",
+    "materiaux": [
+      "Arrosage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2004,
+    "pokedexId": "117",
+    "nom": "Hypocéan",
+    "nom_en": "Seadra",
+    "slug": "hypocean",
+    "image": "https://www.pokebip.com/pokedex-images/300/117.png?v=1.0",
+    "materiaux": [
+      "Arrosage",
+      "Désordre"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2005,
+    "pokedexId": "230",
+    "nom": "Hyporoi",
+    "nom_en": "Kingdra",
+    "slug": "hyporoi",
+    "image": "https://www.pokebip.com/pokedex-images/300/230.png?v=1.0",
+    "materiaux": [
+      "Arrosage",
+      "Désordre"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2006,
+    "pokedexId": "120",
+    "nom": "Stari",
+    "nom_en": "Staryu",
+    "slug": "stari",
+    "image": "https://www.pokebip.com/pokedex-images/300/120.png?v=1.0",
+    "materiaux": [
+      "Téléportation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2007,
+    "pokedexId": "121",
+    "nom": "Staross",
+    "nom_en": "Starmie",
+    "slug": "staross",
+    "image": "https://www.pokebip.com/pokedex-images/300/121.png?v=1.0",
+    "materiaux": [
+      "Téléportation",
+      "Rangement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2008,
+    "pokedexId": "158",
+    "nom": "Kaiminus",
+    "nom_en": "Totodile",
+    "slug": "kaiminus",
+    "image": "https://www.pokebip.com/pokedex-images/300/158.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2009,
+    "pokedexId": "159",
+    "nom": "Crocrodil",
+    "nom_en": "Croconaw",
+    "slug": "crocrodil",
+    "image": "https://www.pokebip.com/pokedex-images/300/159.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois",
+      "Broyage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2010,
+    "pokedexId": "160",
+    "nom": "Aligatueur",
+    "nom_en": "Feraligatr",
+    "slug": "aligatueur",
+    "image": "https://www.pokebip.com/pokedex-images/300/160.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois",
+      "Broyage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2011,
+    "pokedexId": "170",
+    "nom": "Loupio",
+    "nom_en": "Chinchou",
+    "slug": "loupio",
+    "image": "https://www.pokebip.com/pokedex-images/300/170.png?v=1.0",
+    "materiaux": [
+      "Électrification"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2012,
+    "pokedexId": "171",
+    "nom": "Lanturn",
+    "nom_en": "Lanturn",
+    "slug": "lanturn",
+    "image": "https://www.pokebip.com/pokedex-images/300/171.png?v=1.0",
+    "materiaux": [
+      "Électrification",
+      "Arrosage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2013,
+    "pokedexId": "222",
+    "nom": "Corayon",
+    "nom_en": "Corsola",
+    "slug": "corayon",
+    "image": "https://www.pokebip.com/pokedex-images/300/222.png?v=1.0",
+    "materiaux": [
+      "Fertilisation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2014,
+    "pokedexId": "258",
+    "nom": "Gobou",
+    "nom_en": "Mudkip",
+    "slug": "gobou",
+    "image": "https://www.pokebip.com/pokedex-images/300/258.png?v=1.0",
+    "materiaux": [
+      "Arrosage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2015,
+    "pokedexId": "259",
+    "nom": "Flobio",
+    "nom_en": "Marshtomp",
+    "slug": "flobio",
+    "image": "https://www.pokebip.com/pokedex-images/300/259.png?v=1.0",
+    "materiaux": [
+      "Arrosage",
+      "Construction"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2016,
+    "pokedexId": "260",
+    "nom": "Laggron",
+    "nom_en": "Swampert",
+    "slug": "laggron",
+    "image": "https://www.pokebip.com/pokedex-images/300/260.png?v=1.0",
+    "materiaux": [
+      "Construction",
+      "Aplanissement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2017,
+    "pokedexId": "318",
+    "nom": "Carvanha",
+    "nom_en": "Carvanha",
+    "slug": "carvanha",
+    "image": "https://www.pokebip.com/pokedex-images/300/318.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2018,
+    "pokedexId": "319",
+    "nom": "Sharpedo",
+    "nom_en": "Sharpedo",
+    "slug": "sharpedo",
+    "image": "https://www.pokebip.com/pokedex-images/300/319.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois",
+      "Rangement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2019,
+    "pokedexId": "339",
+    "nom": "Barloche",
+    "nom_en": "Barboach",
+    "slug": "barloche",
+    "image": "https://www.pokebip.com/pokedex-images/300/339.png?v=1.0",
+    "materiaux": [
+      "Recherche"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2020,
+    "pokedexId": "340",
+    "nom": "Barbicha",
+    "nom_en": "Whiscash",
+    "slug": "barbicha",
+    "image": "https://www.pokebip.com/pokedex-images/300/340.png?v=1.0",
+    "materiaux": [
+      "Recherche",
+      "Aplanissement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2021,
+    "pokedexId": "341",
+    "nom": "Écrapince",
+    "nom_en": "Corphish",
+    "slug": "ecrapince",
+    "image": "https://www.pokebip.com/pokedex-images/300/341.png?v=1.0",
+    "materiaux": [
+      "Construction"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2022,
+    "pokedexId": "342",
+    "nom": "Colhomard",
+    "nom_en": "Crawdaunt",
+    "slug": "colhomard",
+    "image": "https://www.pokebip.com/pokedex-images/300/342.png?v=1.0",
+    "materiaux": [
+      "Construction",
+      "Broyage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2023,
+    "pokedexId": "370",
+    "nom": "Lovdisc",
+    "nom_en": "Luvdisc",
+    "slug": "lovdisc",
+    "image": "https://www.pokebip.com/pokedex-images/300/370.png?v=1.0",
+    "materiaux": [
+      "Animation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2024,
+    "pokedexId": "418",
+    "nom": "Mustébouée",
+    "nom_en": "Buizel",
+    "slug": "mustebouee",
+    "image": "https://www.pokebip.com/pokedex-images/300/418.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois",
+      "Troc"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2025,
+    "pokedexId": "419",
+    "nom": "Mustéflott",
+    "nom_en": "Floatzel",
+    "slug": "musteflott",
+    "image": "https://www.pokebip.com/pokedex-images/300/419.png?v=1.0",
+    "materiaux": [
+      "Troc",
+      "Construction"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2026,
+    "pokedexId": "456",
+    "nom": "Écayon",
+    "nom_en": "Finneon",
+    "slug": "ecayon",
+    "image": "https://www.pokebip.com/pokedex-images/300/456.png?v=1.0",
+    "materiaux": [
+      "Animation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2027,
+    "pokedexId": "457",
+    "nom": "Luminéon",
+    "nom_en": "Lumineon",
+    "slug": "lumineon",
+    "image": "https://www.pokebip.com/pokedex-images/300/457.png?v=1.0",
+    "materiaux": [
+      "Animation",
+      "Arrosage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2028,
+    "pokedexId": "592",
+    "nom": "Viskuse",
+    "nom_en": "Frillish",
+    "slug": "viskuse",
+    "image": "https://www.pokebip.com/pokedex-images/300/592.png?v=1.0",
+    "materiaux": [
+      "Recherche",
+      "Combustion"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2029,
+    "pokedexId": "593",
+    "nom": "Moyade",
+    "nom_en": "Jellicent",
+    "slug": "moyade",
+    "image": "https://www.pokebip.com/pokedex-images/300/593.png?v=1.0",
+    "materiaux": [
+      "Recherche",
+      "Combustion"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2030,
+    "pokedexId": "594",
+    "nom": "Mamanbo",
+    "nom_en": "Alomomola",
+    "slug": "mamanbo",
+    "image": "https://www.pokebip.com/pokedex-images/300/594.png?v=1.0",
+    "materiaux": [
+      "Arrosage",
+      "Rangement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2031,
+    "pokedexId": "618",
+    "nom": "Limonde",
+    "nom_en": "Stunfisk",
+    "slug": "limonde",
+    "image": "https://www.pokebip.com/pokedex-images/300/618.png?v=1.0",
+    "materiaux": [
+      "Électrification",
+      "Aplanissement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2032,
+    "pokedexId": "686",
+    "nom": "Sepiatop",
+    "nom_en": "Inkay",
+    "slug": "sepiatop",
+    "image": "https://www.pokebip.com/pokedex-images/300/686.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Téléportation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2033,
+    "pokedexId": "687",
+    "nom": "Sepiatroce",
+    "nom_en": "Malamar",
+    "slug": "sepiatroce",
+    "image": "https://www.pokebip.com/pokedex-images/300/687.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Téléportation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2034,
+    "pokedexId": "728",
+    "nom": "Otaquin",
+    "nom_en": "Popplio",
+    "slug": "otaquin",
+    "image": "https://www.pokebip.com/pokedex-images/300/728.png?v=1.0",
+    "materiaux": [
+      "Animation",
+      "Arrosage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2035,
+    "pokedexId": "729",
+    "nom": "Otarlette",
+    "nom_en": "Brionne",
+    "slug": "otarlette",
+    "image": "https://www.pokebip.com/pokedex-images/300/729.png?v=1.0",
+    "materiaux": [
+      "Animation",
+      "Troc"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2036,
+    "pokedexId": "730",
+    "nom": "Oratoria",
+    "nom_en": "Primarina",
+    "slug": "oratoria",
+    "image": "https://www.pokebip.com/pokedex-images/300/730.png?v=1.0",
+    "materiaux": [
+      "Animation",
+      "Rangement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2037,
+    "pokedexId": "747",
+    "nom": "Vorastérie",
+    "nom_en": "Mareanie",
+    "slug": "vorasterie",
+    "image": "https://www.pokebip.com/pokedex-images/300/747.png?v=1.0",
+    "materiaux": [
+      "Recyclage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2038,
+    "pokedexId": "748",
+    "nom": "Prédastérie",
+    "nom_en": "Toxapex",
+    "slug": "predasterie",
+    "image": "https://www.pokebip.com/pokedex-images/300/748.png?v=1.0",
+    "materiaux": [
+      "Recyclage",
+      "Construction"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2039,
+    "pokedexId": "767",
+    "nom": "Sovkipou",
+    "nom_en": "Wimpod",
+    "slug": "sovkipou",
+    "image": "https://www.pokebip.com/pokedex-images/300/767.png?v=1.0",
+    "materiaux": [
+      "Recyclage"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2040,
+    "pokedexId": "768",
+    "nom": "Sarmuraï",
+    "nom_en": "Golisopod",
+    "slug": "sarmurai",
+    "image": "https://www.pokebip.com/pokedex-images/300/768.png?v=1.0",
+    "materiaux": [
+      "Recyclage",
+      "Coupe de bois"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2041,
+    "pokedexId": "779",
+    "nom": "Denticrisse",
+    "nom_en": "Bruxish",
+    "slug": "denticrisse",
+    "image": "https://www.pokebip.com/pokedex-images/300/779.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Téléportation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2042,
+    "pokedexId": "781",
+    "nom": "Sinistrail",
+    "nom_en": "Dhelmise",
+    "slug": "sinistrail",
+    "image": "https://www.pokebip.com/pokedex-images/300/781.png?v=1.0",
+    "materiaux": [
+      "Fertilisation",
+      "Désordre"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2043,
+    "pokedexId": "833",
+    "nom": "Khélocrock",
+    "nom_en": "Chewtle",
+    "slug": "khelocrock",
+    "image": "https://www.pokebip.com/pokedex-images/300/833.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2044,
+    "pokedexId": "834",
+    "nom": "Torgamord",
+    "nom_en": "Drednaw",
+    "slug": "torgamord",
+    "image": "https://www.pokebip.com/pokedex-images/300/834.png?v=1.0",
+    "materiaux": [
+      "Coupe de bois",
+      "Aplanissement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2045,
+    "pokedexId": "871",
+    "nom": "Wattapik",
+    "nom_en": "Pincurchin",
+    "slug": "wattapik",
+    "image": "https://www.pokebip.com/pokedex-images/300/871.png?v=1.0",
+    "materiaux": [
+      "Électrification"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2046,
+    "pokedexId": "960",
+    "nom": "Taupikeau",
+    "nom_en": "Wiglett",
+    "slug": "taupikeau",
+    "image": "https://www.pokebip.com/pokedex-images/300/960.png?v=1.0",
+    "materiaux": [
+      "Aplanissement"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2047,
+    "pokedexId": "961",
+    "nom": "Triopikeau",
+    "nom_en": "Wugtrio",
+    "slug": "triopikeau",
+    "image": "https://www.pokebip.com/pokedex-images/300/961.png?v=1.0",
+    "materiaux": [
+      "Aplanissement",
+      "Recherche"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2048,
+    "pokedexId": "976",
+    "nom": "Délestin",
+    "nom_en": "Veluza",
+    "slug": "delestin",
+    "image": "https://www.pokebip.com/pokedex-images/300/976.png?v=1.0",
+    "materiaux": [
+      "Rangement",
+      "Téléportation"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2049,
+    "pokedexId": "489",
+    "nom": "Phione",
+    "nom_en": "Phione",
+    "slug": "phione",
+    "image": "https://www.pokebip.com/pokedex-images/300/489.png?v=1.0",
+    "materiaux": [
+      "Troc"
+    ],
+    "habitats": [],
+    "trouve": false
+  },
+  {
+    "id": 2050,
+    "pokedexId": "490",
+    "nom": "Manaphy",
+    "nom_en": "Manaphy",
+    "slug": "manaphy",
+    "image": "https://www.pokebip.com/pokedex-images/300/490.png?v=1.0",
+    "materiaux": [
+      "Troc",
+      "Animation"
+    ],
+    "habitats": [],
+    "trouve": false
+  }
+]

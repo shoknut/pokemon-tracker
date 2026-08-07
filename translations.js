@@ -48,6 +48,7 @@ window.POKOPIA_TRANSLATIONS = {
     'Collinangle':        'Rocky Ridges',
     'Ville-Nouvelle':     'Newtown',
     'Flotîles-Millefeux': 'Sparkling Skylands',
+    'Fonds-Bulleux':      'Bubbly Basin',
   },
 
   // ── RARETÉ ───────────────────────────────────────────────────────────────────
