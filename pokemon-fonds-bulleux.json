@@ -10,7 +10,92 @@
       "Rangement",
       "Désordre"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/222.png",
+        "ressources": "Herbe des fonds marins x4, Corail de petite taille x1, Corail oblong x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Zone de fouille dans le sable",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/228.png",
+        "ressources": "Tas de sable x1, Jouets de plage x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -24,7 +109,50 @@
       "Rangement",
       "Désordre"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs et algues ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/225.png",
+        "ressources": "Algues hautes x2, Fleurs des fonds marins x4, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -37,7 +165,50 @@
     "materiaux": [
       "Arrosage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Assortiment de coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/227.png",
+        "ressources": "Corail de petite taille x1, Corail oblong x1, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -51,7 +222,50 @@
       "Arrosage",
       "Désordre"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Assortiment de coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/227.png",
+        "ressources": "Corail de petite taille x1, Corail oblong x1, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -65,7 +279,92 @@
       "Arrosage",
       "Désordre"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Assortiment de coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/227.png",
+        "ressources": "Corail de petite taille x1, Corail oblong x1, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Très rare",
+          "etoiles": 3
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Espace de beauté océanique",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/253.png",
+        "ressources": "Armoire océanique x1, Siège océanique x1, Coiffeuse océanique x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -78,7 +377,38 @@
     "materiaux": [
       "Téléportation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/223.png",
+        "ressources": "Fleurs des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -92,7 +422,50 @@
       "Téléportation",
       "Rangement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Arène de la sirène en short",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/255.png",
+        "ressources": "Canapé océanique x1, Super Ball décorative x1, Soin Ball décorative x1, Rapide Ball décorative x1, Scuba Ball décorative x1, Filet Ball décorative x1, Appât Ball décorative x1, Piédestal (au choix) x6",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -105,7 +478,134 @@
     "materiaux": [
       "Coupe de bois"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/221.png",
+        "ressources": "Herbe des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Embarcadère",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/243.png",
+        "ressources": "Barque x1, Rondins flottants x2, Étendue d'eau x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Bain moussant",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/247.png",
+        "ressources": "Baignoire x1, Machine à bulles x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -119,7 +619,92 @@
       "Coupe de bois",
       "Broyage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Forage aux cheminées rocheuses",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/234.png",
+        "ressources": "Cône de chantier x1, Outils pour creuser x1, Brouette x1, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Embarcadère",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/243.png",
+        "ressources": "Barque x1, Rondins flottants x2, Étendue d'eau x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -133,7 +718,92 @@
       "Coupe de bois",
       "Broyage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/221.png",
+        "ressources": "Herbe des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Sac de frappe qui a du mordant",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/230.png",
+        "ressources": "Sac de frappe x1, Dentier en Or x1, Tas de sable x1, Table (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -146,7 +816,50 @@
     "materiaux": [
       "Électrification"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Espace de relaxation douillet",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/242.png",
+        "ressources": "Coussin géant x1, Éclairage (au choix) x1, Peluche (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -160,7 +873,50 @@
       "Électrification",
       "Arrosage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Endroit nostalgique",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/252.png",
+        "ressources": "Caisse en bois x1, Commode antique x1, Cadre photo x1, Lanterne x1, Boîte à musique x1, Mousse marine x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -173,7 +929,92 @@
     "materiaux": [
       "Fertilisation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/222.png",
+        "ressources": "Herbe des fonds marins x4, Corail de petite taille x1, Corail oblong x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Assortiment de coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/227.png",
+        "ressources": "Corail de petite taille x1, Corail oblong x1, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -186,7 +1027,92 @@
     "materiaux": [
       "Arrosage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/221.png",
+        "ressources": "Herbe des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Espace de relaxation douillet",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/242.png",
+        "ressources": "Coussin géant x1, Éclairage (au choix) x1, Peluche (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -200,7 +1126,92 @@
       "Arrosage",
       "Construction"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Cheminées rocheuses inquiétantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/233.png",
+        "ressources": "Tonneau x1, Lanterne x1, Mousse marine x4, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Coin de barbotage dans la boue",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/244.png",
+        "ressources": "Porte-serviette x1, Jouet Sepiatop x1, Rondins flottants x1, Eau boueuse x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -214,7 +1225,92 @@
       "Construction",
       "Aplanissement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/222.png",
+        "ressources": "Herbe des fonds marins x4, Corail de petite taille x1, Corail oblong x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Très rare",
+          "etoiles": 3
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Spa de boue",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/245.png",
+        "ressources": "Produit de bain x1, Fontaine Léviator x1, Banc ou Canapé (au choix) x1, Eau boueuse x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -227,7 +1323,50 @@
     "materiaux": [
       "Coupe de bois"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Algues et filets",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/226.png",
+        "ressources": "Filet x4, Algues hautes x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -241,7 +1380,50 @@
       "Coupe de bois",
       "Rangement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Forage aux cheminées rocheuses",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/234.png",
+        "ressources": "Cône de chantier x1, Outils pour creuser x1, Brouette x1, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -254,7 +1436,134 @@
     "materiaux": [
       "Recherche"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Zone de conférence sableuse",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/229.png",
+        "ressources": "Micro de table x1, Tas de sable x1, Table (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Salon traditionnel marin",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/238.png",
+        "ressources": "Coussin coquillage x1, Lampion x1, Corail de petite taille x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Coin de barbotage dans la boue",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/244.png",
+        "ressources": "Porte-serviette x1, Jouet Sepiatop x1, Rondins flottants x1, Eau boueuse x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -268,7 +1577,50 @@
       "Recherche",
       "Aplanissement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Chambre somptueuse",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/254.png",
+        "ressources": "Commode à entrelacs x1, Lit à entrelacs x1, Paravent à entrelacs x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -281,7 +1633,92 @@
     "materiaux": [
       "Construction"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines et tas de sable",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/220.png",
+        "ressources": "Tas de sable x1, Herbe des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Zone de fouille dans le sable",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/228.png",
+        "ressources": "Tas de sable x1, Jouets de plage x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -295,7 +1732,50 @@
       "Construction",
       "Broyage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Zone de fouille dans le sable",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/228.png",
+        "ressources": "Tas de sable x1, Jouets de plage x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -308,7 +1788,134 @@
     "materiaux": [
       "Animation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/224.png",
+        "ressources": "Fleurs des fonds marins x4, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Trésor étincelant",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/237.png",
+        "ressources": "Lanterne x1, Coffre au trésor imposant x1, Bijoux scintillants x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Espace de relaxation douillet",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/242.png",
+        "ressources": "Coussin géant x1, Éclairage (au choix) x1, Peluche (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -322,7 +1929,92 @@
       "Coupe de bois",
       "Troc"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Hautes herbes sous-marines",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/221.png",
+        "ressources": "Herbe des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Atelier smoothie",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/241.png",
+        "ressources": "Blender x1, Plat (au choix) x1, Table (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -336,7 +2028,50 @@
       "Troc",
       "Construction"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Boutique marine",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/239.png",
+        "ressources": "Caisse x1, Étendue d'eau x1, Table (au choix) x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Terrassec"
+      }
+    ],
     "trouve": false
   },
   {
@@ -349,7 +2084,92 @@
     "materiaux": [
       "Animation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/223.png",
+        "ressources": "Fleurs des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Coin moussu marin",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/231.png",
+        "ressources": "Mousse marine x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -363,7 +2183,92 @@
       "Animation",
       "Arrosage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs et algues ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/225.png",
+        "ressources": "Algues hautes x2, Fleurs des fonds marins x4, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Coin moussu marin",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/231.png",
+        "ressources": "Mousse marine x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -405,7 +2310,50 @@
       "Arrosage",
       "Rangement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Trésors de la mer",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/240.png",
+        "ressources": "Commode océanique x1, Bateau en bouteille x1, Bijoux scintillants x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -419,7 +2367,92 @@
       "Électrification",
       "Aplanissement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/223.png",
+        "ressources": "Fleurs des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Algues et filets",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/226.png",
+        "ressources": "Filet x4, Algues hautes x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -433,7 +2466,50 @@
       "Rangement",
       "Téléportation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Coin de barbotage dans la boue",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/244.png",
+        "ressources": "Porte-serviette x1, Jouet Sepiatop x1, Rondins flottants x1, Eau boueuse x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -447,7 +2523,50 @@
       "Rangement",
       "Téléportation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Éclairage sens dessus dessous",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/246.png",
+        "ressources": "Lampion x3",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -461,7 +2580,92 @@
       "Animation",
       "Arrosage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/223.png",
+        "ressources": "Fleurs des fonds marins x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Scène bulleuse",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/248.png",
+        "ressources": "Scène portative x1, Machine à bulles x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -475,7 +2679,50 @@
       "Animation",
       "Troc"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Scène bulleuse",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/248.png",
+        "ressources": "Scène portative x1, Machine à bulles x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -489,7 +2736,50 @@
       "Animation",
       "Rangement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Scène de concert sophistiqué",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/250.png",
+        "ressources": "Lampe coquillage x2, Siège océanique x1, Harpe x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -502,7 +2792,50 @@
     "materiaux": [
       "Recyclage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/224.png",
+        "ressources": "Fleurs des fonds marins x4, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -516,7 +2849,50 @@
       "Recyclage",
       "Construction"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Trésor étincelant",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/237.png",
+        "ressources": "Lanterne x1, Coffre au trésor imposant x1, Bijoux scintillants x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -529,7 +2905,50 @@
     "materiaux": [
       "Recyclage"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Coffre au trésor abandonné",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/235.png",
+        "ressources": "Poubelle x1, Sacs-poubelle x1, Coffre au trésor imposant x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -543,7 +2962,92 @@
       "Recyclage",
       "Coupe de bois"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Parterre de fleurs ondoyantes et coraux",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/224.png",
+        "ressources": "Fleurs des fonds marins x4, Coraux multicolores x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Très rare",
+          "etoiles": 3
+        },
+        "zones": "Fonds-Bulleux"
+      },
+      {
+        "nom": "Coffre au trésor abandonné",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/235.png",
+        "ressources": "Poubelle x1, Sacs-poubelle x1, Coffre au trésor imposant x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -557,7 +3061,50 @@
       "Rangement",
       "Téléportation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Coin moussu ardent",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/232.png",
+        "ressources": "Rocher ardent x1, Mousse marine x4",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -571,7 +3118,50 @@
       "Fertilisation",
       "Désordre"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Espace de jeu maritime",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/236.png",
+        "ressources": "Caisse en bois x1, Barre de bateau x1, Coffre au trésor imposant x1, Bateau en bouteille x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -598,7 +3188,46 @@
       "Coupe de bois",
       "Aplanissement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Embarcadère",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/243.png",
+        "ressources": "Barque x1, Rondins flottants x2, Étendue d'eau x2",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -611,7 +3240,50 @@
     "materiaux": [
       "Électrification"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Cheminées rocheuses inquiétantes",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/233.png",
+        "ressources": "Tonneau x1, Lanterne x1, Mousse marine x4, Cheminées rocheuses x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -624,7 +3296,50 @@
     "materiaux": [
       "Aplanissement"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Zone de conférence sableuse",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/229.png",
+        "ressources": "Micro de table x1, Tas de sable x1, Table (au choix) x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -638,7 +3353,50 @@
       "Aplanissement",
       "Recherche"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Scène étincelante pour trio",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/249.png",
+        "ressources": "Micro sur pied x3, Plot transmetteur sans fil x3",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          },
+          {
+            "label": "Nuit",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/nuit.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Rare",
+          "etoiles": 2
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
@@ -652,7 +3410,46 @@
       "Rangement",
       "Téléportation"
     ],
-    "habitats": [],
+    "habitats": [
+      {
+        "nom": "Coin moussu marin",
+        "image": "https://www.media.pokekalos.fr/img/jeux/pokopia/habitats/231.png",
+        "ressources": "Mousse marine x1",
+        "horaires": [
+          {
+            "label": "Matin",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/matin.png"
+          },
+          {
+            "label": "Journée",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/journee.png"
+          },
+          {
+            "label": "Soir",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/horaires/soir.png"
+          }
+        ],
+        "meteo": [
+          {
+            "label": "Ensoleillé",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/soleil.png"
+          },
+          {
+            "label": "Couvert",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/nuageux.png"
+          },
+          {
+            "label": "Pluie",
+            "icon": "https://www.pokebip.com/pokedex-images/pokopia/meteo/pluie.png"
+          }
+        ],
+        "rarete": {
+          "label": "Commun",
+          "etoiles": 1
+        },
+        "zones": "Fonds-Bulleux"
+      }
+    ],
     "trouve": false
   },
   {
